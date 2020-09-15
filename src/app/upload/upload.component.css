@@ -1,0 +1,169 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: .5em;
+  margin-right: .4em;
+  margin-left: .4em;
+  padding: .8em;
+  width: auto;
+}
+
+input {
+  width: 350px
+}
+
+.mainDiv {
+  border: #336633 solid 5px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+
+}
+
+h5,
+label {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: .1em;
+}
+
+/* FORM Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  margin: auto
+}
+
+label,
+input {
+  margin: .2em;
+  font-size: 1.2em;
+}
+
+input:focus[type=text],
+input:focus[type=email],
+input:focus[type=tel],
+input:focus[type=submit],
+textarea:focus {
+  box-shadow: 0 0 10px #336633;
+
+  outline: none;
+}
+
+.required {
+  color: red;
+}
+
+.btn {
+  width: auto;
+  background-color: #336633;
+  border: none;
+  color: #d9ead9;
+  padding: 1.2em;
+  margin-top: 1em;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 0 8px #336633;
+
+}
+
+@media (min-width: 950px) {
+  #btn {
+    width: 25%;
+
+  }
+
+
+
+}
+
+@media (max-width: 700px) {
+  #btn {
+    width: 100px;
+  }
+
+  input {
+    width: 100%
+  }
+
+  form {
+    width: 95%;
+  }
+}
+
+
+/* Loading Spinner from https://tobiasahlin.com/spinkit/ */
+.spinner {
+  flex-direction: row;
+
+  margin: 100px auto;
+  width: auto;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner>div {
+  background-color: #336633;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4)
+  }
+
+  20% {
+    -webkit-transform: scaleY(1.0)
+  }
+}
+
+@keyframes sk-stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}

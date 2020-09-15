@@ -1,0 +1,18 @@
+<form>
+  <div class="mainDiv">
+    <h3>Login</h3>
+    <div>
+      <label for="">Email</label>
+      <input [(ngModel)]="loginUserData.email" name="email" type="email" required
+        pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+    </div>
+    <div>
+      <label for="">Password</label>
+      <input [(ngModel)]="loginUserData.password" name="password" type="password" required pattern="">
+    </div>
+    <button class="btn" (click)="loginUser()">Login</button>
+  </div>
+  <div>
+    <h5 [style.display]="display" class="error">Wrong Username or Password</h5>
+  </div>
+</form>

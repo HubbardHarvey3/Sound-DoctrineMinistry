@@ -1,0 +1,131 @@
+.error {
+  display: flex;
+  color: red;
+  font-size: 1.5em;
+  padding-top: 1.5em;
+}
+
+input {
+  width: 250px
+}
+
+.noerror {
+  display: none
+}
+
+div {
+  padding: 1.3em;
+}
+
+.btn {
+  width: auto;
+  background-color: #336633;
+  border: none;
+  color: #d9ead9;
+  padding: 1.2em;
+  margin-top: 1em;
+}
+
+h5,
+label {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: .1em;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: .5em;
+  margin-right: .4em;
+  margin-left: .4em;
+  padding: .8em;
+  width: auto;
+}
+
+.mainDiv {
+  border: #336633 solid 5px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+
+}
+
+h5,
+label {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: .1em;
+}
+
+/* FORM Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  margin: auto
+}
+
+label,
+input {
+  margin: .2em;
+  font-size: 1.2em;
+}
+
+input:focus[type=text],
+input:focus[type=email],
+input:focus[type=tel],
+input:focus[type=submit],
+textarea:focus {
+  box-shadow: 0 0 10px #336633;
+
+  outline: none;
+}
+
+.required {
+  color: red;
+}
+
+.btn {
+  width: auto;
+  background-color: #336633;
+  border: none;
+  color: #d9ead9;
+  padding: 1.2em;
+  margin-top: 1em;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 0 8px #336633;
+
+}
+
+@media (min-width: 950px) {
+  #btn {
+    width: 25%;
+
+  }
+
+
+
+
+}
+
+@media (max-width: 520px) {
+  #btn {
+    width: 100px;
+  }
+
+  input {
+    width: 100%
+  }
+
+  form {
+    width: 95%;
+  }
+}

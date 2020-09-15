@@ -1,0 +1,23 @@
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+div {
+  margin: 1em;
+  padding: 1em;
+  border: #336633 solid 5px;
+
+
+}

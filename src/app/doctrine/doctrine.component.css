@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: .5em;
+  margin-right: .4em;
+  margin-left: .4em;
+  padding: .8em;
+
+}
+
+.mainDiv {
+  border: #336633 solid 5px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+
+}
+
+h5,
+p {
+  margin: .1em;
+}
+
+h5 {
+  font-size: 1.3em;
+  font-weight: bold;
+}

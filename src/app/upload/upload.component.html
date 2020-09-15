@@ -1,0 +1,42 @@
+<form #uploadForm="ngForm" enctype="multipart/form-data">
+  <div class="mainDiv">
+    <h3>Upload Broadcasts here</h3>
+    <div>
+      <label for="">Broadcast Title</label>
+      <input [(ngModel)]="fileJSON.title" name="title" type="text" required>
+    </div>
+    <div>
+      <label for="">Month</label>
+      <select class="btn" name="month" [(ngModel)]="fileJSON.month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option selected="selected" value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+
+      </select>
+    </div>
+    <div>
+      <label for="">File</label>
+      <!-- Not able to get the file name yet. -->
+      <input (change)="fileEvent($event)" type='file' name="audioFile" required accept="audio/mp3">
+    </div>
+
+    <button class="btn" (click)="upload(); uploadForm.reset()">Upload</button>
+    <div *ngIf="htmlHide" class="spinner">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>
+  </div>
+
+</form>
