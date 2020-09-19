@@ -80,3 +80,12 @@ module.exports.login_api = async function (req, res) {
     //     }
     // })
 }
+
+module.exports.overwrite_api = async (req, res) => {
+    // console.log(req.body)
+    fs.writeFile('messages.json', JSON.stringify(req.body), function (err) {
+        if (err) throw err;
+        // console.log("The data was appended")
+    })
+    console.log("Broadcasts Deleted")
+}

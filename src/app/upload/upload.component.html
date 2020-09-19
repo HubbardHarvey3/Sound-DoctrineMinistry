@@ -30,6 +30,8 @@
     </div>
 
     <button class="btn" (click)="upload(); uploadForm.reset()">Upload</button>
+    <button class="btn" routerLink="/manage" *ngIf="_authService.loggedIn()" routerLinkActive="active">Manage
+      Broadcasts</button>
     <div *ngIf="htmlHide" class="spinner">
       <div class="rect1"></div>
       <div class="rect2"></div>

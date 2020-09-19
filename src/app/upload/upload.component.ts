@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-upload',
@@ -15,7 +16,7 @@ export class UploadComponent implements OnInit {
   audioFile;
   htmlHide = false
 
-  constructor(private _api: ApiService) { }
+  constructor(private _api: ApiService, public _authService: AuthService) { }
 
   ngOnInit(): void {
   }
