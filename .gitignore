@@ -41,6 +41,7 @@ yarn-error.log
 testem.log
 /typings
 /server/config.json
+/server/serverAssets
 
 # System Files
 .DS_Store
