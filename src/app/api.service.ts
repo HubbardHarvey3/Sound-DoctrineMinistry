@@ -8,11 +8,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
   //need to change once I go into PROD***************************************
-  configURL = 'https://sound-doctrineministry.org/audio/json'
+  configURL = 'http://localhost:3000/audio/json'
   //"https://sound-doctrineministry.org/json"  PROD
   //'http://localhost:3000/audio/json'              DEVELOPMENT
-  uploadURL = 'https://sound-doctrineministry.org/api/upload'
-  uploadAudioFileURL = 'https://sound-doctrineministry.org/api/uploadAudio'
+  uploadURL = 'http://localhost:3000/api/upload'
+  uploadAudioFileURL = 'http://localhost:3000/api/uploadAudio'
 
   printToConsole(arg) {
     console.log(arg);

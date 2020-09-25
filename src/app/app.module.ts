@@ -54,7 +54,7 @@ const appRoutes: Routes = [
     HttpClientModule,
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: true, useHash: true }//useHash fixes the Can't Get Error on refresh
+      { useHash: true }//useHash fixes the Can't Get Error on refresh
       // <-- debugging purposes only
     ),
     BrowserAnimationsModule,
