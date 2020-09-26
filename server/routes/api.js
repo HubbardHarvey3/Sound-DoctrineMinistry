@@ -71,7 +71,7 @@ router.post('/upload', [
 // handles the actual file upload
 router.post('/uploadAudio', verifyToken, upload.single('audioFile'), (req, res) => {
     console.log("Audio Upload Attempt")
-    res.status(200).send("File Sent")
+    res.status(200).send("Success")
 })
 
 

@@ -1,539 +1,543 @@
 [{
-  "name": "SD-10-02-20",
-  "title": "10-02-20 The Triune God: The Son: Incarnation: Protection -- Matthew 2:1-23",
-  "month": "October"
-}, {
-  "name": "SD-10-01-20",
-  "title": "10-01-20 The Triune God: The Son: Incarnation: Joseph and Jesus -- Matthew 1:18-25",
-  "month": "October"
-}, {
-  "name": "SD-09-30-20",
-  "title": "9-30-20 The Triune God: The Son: Incarnation: Only Begotten -- John 1:14-18",
-  "month": "September"
-}, {
-  "name": "SD-09-29-20",
-  "title": "9-29-20 The Triune God: The Son: Eternality -- Isaiah 9; Micah 5",
-  "month": "September"
-}, {
-  "name": "SD-09-28-20",
-  "title": "9-28-20 The Triune God: The Son: Pre-existence -- John 1:1-3",
-  "month": "September"
-}, {
-  "name": "SD-09-25-20",
-  "title": "9-25-20 The Shepherd Psalm: Assurance of Provision -- Psalm 23:5-6",
-  "month": "September"
-}, {
-  "name": "SD-09-24-20",
-  "title": "9-24-20 The Shepherd Psalm: Assurance of Protection -- Psalm 23:4",
-  "month": "September"
-}, {
-  "name": "SD-09-23-20",
-  "title": "9-23-20 The Shepherd Psalm: Assurance of Care: Psalm 23:2-3",
-  "month": "September"
-}, {
-  "name": "SD-09-22-20",
-  "title": "9-22-20 The Shepherd Psalm: Psalm 23:1",
-  "month": "September"
-}, {
-  "name": "SD-09-21-20",
-  "title": "9-21-20 Assurance of Salvation: 1 John 5:13",
-  "month": "September"
-}, {
-  "name": "SD-09-18-20",
-  "title": "9-18-20 The Course of This Age: Mystery Message: Laodicea: Revelation 3:14-22",
-  "month": "September"
-}, {
-  "name": "SD-09-17-20",
-  "title": "9-17-20 The Course of This Age: Mystery Messages: Philadelphia -- Revelation 3:7-13",
-  "month": "September"
-}, {
-  "name": "SD-09-16-20",
-  "title": "9-16-20 The Course of This Age: Mystery Messages: Sardis -- Revelation 3:1-6",
-  "month": "September"
-}, {
-  "name": "SD-09-15-20",
-  "title": "9-15-20 The Course of This Age: Mystery Messages: Thyatira -- Revelation 2:18-29",
-  "month": "September"
-}, {
-  "name": "SD-09-14-20",
-  "title": "9-14-20 The Course of This Age: Mystery Messages: Smyrna/Pergamum -- Revelation 2:8-17",
-  "month": "September"
-}, {
-  "name": "SD-09-11-20",
-  "title": "9-11-20 The Course of This Age: Mystery Messages: Ephesus -- Revelation 2:1-7",
-  "month": "September"
-}, {
-  "name": "SD-09-10-20",
-  "title": "9-10-20 The Course of This Age: Mystery Messages: The Symbols -- Revelation 1:20",
-  "month": "September"
-}, {
-  "name": "SD-09-09-20",
-  "title": "9-09-20 The Course of This Age: Mystery Messages: Keys -- Revelation 1:12-20",
-  "month": "September"
-}, {
-  "name": "SD-09-08-20",
-  "title": "9-08-20 The Course of This Age: Mystery Messages: Explanation -- Revelation 1:4-16",
-  "month": "September"
-}, {
-  "name": "SD-09-07-20",
-  "title": "9-07-20 The Course of This Age: Mystery Messages: The Reason -- Revelation 1:1-3",
-  "month": "September"
-}, {
-  "name": "SD-09-04-20",
-  "title": "9-04-20 The Course of This Age: The Mystery Kingdom Parables: The Dragnet -- Matthew 13: 47-59",
-  "month": "September"
-}, {
-  "name": "SD-09-03-20",
-  "title": "9-03-20 The Course of This Age: The Mystery Kingdom Parables: The Pearl -- Matthew 13:45-46",
-  "month": "September"
-}, {
-  "name": "SD-09-02-20",
-  "title": "9-02-20 The Course of This Age: The Mystery Kingdom Parables: The Treasure -- Matthew 13:34",
-  "month": "September"
-}, {
-  "name": "SD-09-01-20",
-  "title": "9-01-20 The Course of This Age: The Mysteries of the Kingdom: Leaven -- Matthew 13:33",
-  "month": "September"
-}, {
-  "name": "SD-08-31-20",
-  "title": "8-31-20 The Course of This Age: Mustard and Leaven Parables -- Matthew 13:31-35",
-  "month": "August"
-}, {
-  "name": "SD-08-28-20",
-  "title": "8-28-20 The Course of this Age: The Kingdom Mystery Parables: Divine Details -- Matthew 13:18-23; 40-43",
-  "month": "August"
-}, {
-  "name": "SD-08-27-20",
-  "title": "8-27-20 The Course of this Age: 7 Keys Unlock the Mystery -- Matthew 13:18-23; 36-39",
-  "month": "August"
-}, {
-  "name": "SD-08-26-20",
-  "title": "8-26-20 The Course of this Age: The Mystery Kingdom Parables: The Key Parables -- Matthew 13: 1-9; 24-30",
-  "month": "August"
-}, {
-  "name": "SD-08-25-20",
-  "title": "8-25-20 The Course of this Age: The Mystery Kingdom Parables: The Points -- Matthew 13:18-52",
-  "month": "August"
-}, {
-  "name": "SD-08-24-20",
-  "title": "8-24-20 The Course of this Age: The Mystery Kingdom Parables: The Reason --- Matthew 13:10-18",
-  "month": "August"
-}, {
-  "name": "SD-08-21-20",
-  "title": "8-21-20 The Triune God: God the Father: The Father's Worship: Heavenly Pattern -- Revelation 4-5",
-  "month": "August"
-}, {
-  "name": "SD-08-20-20",
-  "title": "8-20-20 The Triune God: God the Father: The Father's Worship: Spirit and Truth -- John 4:24",
-  "month": "August"
-}, {
-  "name": "SD-08-19-20",
-  "title": "8-19-20 The Triune God: God the Father: The Father's Worship: Seeking -- John 4:1-23",
-  "month": "August"
-}, {
-  "name": "SD-08-18-20",
-  "title": "8-18-20 The Triune God: God the Father: The Father's Plan -- Psalm 2",
-  "month": "August"
-}, {
-  "name": "SD-08-17-20",
-  "title": "8-17-20 The Triune God: God the Father: The Father's Choice -- Ephesians 1, 2 Thessalonians 2",
-  "month": "August"
-}, {
-  "name": "SD-08-14-20",
-  "title": "8-14-20 The Triune God: The Father's Love -- John 3:16",
-  "month": "August"
-}, {
-  "name": "SD-08-13-20",
-  "title": "8-13-20 The Triune God: God the Father: The Father's Will -- James 1:18",
-  "month": "August"
-}, {
-  "name": "SD-08-12-20",
-  "title": "8-12-20 The Triune God: God The Father: Father of Lights -- James 1:17",
-  "month": "August"
-}, {
-  "name": "SD-08-11-20",
-  "title": "8-11-20 The Triune God: God the Father: God and Temptation -- James 1:12-15",
-  "month": "August"
-}, {
-  "name": "SD-08-10-20",
-  "title": "8-10-20 The Triune God: God the Father: The Danger of Error -- James 1:16",
-  "month": "August"
-}, {
-  "name": "SD-08-07-20",
-  "title": "8-07-20 The Triune God: The Six Names: Kurios (Lord)/Despotes (Master) -- John 4:11, 2 Peter 2:1",
-  "month": "August"
-}, {
-  "name": "SD-08-06-20",
-  "title": "8-06-20 The Triune God: The Six Names: Theos (God) -- John 1:1, 18",
-  "month": "August"
-}, {
-  "name": "SD-08-05-20",
-  "title": "8-05-20 The Triune God: The Six Names: Yahweh/Adonai (Lord) -- Joshua 5:14",
-  "month": "August"
-}, {
-  "name": "SD-08-04-20",
-  "title": "8-04-20 The Triune God: The Six Names: Yahweh (LORD) -- Exodus 3",
-  "month": "August"
-}, {
-  "name": "SD-08-03-20",
-  "title": "8-03-20 The Triune God: The Six Names: Elohim -- Genesis 1:1",
-  "month": "August"
-}, {
-  "name": "SD-07-31-20",
-  "title": "7-31-20 The Triune God: Perfections: Sovereignty, Truth -- Acts 15:13-18",
-  "month": "July"
-}, {
-  "name": "SD-07-30-20",
-  "title": "7-30-20 The Triune God: Perfections: Righteousness, Simplicity, Unity -- Psalm 11:7",
-  "month": "July"
-}, {
-  "name": "SD-07-29-20",
-  "title": "7-29-20 The Triune God: Perfections: Omnipresence, Omniscience -- Psalm 139:7-11",
-  "month": "July"
-}, {
-  "name": "SD-07-28-20",
-  "title": "7-28-20 The Triune God: Perfections: Infinity, Love, Omnipotence -- 1 Kings 8:27",
-  "month": "July"
-}, {
-  "name": "SD-07-27-20",
-  "title": "7-27-20 The Triune God: Perfections: Eternity, Freedom, Immutability -- Psalm 90:2",
-  "month": "July"
-}, {
-  "name": "SD-07-24-20",
-  "title": "7-24-20 The Triune God: Perfections: Holiness: NT Affirmations -- John 17; 1 Peter1; Rev. 4; 1 John 1",
-  "month": "July"
-}, {
-  "name": "SD-07-23-20",
-  "title": "7-23-20 The Triune God: Perfections: Holiness: NT Affirmations -- John 17; 1 Peter1; Rev. 4; 1 John 1",
-  "month": "July"
-}, {
-  "name": "SD-07-22-20",
-  "title": "7-22-20 The Triune God: Perfections: Holiness: Creator -- Isa. 40; Hab. 1",
-  "month": "July"
-}, {
-  "name": "SD-07-21-20",
-  "title": "7-21-20 The Triune God: Perfections: Holiness: Worship -- Lev. 11:44",
-  "month": "July"
-}, {
-  "name": "SD-07-20-20",
-  "title": "7-20-20 The Triune God: Perfections: Definitions -- John 4:24",
-  "month": "July"
-}, {
-  "name": "SD-07-17-20",
-  "title": "7-17-20 The Triune God: Perfections: The Glory of God -- Exodus 33:18-34:17",
-  "month": "July"
-}, {
-  "name": "SD-07-16-20",
-  "title": "7-16-20 The Triune God: Perfections: The 2nd Intercession -- Exodus 33: 1-17",
-  "month": "July"
-}, {
-  "name": "SD-07-15-20",
-  "title": "7-15-20 The Triune God: Perfections: The 1st Intercession -- Exodus 32:11-35",
-  "month": "July"
-}, {
-  "name": "SD-07-14-20",
-  "title": "7-14-20 The Triune God: Perfections: The Golden Calf -- Exodus 32:1-10",
-  "month": "July"
-}, {
-  "name": "SD-07-13-20",
-  "title": "7-13-20 The Triune God: Perfections: The Law at Sinai -- Exodus 20",
-  "month": "July"
-}, {
-  "name": "SD-07-10-20",
-  "title": "7-10-20 Dispensations: The Kingdom -- Revelation 20",
-  "month": "July"
-}, {
-  "name": "SD-07-09-20",
-  "title": "7-09-20 Dispensations: Grace -- Ephesians 3",
-  "month": "July"
-}, {
-  "name": "SD-07-08-20",
-  "title": "7-08-20 Dispensations: Law (Progression) -- Ex. 31; 2 Kings 17; 2 Chr. 36",
-  "month": "July"
-}, {
-  "name": "SD-07-07-20",
-  "title": "7-07-20 Dispensations: Law (Foundation) -- Exodus 19-John 19",
-  "month": "July"
-}, {
-  "name": "SD-07-06-20",
-  "title": "7-06-20 Dispensations: Dispensation of Promise -- Genesis 12:1-Exodus 19:7",
-  "month": "July"
-}, {
-  "name": "SD-07-03-20",
-  "title": "7-03-20 Dispensations: Dispensation of Civil Government -- Genesis 9-11",
-  "month": "July"
-}, {
-  "name": "SD-07-02-20",
-  "title": "7-02-20 Dispensations: Dispensation of Conscience -- Genesis 3-8",
-  "month": "July"
-}, {
-  "name": "SD-07-01-20",
-  "title": "7-01-20 Dispensations: Dispensation of Innocence -- Genesis 1-2",
-  "month": "July"
-}, {
-  "name": "SD-06-30-20",
-  "title": "6-30-20 Dispensations: History -- Justin Martyr to Augustine",
-  "month": "June"
-}, {
-  "name": "SD-06-29-20",
-  "title": "6-29-20 Dispensations: Definition -- Ephesians 1:10; 3:2,9",
-  "month": "June"
-}, {
-  "name": "SD-06-26-20",
-  "title": "6-26-20 Covenants: New [Eternal] Covenant -- Jer. 31:31-34; Heb. 8:7-13, 13:20",
-  "month": "June"
-}, {
-  "name": "SD-06-25-20",
-  "title": "6-25-20 Covenants: Davidic Covenant -- 2 Samuel 7:8-17",
-  "month": "June"
-}, {
-  "name": "SD-06-24-20",
-  "title": "6-24-20 Covenants: Promised Land Covenant -- Deuteronomy 29-30",
-  "month": "June"
-}, {
-  "name": "SD-06-23-20",
-  "title": "6-23-20 Covenants: Priestly Covenant -- Numbers 25:10-13",
-  "month": "June"
-}, {
-  "name": "SD-06-22-20",
-  "title": "6-22-20 Covenants: Law: Sign of the Sabbath -- Exodus 31:12-18",
-  "month": "June"
-}, {
-  "name": "SD-06-19-20",
-  "title": "6-19-20 Covenants: Mosaic Covenant: Conditions -- Exodus 19",
-  "month": "June"
-}, {
-  "name": "SD-06-18-20",
-  "title": "6-18-20 Covenants: Abrahamic Covenant: Sign and Seed -- Genesis 17, 22; Hebrews 11",
-  "month": "June"
-}, {
-  "name": "SD-06-17-20",
-  "title": "6-17-20 Covenants: Abrahamic Covenant: Stated and Ratified -- Genesis 12, 15",
-  "month": "June"
-}, {
-  "name": "SD-06-16-20",
-  "title": "6-16-20 Covenants: Noahic Covenant -- Genesis 6:18; 9:1-17",
-  "month": "June"
-}, {
-  "name": "SD-06-15-20",
-  "title": "6-15-20 Covenants: The 7 True Covenants -- Genesis 2, 3",
-  "month": "June"
-}, {
-  "name": "SD-06-12-20",
-  "title": "6-12-20 Revelation: Incarnation: The Love -- John 3; Romans 5; 1 John 4",
-  "month": "June"
-}, {
-  "name": "SD-06-11-20",
-  "title": "6-11-20 Revelation: Incarnation: The Icon -- Colossians 1:15-17",
-  "month": "June"
-}, {
-  "name": "SD-06-10-20",
-  "title": "6-10-20 Revelation: Incarnation: The Resolution -- John 1:12-14",
-  "month": "June"
-}, {
-  "name": "SD-06-09-20",
-  "title": "6-09-20 Revelation: Incarnation: The Problem -- John 1:5-12",
-  "month": "June"
-}, {
-  "name": "SD-06-08-20",
-  "title": "6-08-20 Revelation: Incarnation: The Word -- John 1:1-4",
-  "month": "June"
-}, {
-  "name": "SD-06-05-20",
-  "title": "6-05-20 Revelation: Inspiration: Application -- Luke 15",
-  "month": "June"
-}, {
-  "name": "SD-06-04-20",
-  "title": "6-04-20 Revelation: Inspiration: Context II -- Proverbs, 1 Peter",
-  "month": "June"
-}, {
-  "name": "SD-06-03-20",
-  "title": "6-03-20 Revelation: Inspiration: Context I -- Hebrews Warnings",
-  "month": "June"
-}, {
-  "name": "SD-06-02-20",
-  "title": "6-02-20 Revelation: Inspiration: Comparison -- Hebrew, John, 2 Peter",
-  "month": "June"
-}, {
-  "name": "SD-06-01-20",
-  "title": "6-01-20 Revelation: Inspiration: Grammar -- Matthew, Colossians, John",
-  "month": "June"
-}, {
-  "name": "SD-05-29-20",
-  "title": "5-29-20 Revelation: Inspiration: The Obedience -- Nehemiah 8: 15-18",
-  "month": "May"
-}, {
-  "name": "SD-05-28-20",
-  "title": "5-28-20 Revelation: Inspiration: The Discovery -- Nehemiah 8: 13-14",
-  "month": "May"
-}, {
-  "name": "SD-05-27-20",
-  "title": "5-27-20 Revelation: Inspiration: The Joy -- Nehemiah 8: 9-12",
-  "month": "May"
-}, {
-  "name": "SD-05-26-20",
-  "title": "5-26-20 Revelation: Inspiration: The Method -- Nehemiah 8:6-8",
-  "month": "May"
-}, {
-  "name": "SD-05-25-20",
-  "title": "5-25-20 Revelation: Inspiration: The Workman -- Nehemiah 8:1-5",
-  "month": "May"
-}, {
-  "name": "SD-05-22-20",
-  "title": "5-22-20 Revelation: Inspiration: Light from the Word -- Psalm 119:105",
-  "month": "May"
-}, {
-  "name": "SD-05-21-20",
-  "title": "5-21-20 Revelation: Inspiration: Wisdom from the Word -- Psalm 119: 97-100",
-  "month": "May"
-}, {
-  "name": "SD-05-20-20",
-  "title": "5-20-20 Revelation: Inspiration: Foundation in the Word -- Psalm 119: 89-96",
-  "month": "May"
-}, {
-  "name": "SD-05-19-20",
-  "title": "5-19-20 Revelation: Inspiration: Afflictions and the Word -- Psalm 119: 67, 71, 79",
-  "month": "May"
-}, {
-  "name": "SD-05-18-20",
-  "title": "5-18-20 Revelation: Inspiration: Walk in the Word -- Psalm 119:1, 9, 11",
-  "month": "May"
-}, {
-  "name": "SD-05-15-20",
-  "title": "5-15-20 Revelation: Inspiration: Writers of Scripture -- 2 Sam. 23; Acts 2; Gal. 3",
-  "month": "May"
-}, {
-  "name": "SD-05-14-20",
-  "title": "5-14-20 Revelation: Inspiration: Extent of Inspiration -- Matt. 5, 22; John 10",
-  "month": "May"
-}, {
-  "name": "SD-05-13-20",
-  "title": "5-13-20 Revelation: Inspiration: Rightly Divided -- Heb. 4:12, 2 Tim. 2:15",
-  "month": "May"
-}, {
-  "name": "SD-05-12-20",
-  "title": "5-12-20 Revelation: Inspiration: Divinely Profitable -- 2 Timothy 3:15-17",
-  "month": "May"
-}, {
-  "name": "SD-05-11-20",
-  "title": "5-11-20 Creation: Inspiration: Divine Authorship -- 2 Timothy 3:16",
-  "month": "May"
-}, {
-  "name": "SD-05-08-20",
-  "title": "5-08-20 Revelation: Creation: The Tower -- Genesis 11:1-9",
-  "month": "May"
-}, {
-  "name": "SD-05-07-20",
-  "title": "5-07-20 Revelation: Creation: The First Covenant -- Genesis 9",
-  "month": "May"
-}, {
-  "name": "SD-05-06-20",
-  "title": "5-06-20 Revelation: Creation: The Flood Prevails -- Genesis 7:21-8",
-  "month": "May"
-}, {
-  "name": "SD-05-05-20",
-  "title": "5-05-20 Revelation: Creation: The Nature of the Flood -- Genesis 7:4-20",
-  "month": "May"
-}, {
-  "name": "SD-05-04-20",
-  "title": "5-04-20 Revelation: Creation: The Universal Flood -- Genesis 6:8-7:3",
-  "month": "May"
-}, {
-  "name": "SD-05-01-20",
-  "title": "5-01-20 Revelation: Creation: The Antediluvian World -- Genesis 4-6",
-  "month": "May"
-}, {
-  "name": "SD-04-30-20",
-  "title": "4-30-20 Revelation: Creation: Result of Sin -- Genesis 3:8-24",
-  "month": "April"
-}, {
-  "name": "SD-04-29-20",
-  "title": "4-29-20 Revelation: Creation: Sin and the Fall -- Genesis 3:1-7",
-  "month": "April"
-}, {
-  "name": "SD-04-28-20",
-  "title": "4-28-20 Revelation: Creation: Marriage; Creation v Evolution Summary -- Genesis 2:24",
-  "month": "April"
-}, {
-  "name": "SD-04-27-20",
-  "title": "4-27-20 Revelation: Creation of Woman -- Genesis 2:18-25",
-  "month": "April"
-}, {
-  "name": "SD-04-24-20",
-  "title": "4-24-20 Revelation: Creation: Eden -- Genesis 2:9-17",
-  "month": "April"
-}, {
-  "name": "SD-04-23-20",
-  "title": "4-23-20 Revelation: Creation: Details of Adam' Creation -- Genesis 2:7-8",
-  "month": "April"
-}, {
-  "name": "SD-04-22-20",
-  "title": "4-22-20 Revelation: Creation: The End and the Ecosystem -- Genesis 2:1-6",
-  "month": "April"
-}, {
-  "name": "SD-04-13-20",
-  "title": "4-13-20 The 3 Revelations: Creation, Inspiration, Incarnation"
-}, {
-  "name": "SD-04-14-20",
-  "title": "4-14-20 Revelation: Creation Affirmations -- Genesis 1:1, Mark 10:6,13:19, John 1:3, Colossians 1:16"
-}, {
-  "name": "SD-04-15-20",
-  "title": "4-15-20 Revelation: Creation Countdown -- Genesis 1"
-}, {
-  "name": "SD-04-16-20",
-  "title": "4-16-20 Revelation: Creation Days 1 and 2 -- Genesis 1:2-8"
-}, {
-  "name": "SD-04-17-20",
-  "title": "4-17-20 Revelation: Creation Days 3 through 5 -- Genesis 1:9-23"
-}, {
-  "name": "SD-04-20-20",
-  "title": "4-20-20 Revelation: Creation Day 6 -- Genesis 1:24-26"
-}, {
-  "name": "SD-04-21-20",
-  "title": "4-21-20 Revelation: Creation: Man and God's Command -- Genesis 1:27-31",
-  "month": "April"
-}, {
-  "name": "SD-04-20-20",
-  "title": "4-20-20 Revelation: Creation Day 6 -- Genesis 1:24-26",
-  "month": "April"
-}, {
-  "name": "SD-04-17-20",
-  "title": "4-17-20 Revelation: Creation Days 3 through 5 -- Genesis 1:9-23",
-  "month": "April"
-}, {
-  "name": "SD-04-16-20",
-  "title": "4-16-20 Revelation: Creation Days 1 and 2 -- Genesis 1:2-8",
-  "month": "April"
-}, {
-  "name": "SD-04-15-20",
-  "title": "4-15-20 Revelation: Creation Countdown -- Genesis 1",
-  "month": "April"
-}, {
-  "name": "SD-04-14-20",
-  "title": "4-14-20 Revelation: Creation Affirmations -- Genesis 1:1, Mark 10:6,13:19, John 1:3, Colossians 1:16",
-  "month": "April"
-}, {
-  "name": "SD-04-13-20",
-  "title": "4-13-20 The 3 Revelations: Creation, Inspiration, Incarnation",
-  "month": "April"
-}, {
-  "name": "SD-04-10-20",
-  "title": "04-10-20 Reasons for Sound Doctrine Part 5",
-  "month": "April"
-}, {
-  "name": "SD-04-09-20",
-  "title": "04-09-20 Reasons for Sound Doctrine Part 4",
-  "month": "April"
-}, {
-  "name": "SD-04-08-20",
-  "title": "04-08-20 Reasons for Sound Doctrine Part 3",
-  "month": "April"
-}, {
-  "name": "SD-04-07-20",
-  "title": "04-07-20 Reasons for Sound Doctrine Part 2",
-  "month": "April"
-}, {
-  "name": "SD-04-06-20",
-  "title": "04-06-20 Reasons for Sound Doctrine Part 1",
-  "month": "April"
-}]
+    "name": "SD-10-09-20",
+    "title": "10-09-20 The Triune God: The Son: Incarnation: Temple Evangelists -- Luke 2:21-35",
+    "month": "October"
+  }, {
+    "name": "SD-10-08-20",
+    "title": "10-08-20 The Triune God: The Son: Incarnation: Shepherds' Evangelism -- Luke 2:4-20",
+    "month": "October"
+  }, {
+    "name": "SD-10-07-20",
+    "title": "10-07-20 The Triune God: The Son: Incarnation: Zacharias' Prophecy -- Luke 1:57-2:3",
+    "month": "October"
+  }, {
+    "name": "SD-10-06-20",
+    "title": "10-06-20 The Triune God: The Son: Incarnation: Mary's Conception -- Luke 1:26-56",
+    "month": "October"
+  }, {
+    "name": "SD-10-05-20",
+    "title": "10-05-20 The Triune God: Incarnation: John the Baptizer -- Luke 1:1-25",
+    "month": "October"
+  }, {
+    "name": "SD-10-02-20",
+    "title": "10-02-20 The Triune God: The Son: Incarnation: Protection -- Matthew 2:1-23",
+    "month": "October"
+  }, {
+    "name": "SD-10-01-20",
+    "title": "10-01-20 The Triune God: The Son: Incarnation: Joseph and Jesus -- Matthew 1:18-25",
+    "month": "October"
+  }, {
+    "name": "SD-09-30-20",
+    "title": "9-30-20 The Triune God: The Son: Incarnation: Only Begotten -- John 1:14-18",
+    "month": "September"
+  }, {
+    "name": "SD-09-29-20",
+    "title": "9-29-20 The Triune God: The Son: Eternality -- Isaiah 9; Micah 5",
+    "month": "September"
+  }, {
+    "name": "SD-09-28-20",
+    "title": "9-28-20 The Triune God: The Son: Pre-existence -- John 1:1-3",
+    "month": "September"
+  }, {
+    "name": "SD-09-25-20",
+    "title": "9-25-20 The Shepherd Psalm: Assurance of Provision -- Psalm 23:5-6",
+    "month": "September"
+  }, {
+    "name": "SD-09-24-20",
+    "title": "9-24-20 The Shepherd Psalm: Assurance of Protection -- Psalm 23:4",
+    "month": "September"
+  }, {
+    "name": "SD-09-23-20",
+    "title": "9-23-20 The Shepherd Psalm: Assurance of Care: Psalm 23:2-3",
+    "month": "September"
+  }, {
+    "name": "SD-09-22-20",
+    "title": "9-22-20 The Shepherd Psalm: Psalm 23:1",
+    "month": "September"
+  }, {
+    "name": "SD-09-21-20",
+    "title": "9-21-20 Assurance of Salvation: 1 John 5:13",
+    "month": "September"
+  }, {
+    "name": "SD-09-18-20",
+    "title": "9-18-20 The Course of This Age: Mystery Message: Laodicea: Revelation 3:14-22",
+    "month": "September"
+  }, {
+    "name": "SD-09-17-20",
+    "title": "9-17-20 The Course of This Age: Mystery Messages: Philadelphia -- Revelation 3:7-13",
+    "month": "September"
+  }, {
+    "name": "SD-09-16-20",
+    "title": "9-16-20 The Course of This Age: Mystery Messages: Sardis -- Revelation 3:1-6",
+    "month": "September"
+  }, {
+    "name": "SD-09-15-20",
+    "title": "9-15-20 The Course of This Age: Mystery Messages: Thyatira -- Revelation 2:18-29",
+    "month": "September"
+  }, {
+    "name": "SD-09-14-20",
+    "title": "9-14-20 The Course of This Age: Mystery Messages: Smyrna/Pergamum -- Revelation 2:8-17",
+    "month": "September"
+  }, {
+    "name": "SD-09-11-20",
+    "title": "9-11-20 The Course of This Age: Mystery Messages: Ephesus -- Revelation 2:1-7",
+    "month": "September"
+  }, {
+    "name": "SD-09-10-20",
+    "title": "9-10-20 The Course of This Age: Mystery Messages: The Symbols -- Revelation 1:20",
+    "month": "September"
+  }, {
+    "name": "SD-09-09-20",
+    "title": "9-09-20 The Course of This Age: Mystery Messages: Keys -- Revelation 1:12-20",
+    "month": "September"
+  }, {
+    "name": "SD-09-08-20",
+    "title": "9-08-20 The Course of This Age: Mystery Messages: Explanation -- Revelation 1:4-16",
+    "month": "September"
+  }, {
+    "name": "SD-09-07-20",
+    "title": "9-07-20 The Course of This Age: Mystery Messages: The Reason -- Revelation 1:1-3",
+    "month": "September"
+  }, {
+    "name": "SD-09-04-20",
+    "title": "9-04-20 The Course of This Age: The Mystery Kingdom Parables: The Dragnet -- Matthew 13: 47-59",
+    "month": "September"
+  }, {
+    "name": "SD-09-03-20",
+    "title": "9-03-20 The Course of This Age: The Mystery Kingdom Parables: The Pearl -- Matthew 13:45-46",
+    "month": "September"
+  }, {
+    "name": "SD-09-02-20",
+    "title": "9-02-20 The Course of This Age: The Mystery Kingdom Parables: The Treasure -- Matthew 13:34",
+    "month": "September"
+  }, {
+    "name": "SD-09-01-20",
+    "title": "9-01-20 The Course of This Age: The Mysteries of the Kingdom: Leaven -- Matthew 13:33",
+    "month": "September"
+  }, {
+    "name": "SD-08-31-20",
+    "title": "8-31-20 The Course of This Age: Mustard and Leaven Parables -- Matthew 13:31-35",
+    "month": "August"
+  }, {
+    "name": "SD-08-28-20",
+    "title": "8-28-20 The Course of this Age: The Kingdom Mystery Parables: Divine Details -- Matthew 13:18-23; 40-43",
+    "month": "August"
+  }, {
+    "name": "SD-08-27-20",
+    "title": "8-27-20 The Course of this Age: 7 Keys Unlock the Mystery -- Matthew 13:18-23; 36-39",
+    "month": "August"
+  }, {
+    "name": "SD-08-26-20",
+    "title": "8-26-20 The Course of this Age: The Mystery Kingdom Parables: The Key Parables -- Matthew 13: 1-9; 24-30",
+    "month": "August"
+  }, {
+    "name": "SD-08-25-20",
+    "title": "8-25-20 The Course of this Age: The Mystery Kingdom Parables: The Points -- Matthew 13:18-52",
+    "month": "August"
+  }, {
+    "name": "SD-08-24-20",
+    "title": "8-24-20 The Course of this Age: The Mystery Kingdom Parables: The Reason --- Matthew 13:10-18",
+    "month": "August"
+  }, {
+    "name": "SD-08-21-20",
+    "title": "8-21-20 The Triune God: God the Father: The Father's Worship: Heavenly Pattern -- Revelation 4-5",
+    "month": "August"
+  }, {
+    "name": "SD-08-20-20",
+    "title": "8-20-20 The Triune God: God the Father: The Father's Worship: Spirit and Truth -- John 4:24",
+    "month": "August"
+  }, {
+    "name": "SD-08-19-20",
+    "title": "8-19-20 The Triune God: God the Father: The Father's Worship: Seeking -- John 4:1-23",
+    "month": "August"
+  }, {
+    "name": "SD-08-18-20",
+    "title": "8-18-20 The Triune God: God the Father: The Father's Plan -- Psalm 2",
+    "month": "August"
+  }, {
+    "name": "SD-08-17-20",
+    "title": "8-17-20 The Triune God: God the Father: The Father's Choice -- Ephesians 1, 2 Thessalonians 2",
+    "month": "August"
+  }, {
+    "name": "SD-08-14-20",
+    "title": "8-14-20 The Triune God: The Father's Love -- John 3:16",
+    "month": "August"
+  }, {
+    "name": "SD-08-13-20",
+    "title": "8-13-20 The Triune God: God the Father: The Father's Will -- James 1:18",
+    "month": "August"
+  }, {
+    "name": "SD-08-12-20",
+    "title": "8-12-20 The Triune God: God The Father: Father of Lights -- James 1:17",
+    "month": "August"
+  }, {
+    "name": "SD-08-11-20",
+    "title": "8-11-20 The Triune God: God the Father: God and Temptation -- James 1:12-15",
+    "month": "August"
+  }, {
+    "name": "SD-08-10-20",
+    "title": "8-10-20 The Triune God: God the Father: The Danger of Error -- James 1:16",
+    "month": "August"
+  }, {
+    "name": "SD-08-07-20",
+    "title": "8-07-20 The Triune God: The Six Names: Kurios (Lord)/Despotes (Master) -- John 4:11, 2 Peter 2:1",
+    "month": "August"
+  }, {
+    "name": "SD-08-06-20",
+    "title": "8-06-20 The Triune God: The Six Names: Theos (God) -- John 1:1, 18",
+    "month": "August"
+  }, {
+    "name": "SD-08-05-20",
+    "title": "8-05-20 The Triune God: The Six Names: Yahweh/Adonai (Lord) -- Joshua 5:14",
+    "month": "August"
+  }, {
+    "name": "SD-08-04-20",
+    "title": "8-04-20 The Triune God: The Six Names: Yahweh (LORD) -- Exodus 3",
+    "month": "August"
+  }, {
+    "name": "SD-08-03-20",
+    "title": "8-03-20 The Triune God: The Six Names: Elohim -- Genesis 1:1",
+    "month": "August"
+  }, {
+    "name": "SD-07-31-20",
+    "title": "7-31-20 The Triune God: Perfections: Sovereignty, Truth -- Acts 15:13-18",
+    "month": "July"
+  }, {
+    "name": "SD-07-30-20",
+    "title": "7-30-20 The Triune God: Perfections: Righteousness, Simplicity, Unity -- Psalm 11:7",
+    "month": "July"
+  }, {
+    "name": "SD-07-29-20",
+    "title": "7-29-20 The Triune God: Perfections: Omnipresence, Omniscience -- Psalm 139:7-11",
+    "month": "July"
+  }, {
+    "name": "SD-07-28-20",
+    "title": "7-28-20 The Triune God: Perfections: Infinity, Love, Omnipotence -- 1 Kings 8:27",
+    "month": "July"
+  }, {
+    "name": "SD-07-27-20",
+    "title": "7-27-20 The Triune God: Perfections: Eternity, Freedom, Immutability -- Psalm 90:2",
+    "month": "July"
+  }, {
+    "name": "SD-07-24-20",
+    "title": "7-24-20 The Triune God: Perfections: Holiness: NT Affirmations -- John 17; 1 Peter1; Rev. 4; 1 John 1",
+    "month": "July"
+  }, {
+    "name": "SD-07-23-20",
+    "title": "7-23-20 The Triune God: Perfections: Holiness: NT Affirmations -- John 17; 1 Peter1; Rev. 4; 1 John 1",
+    "month": "July"
+  }, {
+    "name": "SD-07-22-20",
+    "title": "7-22-20 The Triune God: Perfections: Holiness: Creator -- Isa. 40; Hab. 1",
+    "month": "July"
+  }, {
+    "name": "SD-07-21-20",
+    "title": "7-21-20 The Triune God: Perfections: Holiness: Worship -- Lev. 11:44",
+    "month": "July"
+  }, {
+    "name": "SD-07-20-20",
+    "title": "7-20-20 The Triune God: Perfections: Definitions -- John 4:24",
+    "month": "July"
+  }, {
+    "name": "SD-07-17-20",
+    "title": "7-17-20 The Triune God: Perfections: The Glory of God -- Exodus 33:18-34:17",
+    "month": "July"
+  }, {
+    "name": "SD-07-16-20",
+    "title": "7-16-20 The Triune God: Perfections: The 2nd Intercession -- Exodus 33: 1-17",
+    "month": "July"
+  }, {
+    "name": "SD-07-15-20",
+    "title": "7-15-20 The Triune God: Perfections: The 1st Intercession -- Exodus 32:11-35",
+    "month": "July"
+  }, {
+    "name": "SD-07-14-20",
+    "title": "7-14-20 The Triune God: Perfections: The Golden Calf -- Exodus 32:1-10",
+    "month": "July"
+  }, {
+    "name": "SD-07-13-20",
+    "title": "7-13-20 The Triune God: Perfections: The Law at Sinai -- Exodus 20",
+    "month": "July"
+  }, {
+    "name": "SD-07-10-20",
+    "title": "7-10-20 Dispensations: The Kingdom -- Revelation 20",
+    "month": "July"
+  }, {
+    "name": "SD-07-09-20",
+    "title": "7-09-20 Dispensations: Grace -- Ephesians 3",
+    "month": "July"
+  }, {
+    "name": "SD-07-08-20",
+    "title": "7-08-20 Dispensations: Law (Progression) -- Ex. 31; 2 Kings 17; 2 Chr. 36",
+    "month": "July"
+  }, {
+    "name": "SD-07-07-20",
+    "title": "7-07-20 Dispensations: Law (Foundation) -- Exodus 19-John 19",
+    "month": "July"
+  }, {
+    "name": "SD-07-06-20",
+    "title": "7-06-20 Dispensations: Dispensation of Promise -- Genesis 12:1-Exodus 19:7",
+    "month": "July"
+  }, {
+    "name": "SD-07-03-20",
+    "title": "7-03-20 Dispensations: Dispensation of Civil Government -- Genesis 9-11",
+    "month": "July"
+  }, {
+    "name": "SD-07-02-20",
+    "title": "7-02-20 Dispensations: Dispensation of Conscience -- Genesis 3-8",
+    "month": "July"
+  }, {
+    "name": "SD-07-01-20",
+    "title": "7-01-20 Dispensations: Dispensation of Innocence -- Genesis 1-2",
+    "month": "July"
+  }, {
+    "name": "SD-06-30-20",
+    "title": "6-30-20 Dispensations: History -- Justin Martyr to Augustine",
+    "month": "June"
+  }, {
+    "name": "SD-06-29-20",
+    "title": "6-29-20 Dispensations: Definition -- Ephesians 1:10; 3:2,9",
+    "month": "June"
+  }, {
+    "name": "SD-06-26-20",
+    "title": "6-26-20 Covenants: New [Eternal] Covenant -- Jer. 31:31-34; Heb. 8:7-13, 13:20",
+    "month": "June"
+  }, {
+    "name": "SD-06-25-20",
+    "title": "6-25-20 Covenants: Davidic Covenant -- 2 Samuel 7:8-17",
+    "month": "June"
+  }, {
+    "name": "SD-06-24-20",
+    "title": "6-24-20 Covenants: Promised Land Covenant -- Deuteronomy 29-30",
+    "month": "June"
+  },
+  {
+    "name": "SD-06-23-20",
+    "title": "6-23-20 Covenants: Priestly Covenant -- Numbers 25:10-13",
+    "month": "June"
+  }, {
+    "name": "SD-06-22-20",
+    "title": "6-22-20 Covenants: Law: Sign of the Sabbath -- Exodus 31:12-18",
+    "month": "June"
+  }, {
+    "name": "SD-06-19-20",
+    "title": "6-19-20 Covenants: Mosaic Covenant: Conditions -- Exodus 19",
+    "month": "June"
+  }, {
+    "name": "SD-06-18-20",
+    "title": "6-18-20 Covenants: Abrahamic Covenant: Sign and Seed -- Genesis 17, 22; Hebrews 11",
+    "month": "June"
+  }, {
+    "name": "SD-06-17-20",
+    "title": "6-17-20 Covenants: Abrahamic Covenant: Stated and Ratified -- Genesis 12, 15",
+    "month": "June"
+  }, {
+    "name": "SD-06-16-20",
+    "title": "6-16-20 Covenants: Noahic Covenant -- Genesis 6:18; 9:1-17",
+    "month": "June"
+  }, {
+    "name": "SD-06-15-20",
+    "title": "6-15-20 Covenants: The 7 True Covenants -- Genesis 2, 3",
+    "month": "June"
+  }, {
+    "name": "SD-06-12-20",
+    "title": "6-12-20 Revelation: Incarnation: The Love -- John 3; Romans 5; 1 John 4",
+    "month": "June"
+  }, {
+    "name": "SD-06-11-20",
+    "title": "6-11-20 Revelation: Incarnation: The Icon -- Colossians 1:15-17",
+    "month": "June"
+  }, {
+    "name": "SD-06-10-20",
+    "title": "6-10-20 Revelation: Incarnation: The Resolution -- John 1:12-14",
+    "month": "June"
+  }, {
+    "name": "SD-06-09-20",
+    "title": "6-09-20 Revelation: Incarnation: The Problem -- John 1:5-12",
+    "month": "June"
+  }, {
+    "name": "SD-06-08-20",
+    "title": "6-08-20 Revelation: Incarnation: The Word -- John 1:1-4",
+    "month": "June"
+  }, {
+    "name": "SD-06-05-20",
+    "title": "6-05-20 Revelation: Inspiration: Application -- Luke 15",
+    "month": "June"
+  }, {
+    "name": "SD-06-04-20",
+    "title": "6-04-20 Revelation: Inspiration: Context II -- Proverbs, 1 Peter",
+    "month": "June"
+  }, {
+    "name": "SD-06-03-20",
+    "title": "6-03-20 Revelation: Inspiration: Context I -- Hebrews Warnings",
+    "month": "June"
+  }, {
+    "name": "SD-06-02-20",
+    "title": "6-02-20 Revelation: Inspiration: Comparison -- Hebrew, John, 2 Peter",
+    "month": "June"
+  }, {
+    "name": "SD-06-01-20",
+    "title": "6-01-20 Revelation: Inspiration: Grammar -- Matthew, Colossians, John",
+    "month": "June"
+  }, {
+    "name": "SD-05-29-20",
+    "title": "5-29-20 Revelation: Inspiration: The Obedience -- Nehemiah 8: 15-18",
+    "month": "May"
+  }, {
+    "name": "SD-05-28-20",
+    "title": "5-28-20 Revelation: Inspiration: The Discovery -- Nehemiah 8: 13-14",
+    "month": "May"
+  }, {
+    "name": "SD-05-27-20",
+    "title": "5-27-20 Revelation: Inspiration: The Joy -- Nehemiah 8: 9-12",
+    "month": "May"
+  }, {
+    "name": "SD-05-26-20",
+    "title": "5-26-20 Revelation: Inspiration: The Method -- Nehemiah 8:6-8",
+    "month": "May"
+  }, {
+    "name": "SD-05-25-20",
+    "title": "5-25-20 Revelation: Inspiration: The Workman -- Nehemiah 8:1-5",
+    "month": "May"
+  }, {
+    "name": "SD-05-22-20",
+    "title": "5-22-20 Revelation: Inspiration: Light from the Word -- Psalm 119:105",
+    "month": "May"
+  }, {
+    "name": "SD-05-21-20",
+    "title": "5-21-20 Revelation: Inspiration: Wisdom from the Word -- Psalm 119: 97-100",
+    "month": "May"
+  }, {
+    "name": "SD-05-20-20",
+    "title": "5-20-20 Revelation: Inspiration: Foundation in the Word -- Psalm 119: 89-96",
+    "month": "May"
+  }, {
+    "name": "SD-05-19-20",
+    "title": "5-19-20 Revelation: Inspiration: Afflictions and the Word -- Psalm 119: 67, 71, 79",
+    "month": "May"
+  }, {
+    "name": "SD-05-18-20",
+    "title": "5-18-20 Revelation: Inspiration: Walk in the Word -- Psalm 119:1, 9, 11",
+    "month": "May"
+  }, {
+    "name": "SD-05-15-20",
+    "title": "5-15-20 Revelation: Inspiration: Writers of Scripture -- 2 Sam. 23; Acts 2; Gal. 3",
+    "month": "May"
+  }, {
+    "name": "SD-05-14-20",
+    "title": "5-14-20 Revelation: Inspiration: Extent of Inspiration -- Matt. 5, 22; John 10",
+    "month": "May"
+  }, {
+    "name": "SD-05-13-20",
+    "title": "5-13-20 Revelation: Inspiration: Rightly Divided -- Heb. 4:12, 2 Tim. 2:15",
+    "month": "May"
+  }, {
+    "name": "SD-05-12-20",
+    "title": "5-12-20 Revelation: Inspiration: Divinely Profitable -- 2 Timothy 3:15-17",
+    "month": "May"
+  }, {
+    "name": "SD-05-11-20",
+    "title": "5-11-20 Creation: Inspiration: Divine Authorship -- 2 Timothy 3:16",
+    "month": "May"
+  }, {
+    "name": "SD-05-08-20",
+    "title": "5-08-20 Revelation: Creation: The Tower -- Genesis 11:1-9",
+    "month": "May"
+  }, {
+    "name": "SD-05-07-20",
+    "title": "5-07-20 Revelation: Creation: The First Covenant -- Genesis 9",
+    "month": "May"
+  }, {
+    "name": "SD-05-06-20",
+    "title": "5-06-20 Revelation: Creation: The Flood Prevails -- Genesis 7:21-8",
+    "month": "May"
+  }, {
+    "name": "SD-05-05-20",
+    "title": "5-05-20 Revelation: Creation: The Nature of the Flood -- Genesis 7:4-20",
+    "month": "May"
+  }, {
+    "name": "SD-05-04-20",
+    "title": "5-04-20 Revelation: Creation: The Universal Flood -- Genesis 6:8-7:3",
+    "month": "May"
+  }, {
+    "name": "SD-05-01-20",
+    "title": "5-01-20 Revelation: Creation: The Antediluvian World -- Genesis 4-6",
+    "month": "May"
+  }, {
+    "name": "SD-04-30-20",
+    "title": "4-30-20 Revelation: Creation: Result of Sin -- Genesis 3:8-24",
+    "month": "April"
+  }, {
+    "name": "SD-04-29-20",
+    "title": "4-29-20 Revelation: Creation: Sin and the Fall -- Genesis 3:1-7",
+    "month": "April"
+  }, {
+    "name": "SD-04-28-20",
+    "title": "4-28-20 Revelation: Creation: Marriage; Creation v Evolution Summary -- Genesis 2:24",
+    "month": "April"
+  }, {
+    "name": "SD-04-27-20",
+    "title": "4-27-20 Revelation: Creation of Woman -- Genesis 2:18-25",
+    "month": "April"
+  }, {
+    "name": "SD-04-24-20",
+    "title": "4-24-20 Revelation: Creation: Eden -- Genesis 2:9-17",
+    "month": "April"
+  }, {
+    "name": "SD-04-23-20",
+    "title": "4-23-20 Revelation: Creation: Details of Adam' Creation -- Genesis 2:7-8",
+    "month": "April"
+  }, {
+    "name": "SD-04-22-20",
+    "title": "4-22-20 Revelation: Creation: The End and the Ecosystem -- Genesis 2:1-6",
+    "month": "April"
+  }, {
+    "name": "SD-04-21-20",
+    "title": "4-21-20 Revelation: Creation: Man and God's Command -- Genesis 1:27-31",
+    "month": "April"
+  }, {
+    "name": "SD-04-20-20",
+    "title": "4-20-20 Revelation: Creation Day 6 -- Genesis 1:24-26",
+    "month": "April"
+  }, {
+    "name": "SD-04-17-20",
+    "title": "4-17-20 Revelation: Creation Days 3 through 5 -- Genesis 1:9-23",
+    "month": "April"
+  }, {
+    "name": "SD-04-16-20",
+    "title": "4-16-20 Revelation: Creation Days 1 and 2 -- Genesis 1:2-8",
+    "month": "April"
+  }, {
+    "name": "SD-04-15-20",
+    "title": "4-15-20 Revelation: Creation Countdown -- Genesis 1",
+    "month": "April"
+  }, {
+    "name": "SD-04-14-20",
+    "title": "4-14-20 Revelation: Creation Affirmations -- Genesis 1:1, Mark 10:6,13:19, John 1:3, Colossians 1:16",
+    "month": "April"
+  }, {
+    "name": "SD-04-13-20",
+    "title": "4-13-20 The 3 Revelations: Creation, Inspiration, Incarnation",
+    "month": "April"
+  }, {
+    "name": "SD-04-10-20",
+    "title": "04-10-20 Reasons for Sound Doctrine Part 5",
+    "month": "April"
+  }, {
+    "name": "SD-04-09-20",
+    "title": "04-09-20 Reasons for Sound Doctrine Part 4",
+    "month": "April"
+  }, {
+    "name": "SD-04-08-20",
+    "title": "04-08-20 Reasons for Sound Doctrine Part 3",
+    "month": "April"
+  }, {
+    "name": "SD-04-07-20",
+    "title": "04-07-20 Reasons for Sound Doctrine Part 2",
+    "month": "April"
+  }, {
+    "name": "SD-04-06-20",
+    "title": "04-06-20 Reasons for Sound Doctrine Part 1",
+    "month": "April"
+  }
+]

@@ -34,9 +34,16 @@ export class UploadComponent implements OnInit {
     // this service method actually sends the file to the server
     this._api.uploadAudioFile(formData).subscribe(
       res => alert(res),
-      err => console.log(err)
+      err => {
+        console.log(err.error.text)
+        if (err.error.text === "Success") {
+          this.htmlHide = false
+        } else {
+          alert("ERROR")
+        }
+      }
     )
-    setTimeout(() => this.htmlHide = false, 5000)
+    //setTimeout(() => this.htmlHide = false, 10000)
 
   }
   // Grab the file from the input box and assign to variable on change event

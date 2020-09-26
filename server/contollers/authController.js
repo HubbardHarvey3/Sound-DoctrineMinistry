@@ -54,6 +54,7 @@ function sortingJSON(arr) {
 
 }
 
+//This only sorts the messages.json file
 module.exports.upload_api = (req, res) => {
     let audioInfo = req.body
     res.status(200).send("Success")
@@ -69,9 +70,9 @@ module.exports.upload_api = (req, res) => {
         // console.log(sortedArr)
         fs.writeFile('messages.json', JSON.stringify(sortedArr), function (err) {
             if (err) throw err;
-            // console.log("The data was appended")
         })
     })
+
 }
 
 module.exports.login_api = async function (req, res) {
