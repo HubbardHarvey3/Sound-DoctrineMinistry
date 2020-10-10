@@ -13,6 +13,7 @@ import { SortService } from "../sort.service"
 export class ManageStreamComponent implements OnInit {
   messages: any = [];
   result: object = {};
+  fileName: object = {}
   htmlHide = false;
   //stuck on trying to sort the JSON messages after someone edits the messages file.
   // num = [{ 'title': "9-1-2020", 'file': 'thisone.wav' }, { 'title': "9-11-2020", 'file': 'blank' }, { 'title': "9-2-2020", 'file': 'None' }]
@@ -40,10 +41,34 @@ export class ManageStreamComponent implements OnInit {
     // now we need to send the updated messages array to the backend:
     this._api.overWriteBroadcast(this.messages).subscribe(
       res => console.log(res),
-      err => console.log(err)
+      err => {
+        console.log(err.error.text)
+        if (err.error.text === "Broadcast Deleted") {
+          this.htmlHide = false
+        } else {
+          alert("ERROR")
+        }
+      }
     )
-    console.log(itemName)
-    setTimeout(() => this.htmlHide = false, 5000)
+    // turn the file name into an object to be sent to the backend
+    this.fileName = { itemName }
+    // Send file name which is now an object to node.js
+    this._api.deleteActualFile(this.fileName).subscribe(
+      res => console.log(res),
+      err => {
+        console.log(err)
+        if (err.error.text === "File Removed") {
+          this.htmlHide = false
+        } else if (err.error === 'No File Found') {
+          alert("File Not Found")
+          this.htmlHide = false
+        } else {
+          alert("Error")
+          this.htmlHide = false
+        }
+      }
+    )
+    // setTimeout(() => this.htmlHide = false, 5000)
   }
 
 }

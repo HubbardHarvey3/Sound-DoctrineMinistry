@@ -8,12 +8,16 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
   //need to change once I go into PROD***************************************
-  configURL = 'http://localhost:3000/audio/json'
-  //"https://sound-doctrineministry.org/audio/json"  PROD
+  prod = "https://sound-doctrineministry.org/"
+  dev = "http://localhost:3000/"
+
+  configURL = this.dev + 'audio/json'
+  //"https://sound-doctrineministry.org/json"  PROD
   //'http://localhost:3000/audio/json'              DEVELOPMENT
-  uploadURL = 'http://localhost:3000/api/upload'
-  uploadAudioFileURL = 'http://localhost:3000/api/uploadAudio'
-  overwriteURL = 'http://localhost:3000/api/deleteBroadcasts'
+  uploadURL = this.dev + 'api/upload'
+  uploadAudioFileURL = this.dev + 'api/uploadAudio'
+  overwriteURL = this.dev + 'api/deleteBroadcasts'
+  fileToDeleteURL = this.dev + 'api/deleteFile'
 
   printToConsole(arg) {
     console.log(arg);
@@ -34,5 +38,9 @@ export class ApiService {
 
   overWriteBroadcast(data) {
     return this.http.post<any>(this.overwriteURL, data).pipe()
+  }
+
+  deleteActualFile(fileName) {
+    return this.http.post<any>(this.fileToDeleteURL, fileName).pipe()
   }
 }
