@@ -2,15 +2,19 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ManageStreamComponent } from './manage-stream.component';
 
+import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
+import { RouterTestingModule } from '@angular/router/testing';
+
 describe('ManageStreamComponent', () => {
   let component: ManageStreamComponent;
   let fixture: ComponentFixture<ManageStreamComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ManageStreamComponent ]
+      imports: [RouterTestingModule, HttpClientTestingModule],
+      declarations: [ManageStreamComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

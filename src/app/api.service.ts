@@ -11,13 +11,13 @@ export class ApiService {
   prod = "https://sound-doctrineministry.org/"
   dev = "http://localhost:3000/"
 
-  configURL = this.dev + 'audio/json'
+  configURL = this.prod + 'audio/json'
   //"https://sound-doctrineministry.org/json"  PROD
   //'http://localhost:3000/audio/json'              DEVELOPMENT
-  uploadURL = this.dev + 'api/upload'
-  uploadAudioFileURL = this.dev + 'api/uploadAudio'
-  overwriteURL = this.dev + 'api/deleteBroadcasts'
-  fileToDeleteURL = this.dev + 'api/deleteFile'
+  uploadURL = this.prod + 'api/upload'
+  uploadAudioFileURL = this.prod + 'api/uploadAudio'
+  overwriteURL = this.prod + 'api/deleteBroadcasts'
+  fileToDeleteURL = this.prod + 'api/deleteFile'
 
   printToConsole(arg) {
     console.log(arg);
