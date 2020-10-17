@@ -12,7 +12,7 @@ export class ApiService {
   dev = "http://localhost:3000/"
 
   configURL = this.prod + 'audio/json'
-  //"https://sound-doctrineministry.org/json"  PROD
+  //"https://sound-doctrineministry.org/json"  PRODUCTION
   //'http://localhost:3000/audio/json'              DEVELOPMENT
   uploadURL = this.prod + 'api/upload'
   uploadAudioFileURL = this.prod + 'api/uploadAudio'

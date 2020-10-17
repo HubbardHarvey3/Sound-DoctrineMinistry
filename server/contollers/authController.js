@@ -108,14 +108,12 @@ module.exports.overwrite_api = async (req, res) => {
     // console.log(req.body)
     let oldDataDelete = req.body
 
-    // sortingJSON(oldDataDelete)
-    // fs.writeFile('messages.json', JSON.stringify(sortedArr), function (err) {
-    //     if (err) throw err;
-    //     // console.log("The data was appended")
-    //     res.status(200).send("Broadcast Deleted")
-    // })
-
-    console.log("Broadcasts Deleted")
+    sortingJSON(oldDataDelete)
+    fs.writeFile('messages.json', JSON.stringify(sortedArr), function (err) {
+        if (err) throw err;
+        // console.log("The data was appended")
+        res.status(200).send("Broadcast Deleted")
+    })
 }
 
 module.exports.deleteFile_api = async (req, res) => {

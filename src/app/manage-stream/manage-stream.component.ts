@@ -45,6 +45,7 @@ export class ManageStreamComponent implements OnInit {
         console.log(err.error.text)
         if (err.error.text === "Broadcast Deleted") {
           this.htmlHide = false
+
         } else {
           alert("ERROR")
         }
@@ -59,6 +60,7 @@ export class ManageStreamComponent implements OnInit {
         console.log(err)
         if (err.error.text === "File Removed") {
           this.htmlHide = false
+          alert("The Broadcast was deleted")
         } else if (err.error === 'No File Found') {
           alert("File Not Found")
           this.htmlHide = false
