@@ -18,6 +18,34 @@ div {
   margin: 1em;
   padding: 1em;
   border: #336633 solid 5px;
+}
+
+.mainDiv {
+  flex: 1;
+
+}
 
 
+
+footer {
+  width: 100%;
+  font-size: .75em;
+  background-color: #336633;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  cursor: pointer;
+  align-self: flex-end;
+  padding-right: 1.2em;
+  padding-bottom: .2em;
+  font-size: 1.5em;
 }

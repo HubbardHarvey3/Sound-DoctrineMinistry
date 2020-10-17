@@ -74,6 +74,10 @@ router.post('/uploadAudio', verifyToken, upload.single('audioFile'), (req, res) 
     res.status(200).send("Success")
 })
 
+// delete broadcasts
+router.post('/deleteBroadcasts', verifyToken, authController.overwrite_api)
+
+router.post('/deleteFile', verifyToken, authController.deleteFile_api)
 
 
 module.exports = router

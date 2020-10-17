@@ -1,0 +1,126 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: .5em;
+  margin-right: .4em;
+  margin-left: .4em;
+  padding: .8em;
+  width: auto;
+}
+
+
+button {
+  background-color: #336633;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  color: #d9ead9;
+  padding: .5em;
+  margin-top: 1em;
+}
+
+/* Select Styling */
+.select-css {
+
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #d9ead9;
+  line-height: 1.3;
+  padding: .6em 1.4em .5em .8em;
+  width: 30%;
+  max-width: 90%;
+  box-sizing: border-box;
+  background-color: #336633;
+
+}
+
+.select-css::-ms-expand {
+  display: none;
+}
+
+.select-css:hover {
+  border-color: #d9ead9;
+}
+
+.select-css:focus {
+  border-color: #d9ead9;
+  box-shadow: 0 0 1px 3px rgba(217, 234, 217, .7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #d9ead9;
+  outline: none;
+}
+
+.select-css option {
+  font-weight: normal;
+}
+
+
+
+/* Loading Spinner from https://tobiasahlin.com/spinkit/ */
+.spinner {
+  flex-direction: row;
+
+  margin: 100px auto;
+  width: auto;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner>div {
+  background-color: #336633;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4)
+  }
+
+  20% {
+    -webkit-transform: scaleY(1.0)
+  }
+}
+
+@keyframes sk-stretchdelay {
+
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
