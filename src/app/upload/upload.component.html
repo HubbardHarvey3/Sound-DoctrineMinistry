@@ -1,3 +1,4 @@
+<!-- deleted  from the Form tag since the test was throwing an error -->
 <form #uploadForm="ngForm" enctype="multipart/form-data">
   <div class="mainDiv">
     <h3>Upload Broadcasts here</h3>
@@ -30,6 +31,8 @@
     </div>
 
     <button class="btn" (click)="upload(); uploadForm.reset()">Upload</button>
+    <button class="btn" routerLink="/manage" *ngIf="_authService.loggedIn()" routerLinkActive="active">Manage
+      Broadcasts</button>
     <div *ngIf="htmlHide" class="spinner">
       <div class="rect1"></div>
       <div class="rect2"></div>

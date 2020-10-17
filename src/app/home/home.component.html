@@ -1,9 +1,9 @@
 <h1>Sound Doctrine</h1>
 <h2>With Rick Hofmeister</h2>
-<div>
 
-
-  <p>The phrase “sound doctrine” translates Greek terms meaning “healthy teaching”; teaching that promotes the spiritual
+<div class="mainDiv">
+  <p>The phrase “sound doctrine” translates Greek terms meaning “healthy teaching”; teaching that promotes the
+    spiritual
     health of the listener.
     <br>
     <br>
@@ -15,3 +15,12 @@
     It is the mission of Sound Doctrine to communicate systematically the doctrines found in the Bible and identify
     erroneous teaching, to the benefit of all who hear.</p>
 </div>
+
+<footer *ngIf="closeBool">
+
+  <a (click)=close()>X</a>
+  <p>
+    This site uses 3rd Party cookies to improve your experience and to analyse the use of our website. If you
+    continue browsing, we take that to mean that you accept their use.
+  </p>
+</footer>

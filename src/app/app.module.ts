@@ -23,6 +23,7 @@ import { AuthGuard } from './auth.guard';
 import { AuthService } from './auth.service';
 import { UploadComponent } from './upload/upload.component';
 import { TokenInterceptorService } from "./token-interceptor.service";
+import { ManageStreamComponent } from './manage-stream/manage-stream.component';
 
 const appRoutes: Routes = [
   { path: 'stream', component: StreamComponent },
@@ -32,6 +33,7 @@ const appRoutes: Routes = [
   { path: 'reference', component: ReferenceComponent },
   { path: 'login', component: LoginComponent },
   { path: 'upload', component: UploadComponent, canActivate: [AuthGuard] },
+  { path: 'manage', component: ManageStreamComponent, canActivate: [AuthGuard] },
   { path: '', component: HomeComponent, pathMatch: 'full' }
 ];
 
@@ -46,7 +48,8 @@ const appRoutes: Routes = [
     FilterStreamPipe,
     ReferenceComponent,
     LoginComponent,
-    UploadComponent
+    UploadComponent,
+    ManageStreamComponent
   ],
   imports: [
     BrowserModule,

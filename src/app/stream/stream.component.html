@@ -1,7 +1,7 @@
 <h1>Listen to Sound Doctrine</h1>
 
 <div>
-  <Div id="searchDiv">
+  <div id="searchDiv">
     <h3>Filter Broadcasts</h3>
 
     <select (change)=filterSubmit(month) class="select-css" #month id="monthSelect">
@@ -16,15 +16,15 @@
       <option value="June">June</option>
       <option value="July">July</option>
       <option value="August">August</option>
-      <option selected="selected" value="September">September</option>
-      <option value="October">October</option>
+      <option value="September">September</option>
+      <option selected="selected" value="October">October</option>
       <option value="November">November</option>
       <option value="December">December</option>
 
 
     </select>
     <!-- <button (click)=filterSubmit(month)>Search</button> -->
-  </Div>
+  </div>
   <h1> {{month.value}}</h1>
   <!-- <h1> {{pipeMessage | filterStream: month.value}}</h1> -->
 
@@ -39,12 +39,13 @@
           <!-- when I go into Prod, will need to update src -->
           <!-- DEV : http://localhost:3000/audio/{{item.name}} -->
           <!-- PROD : https://sound-doctrineministry.org/audio/{{item.name}} -->
-          <source type="audio/mp3" src='https://sound-doctrineministry.org/audio/{{item.name}}'>
+          <!-- If changes to the source are needed, ensure the below span is updated with the same minus the {{item.name}} -->
+          <source id="src" type="audio/mp3" src='https://sound-doctrineministry.org/audio/{{item.name}}'>
         </audio>
       </div>
     </div>
   </ng-container>
-
-
-
+  <!-- Unable to test inside a ng-container at the moment.  As a short cut, will test this span to ensure its ID.  Must remember to ensure the src in Source matches the span in order 
+  for tests to work correctly -->
+  <span style="display: none;" id='https://sound-doctrineministry.org/audio/'></span>
 </div>

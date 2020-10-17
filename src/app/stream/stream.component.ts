@@ -18,7 +18,9 @@ export class StreamComponent implements OnInit {
   messages: any = [];
   audio = new Audio;
   monthVar = "";
-  pipeMessage = "TEST"
+
+  // pipeMessage = "TEST"
+
 
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
   constructor(private svc: ApiService) { }
@@ -34,12 +36,9 @@ export class StreamComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.svc.getConfig().subscribe(data => {
-      // the json file Name filed is the name of the audio file
-      //it is used as the src in the audio tag
-      //the title, is the data that will be displayed above each audio tag.
-      this.messages = data;
-    })
+    this.filterSubmit(this.monthVar);
+
   }
+
 
 }

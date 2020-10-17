@@ -59,16 +59,17 @@ module.exports.upload_api = (req, res) => {
     let audioInfo = req.body
     res.status(200).send("Success")
 
-    fs.readFile('messages.json', function (err, data) {
+    fs.readFile('./messages.json', function (err, data) {
         // get the existing JSON Data
         let oldData = JSON.parse(data)
         // Push in the new data
         oldData.unshift(audioInfo)
-        //below is the customer sorting middleware
+        // console.log(oldData)
+        // Sort Data:
         sortingJSON(oldData)
-        //sortingJSON()
-        // console.log(sortedArr)
-        fs.writeFile('messages.json', JSON.stringify(sortedArr), function (err) {
+
+        fs.writeFile('./messages.json', JSON.stringify(sortedArr), function (err) {
+
             if (err) throw err;
         })
     })
@@ -99,32 +100,30 @@ module.exports.login_api = async function (req, res) {
             'error': "Invalid Username or Password"
         });
     }
+}
 
+module.exports.overwrite_api = async (req, res) => {
+    // console.log(req.body)
+    let oldDataDelete = req.body
 
+    sortingJSON(oldDataDelete)
+    fs.writeFile('messages.json', JSON.stringify(sortedArr), function (err) {
+        if (err) throw err;
+        // console.log("The data was appended")
+        res.status(200).send("Broadcast Deleted")
+    })
+}
 
-    // User.findOne({ email: userData.email }, (err, user) => {
-    //     // this is data from DB
-    //     console.log(user)
-    //     if (err) {
-    //         console.log(err)
-    //     } else {
-    //         // check the email is in the DB
-    //         if (!user) {
-    //             res.status(401).send("Wrong Email")
-    //         } else {
-    //             // check the password matches what is in the DB
-    //             //password in DB is encrpyted and the if statement contains the check from bcrypt
-    //             // user.password !== userData.password
-    //             if (user.password !== userData.password) {
-    //                 console.log("WRONG PASSWORD")
-    //                 res.status(401).send("WRONG PASSWORD")
-    //             } else {
-    //                 let payload = { subject: user._id }
-    //                 let token = jwt.sign(payload, 'secretKey')
-    //                 res.status(200).send({ token })
-    //             }
-    //         }
-    //     }
-    // })
+module.exports.deleteFile_api = async (req, res) => {
+    fileToDelete = `./serverAssets/${req.body.itemName}.mp3`
+    // delete the filename that was sent from the backend.
+    fs.unlink(fileToDelete, (err) => {
+        if (err) {
+            console.error('No File Found!')
+            res.status(400).send('File Not Found')
+        } else {
+            res.status(200).send("File Removed")
+        }
+    })
 }
 
