@@ -8,7 +8,7 @@ const audio = require('../routes/audio')
 
 //Hashing Stuff
 const saltRounds = config.saltNum;
-const salt = bcrypt.genSaltSync(saltRounds)
+const salt = bcrypt.genSaltSync(saltRounds);
 
 /**
  * @param {array} the array of data to be sorted chronologically with latest date on top
@@ -69,10 +69,11 @@ module.exports.upload_api = (req, res) => {
         sortingJSON(oldData)
 
         fs.writeFile('./messages.json', JSON.stringify(sortedArr), function (err) {
+
             if (err) throw err;
-            // console.log("The data was appended")
         })
     })
+
 }
 
 module.exports.login_api = async function (req, res) {
@@ -99,9 +100,6 @@ module.exports.login_api = async function (req, res) {
             'error': "Invalid Username or Password"
         });
     }
-
-
-
 }
 
 module.exports.overwrite_api = async (req, res) => {
@@ -128,3 +126,4 @@ module.exports.deleteFile_api = async (req, res) => {
         }
     })
 }
+

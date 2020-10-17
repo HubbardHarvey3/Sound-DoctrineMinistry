@@ -43,6 +43,9 @@ testem.log
 /server/config.json
 /server/serverAssets
 /debug.log
+
+
+
 # System Files
 .DS_Store
 Thumbs.db

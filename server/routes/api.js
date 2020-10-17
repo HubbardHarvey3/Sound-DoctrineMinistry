@@ -60,6 +60,7 @@ function verifyToken(req, res, next) {
 //handles the login post request
 // the array in the middle sanitizes incoming data labeled password and email.
 router.post('/login', [body('password').escape(), body('email').escape()], authController.login_api)
+
 // This route only updates the messages.json
 router.post('/upload', [
     body('name').escape(),
