@@ -1,5 +1,7 @@
-<div class="mainDiv">
 
+
+<div class="mainDiv">
+  <h3>Please select the broadcast date you wish to delete:</h3>
   <select #broadcast class="select-css">
     <option *ngFor="let item of messages" value="{{item.name}}">{{item.name}}</option>
   </select>
@@ -14,7 +16,4 @@
 </div>
 
 
-<!-- <ul *ngFor="let item of messages">
-    <li><a #{{item.name}}>{{item.name}}</a></li>
-    <button (click)=updateItem(item.name)>Delete</button>
-  </ul> -->
+
