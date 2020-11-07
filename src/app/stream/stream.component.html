@@ -1,32 +1,18 @@
 <h1>Listen to Sound Doctrine</h1>
 
-<div>
+<div *ngIf="selector !== ''">
   <div id="searchDiv">
     <h3>Filter Broadcasts</h3>
 
     <select (change)=filterSubmit(month) class="select-css" #month id="monthSelect">
-
-
-
-      <option value="January">January</option>
-      <option value="February">February</option>
-      <option value="March">March</option>
-      <option value="April">April</option>
-      <option value="May">May</option>
-      <option value="June">June</option>
-      <option value="July">July</option>
-      <option value="August">August</option>
-      <option value="September">September</option>
-      <option  value="October">October</option>
-      <option  value="November">November</option>
-      <option value="December">December</option>
-
-
+      <option [selected]="selector == item" *ngFor="let item of monthArray">  
+        {{item}}
+     </option>
     </select>
-    <!-- <button (click)=filterSubmit(month)>Search</button> -->
   </div>
+  
   <h1> {{month.value}}</h1>
-  <!-- <h1> {{pipeMessage | filterStream: month.value}}</h1> -->
+  
 
 
   <ng-container *ngIf="month.value !== undefined">

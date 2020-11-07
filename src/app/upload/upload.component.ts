@@ -67,7 +67,4 @@ export class UploadComponent implements OnInit {
     this.audioFile = fileInput.target.files[0]
     this.fileJSON.episode = this.broadcastNum
   }
-
-
-
 }
