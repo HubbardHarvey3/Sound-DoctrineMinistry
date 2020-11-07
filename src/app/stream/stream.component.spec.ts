@@ -15,7 +15,9 @@ import { DebugElement } from '@angular/core';
 describe('StreamComponent', () => {
   let component: StreamComponent;
   let fixture: ComponentFixture<StreamComponent>;
-
+  let month = new Date()
+  let monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December'];
+  fixture.detectChanges();
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule, HttpClientTestingModule, FormsModule],
@@ -49,4 +51,14 @@ describe('StreamComponent', () => {
     const span: HTMLElement = paragraphDe.nativeElement;
     expect(span.id).toEqual("https://sound-doctrineministry.org/audio/");
   });
+
+  it('Check the current month selected is for the right month', () => {
+    fixture.detectChanges();
+    if (component.selector === "") {
+      expect(monthArray[month.getMonth()] == component.selector)
+    }
+
+  })
+
+
 });
