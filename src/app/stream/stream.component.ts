@@ -18,7 +18,8 @@ export class StreamComponent implements OnInit {
   messages: any = [];
   audio = new Audio;
   monthVar = "";
-
+  currentMonth: Date = new Date();
+  monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Novemeber", 'December'];
   // pipeMessage = "TEST"
 
 
@@ -37,8 +38,20 @@ export class StreamComponent implements OnInit {
 
   ngOnInit(): void {
     this.filterSubmit(this.monthVar);
-
+    this.setSelect()
   }
 
+  setSelect(){
+    console.log(this.currentMonth.getMonth())
 
+    for (let i = 0; i <= this.monthArray.length; i++) {
+      
+      if (this.currentMonth.getMonth() - 1 === i) {
+        console.log(this.monthArray[i])
+      }  
+      
+    }
+    
+
+  }
 }
