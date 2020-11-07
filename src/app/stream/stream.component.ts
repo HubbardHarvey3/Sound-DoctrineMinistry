@@ -18,9 +18,10 @@ export class StreamComponent implements OnInit {
   messages: any = [];
   audio = new Audio;
   monthVar = "";
-  currentMonth: Date = new Date();
+  currentMonth: Date
   monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Novemeber", 'December'];
-  // pipeMessage = "TEST"
+
+
 
 
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
@@ -32,6 +33,7 @@ export class StreamComponent implements OnInit {
       //it is used as the src in the audio tag
       //the title, is the data that will be displayed above each audio tag.
       this.messages = data;
+
     })
   }
 
@@ -41,17 +43,22 @@ export class StreamComponent implements OnInit {
     this.setSelect()
   }
 
-  setSelect(){
+  setSelect() {
+    this.currentMonth = new Date()
     console.log(this.currentMonth.getMonth())
+    let selector: string = ""
+    console.log(this.currentMonth)
 
     for (let i = 0; i <= this.monthArray.length; i++) {
-      
-      if (this.currentMonth.getMonth() - 1 === i) {
+
+      if (this.currentMonth.getMonth() === i) {
         console.log(this.monthArray[i])
-      }  
-      
+        selector = this.monthArray[i]
+
+      }
+
     }
-    
+
 
   }
 }
