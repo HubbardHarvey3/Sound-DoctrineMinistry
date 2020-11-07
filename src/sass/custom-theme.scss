@@ -24,3 +24,83 @@ $SoundDoctrine-theme: mat-light-theme($SoundDoctrine-primary, $SoundDoctrine-acc
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include angular-material-theme($SoundDoctrine-theme);
+@import './variables.scss';
+
+
+
+
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #d9ead9;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-family: 'Merriweather', serif !important;
+  font-weight: bold !important;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+
+label,
+form,
+input {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+/* Nav Menu on Mobile */
+.mat-menu-panel {
+  background-color: #d9ead9;
+
+}
+
+.mat-menu-content:not(:empty) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+@media (max-width:650px) {
+  p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+}
