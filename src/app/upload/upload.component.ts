@@ -11,14 +11,30 @@ export class UploadComponent implements OnInit {
   fileJSON = {
     "name": "",
     "title": "",
-    "month": ""
+    "month": "",
+    "episode": null
   }
   audioFile;
   htmlHide = false
+  broadcastNum: number;
+  messages: any = [];
+
 
   constructor(private _api: ApiService, public _authService: AuthService) { }
 
   ngOnInit(): void {
+    this.getepisode()
+  }
+
+  getepisode() {
+    this._api.getConfig().subscribe(data => {
+      // the json file Name filled is the name of the audio file
+      //it is used as the src in the audio tag
+      //the title, is the data that will be displayed above each audio tag.
+      this.messages = data;
+      this.broadcastNum = this.messages[0].episode + 1
+    })
+
   }
 
   upload() {
@@ -44,13 +60,12 @@ export class UploadComponent implements OnInit {
         }
       }
     )
-    //setTimeout(() => this.htmlHide = false, 10000)
-
   }
   // Grab the file from the input box and assign to variable on change event
   fileEvent(fileInput) {
     this.fileJSON.name = fileInput.target.files[0].name
     this.audioFile = fileInput.target.files[0]
+    this.fileJSON.episode = this.broadcastNum
   }
 
 
