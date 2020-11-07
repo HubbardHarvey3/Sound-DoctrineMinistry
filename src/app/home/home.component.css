@@ -17,12 +17,11 @@ h2 {
 div {
   margin: 1em;
   padding: 1em;
-  border: #336633 solid 5px;
 }
 
 .mainDiv {
   flex: 1;
-
+  border: #336633 solid 5px;
 }
 
 
@@ -48,4 +47,24 @@ a {
   padding-right: 1.2em;
   padding-bottom: .2em;
   font-size: 1.5em;
+}
+
+/* Preview Area */
+#cardContainer {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  flex-direction: row;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#previewCard {
+  padding: 0px;
+  margin: 0px;
+}
+
+audio {
+  width: 100%;
 }

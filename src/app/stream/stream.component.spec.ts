@@ -17,7 +17,12 @@ describe('StreamComponent', () => {
   let fixture: ComponentFixture<StreamComponent>;
   let month = new Date()
   let monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December'];
+
+
+  fixture = TestBed.createComponent(StreamComponent);
   fixture.detectChanges();
+
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule, HttpClientTestingModule, FormsModule],
@@ -34,11 +39,13 @@ describe('StreamComponent', () => {
   });
 
   it('should create', () => {
+    fixture.detectChanges();
     expect(component).toBeTruthy();
   });
 
   it('should have a title', () => {
     // we are accessing "h1"
+    fixture.detectChanges();
     const title = fixture.debugElement.query(By.css('h1')).nativeElement;
     expect(title.innerHTML).toBe('Listen to Sound Doctrine');
 

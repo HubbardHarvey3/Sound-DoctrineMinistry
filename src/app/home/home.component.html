@@ -15,6 +15,24 @@
     It is the mission of Sound Doctrine to communicate systematically the doctrines found in the Bible and identify
     erroneous teaching, to the benefit of all who hear.</p>
 </div>
+<h1>The most recent broadcasts:</h1>
+<h2>For the full archive, click the Listen tab</h2>
+<div id="cardContainer" >
+<div *ngFor="let item of previewArray">
+  <div id="previewCard">
+    <h3>{{item.title}}</h3>
+
+    <audio controls>
+      <!-- ************************************************* -->
+      <!-- when I go into Prod, will need to update src -->
+      <!-- DEV : http://localhost:3000/audio/{{item.name}} -->
+      <!-- PROD : https://sound-doctrineministry.org/audio/{{item.name}} -->
+      <!-- If changes to the source are needed, ensure the below span is updated with the same minus the {{item.name}} -->
+      <source id="src" type="audio/mp3" src='https://sound-doctrineministry.org/audio/{{item.name}}'>
+    </audio>
+  </div>
+</div>
+</div>
 
 <footer *ngIf="closeBool">
 
