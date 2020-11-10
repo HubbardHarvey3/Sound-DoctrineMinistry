@@ -32,7 +32,6 @@ export class UploadComponent implements OnInit {
       //it is used as the src in the audio tag
       //the title, is the data that will be displayed above each audio tag.
       this.messages = data;
-      this.broadcastNum = this.messages[0].episode + 1
     })
 
   }
@@ -60,11 +59,11 @@ export class UploadComponent implements OnInit {
         }
       }
     )
+    this.getepisode()
   }
   // Grab the file from the input box and assign to variable on change event
   fileEvent(fileInput) {
     this.fileJSON.name = fileInput.target.files[0].name
     this.audioFile = fileInput.target.files[0]
-    this.fileJSON.episode = this.broadcastNum
   }
 }

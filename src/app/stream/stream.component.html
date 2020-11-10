@@ -18,8 +18,9 @@
   <ng-container *ngIf="month.value !== undefined">
     <div *ngFor="let item of messages">
       <div *ngIf="item.month === month.value">
-        <h3>{{item.title}}</h3>
-
+        <hr *ngIf="item.episode%5 === 0" class="divider">
+        <h4>{{item.title}}</h4>
+        <h4 *ngIf="_authService.loggedIn()" >Episode: {{item.episode}}</h4>
         <audio controls>
           <!-- ************************************************* -->
           <!-- when I go into Prod, will need to update src -->
