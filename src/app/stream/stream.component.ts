@@ -1,5 +1,6 @@
 import { Component, OnInit, Injectable } from '@angular/core';
-
+import { NavigationEnd, Router } from '@angular/router';
+import { AuthService } from "../auth.service";
 
 
 //import the service
@@ -23,7 +24,7 @@ export class StreamComponent implements OnInit {
   selector: string = ""
 
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
-  constructor(private svc: ApiService) { }
+  constructor(public _authService: AuthService, private svc: ApiService) { }
 
   filterSubmit(month) {
     this.svc.getConfig().subscribe(data => {

@@ -1,6 +1,7 @@
 <!-- deleted  from the Form tag since the test was throwing an error -->
 <form #uploadForm="ngForm" enctype="multipart/form-data">
   <div class="mainDiv">
+    
     <h3>Upload Broadcasts here</h3>
     <div>
       <label for="">Broadcast Title</label>
@@ -16,7 +17,7 @@
         <option value="May">May</option>
         <option value="June">June</option>
         <option value="July">July</option>
-        <option selected="selected" value="August">August</option>
+        <option value="August">August</option>
         <option value="September">September</option>
         <option value="October">October</option>
         <option value="November">November</option>
@@ -26,8 +27,12 @@
     </div>
     <div>
       <label for="">File</label>
-      <!-- Not able to get the file name yet. -->
       <input (change)="fileEvent($event)" type='file' name="audioFile" required accept="audio/mp3">
+    </div>
+    <div>
+      
+      <label for="">Episode</label>
+      <input [(ngModel)]="fileJSON.episode" name="test" type="number">
     </div>
 
     <button class="btn" (click)="upload(); uploadForm.reset()">Upload</button>
