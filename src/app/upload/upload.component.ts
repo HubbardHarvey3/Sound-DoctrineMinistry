@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../api.service';
-import { AuthService } from '../auth.service';
+import { ApiService } from '../services/api.service';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-upload',
@@ -41,7 +41,7 @@ export class UploadComponent implements OnInit {
     this.fileJSON.name = this.fileJSON.name.replace(".mp3", "").replace(".MP3", "");
     const formData = new FormData();
     formData.append('audioFile', this.audioFile)
-
+    console.log(this.fileJSON)
     // this service method updates the JSON
     this._api.uploadAudio(this.fileJSON).subscribe(
       res => console.log(res),

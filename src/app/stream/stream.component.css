@@ -1,3 +1,5 @@
+@import '~@vime/core/themes/default.css';
+
 div {
   display: flex;
   flex-direction: column;
@@ -15,13 +17,14 @@ h1 {
   flex-wrap: nowrap;
 }
 
-audio {
+/* Player Stuff */
+
+vime-player {
   margin-bottom: 2em;
   width: 90%;
-}
-
-audio:focus {
-  outline: none;
+  --vm-player-theme: #d9ead9;
+  --vm-color-dark: #336633;
+  --vm-control-color: #d9ead9;
 }
 
 button {

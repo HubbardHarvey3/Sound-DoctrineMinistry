@@ -106,7 +106,6 @@ module.exports.login_api = async function (req, res) {
 }
 
 module.exports.overwrite_api = async (req, res) => {
-    // console.log(req.body)
     let oldDataDelete = req.body
 
     sortingJSON(oldDataDelete)
