@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 //import the service
-import { ApiService } from "../api.service";
-import { SortService } from "../sort.service"
+import { ApiService } from "../services/api.service";
+import { SortService } from "../services/sort.service"
 
 
 

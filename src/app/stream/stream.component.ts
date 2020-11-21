@@ -1,10 +1,13 @@
-import { Component, OnInit, Injectable } from '@angular/core';
+import { Component, OnInit, Injectable, ChangeDetectorRef, ChangeDetectionStrategy } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
-import { AuthService } from "../auth.service";
+import { AuthService } from "../services/auth.service";
+import { VimeModule } from '@vime/angular';
 
 
 //import the service
-import { ApiService } from "../api.service";
+import { ApiService } from "../services/api.service";
+import { PlayerService } from '../services/player.service';
+import { async } from '@angular/core/testing';
 
 
 
@@ -12,19 +15,26 @@ import { ApiService } from "../api.service";
 @Component({
   selector: 'app-stream',
   templateUrl: './stream.component.html',
-  styleUrls: ['./stream.component.css']
+  styleUrls: ['./stream.component.css'],
+  // inserted to avoid the error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked.
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class StreamComponent implements OnInit {
 
   messages: any = [];
-  audio = new Audio;
   monthVar = "";
   currentMonth: Date
   monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December'];
   selector: string = ""
 
+
+
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
-  constructor(public _authService: AuthService, private svc: ApiService) { }
+  constructor(private player: VimeModule, private cd: ChangeDetectorRef, public _authService: AuthService, public _player: PlayerService, private svc: ApiService) { }
+
+
+
+
 
   // Grab the JSON Data
   filterSubmit(month) {
@@ -40,6 +50,8 @@ export class StreamComponent implements OnInit {
   ngOnInit(): void {
     this.setSelect()
     this.filterSubmit(this.monthVar);
+    // inserted to avoid the error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked.
+    this.cd.detectChanges()
   }
 
   // Function loops through monthArray and finds a match with currentMonth.  Sets selector to string version

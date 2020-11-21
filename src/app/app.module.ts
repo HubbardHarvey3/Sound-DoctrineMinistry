@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { MatSliderModule } from '@angular/material/slider';
 
 //necessary for routing in your app
 import { RouterModule, Routes } from '@angular/router';
@@ -8,22 +9,29 @@ import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MatMenuModule } from '@angular/material/menu';
 
+// services
+import { FilterStreamPipe } from './services/filter-stream.pipe';
+import { AuthService } from './services/auth.service';
+import { ApiService } from './services/api.service';
+import { PlayerService } from './services/player.service'
+
+// Components
 import { AppComponent } from './app.component';
 import { StreamComponent } from './stream/stream.component';
-import { ApiService } from './api.service';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { DoctrineComponent } from './doctrine/doctrine.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './contact/contact.component';
-import { FilterStreamPipe } from './filter-stream.pipe';
 import { ReferenceComponent } from './reference/reference.component';
 import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './auth.guard';
-import { AuthService } from './auth.service';
 import { UploadComponent } from './upload/upload.component';
 import { TokenInterceptorService } from "./token-interceptor.service";
 import { ManageStreamComponent } from './manage-stream/manage-stream.component';
+
+// Player
+import { VimeModule } from '@vime/angular'
 
 const appRoutes: Routes = [
   { path: 'stream', component: StreamComponent },
@@ -62,10 +70,12 @@ const appRoutes: Routes = [
     ),
     BrowserAnimationsModule,
     FormsModule,
-    MatMenuModule
+    MatMenuModule,
+    VimeModule,
+    MatSliderModule
   ],
   //services are distributed via the providers section in the @ngModule
-  providers: [ApiService, AuthGuard, AuthService,
+  providers: [ApiService, PlayerService, AuthGuard, AuthService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: TokenInterceptorService,
