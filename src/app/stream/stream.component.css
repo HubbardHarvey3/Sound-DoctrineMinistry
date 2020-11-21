@@ -106,10 +106,3 @@ button {
   background: rgb(217, 234, 217);
   background: linear-gradient(180deg, rgba(217, 234, 217, 1) 0%, rgba(51, 102, 51, 1) 27%, rgba(51, 102, 51, 1) 73%, rgba(217, 234, 217, 1) 100%) !important;
 }
-
-/* Audio */
-
-audio {
-
-  background-color: #f1f3f4;
-}
