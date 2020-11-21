@@ -24,15 +24,12 @@
 <div *ngFor="let item of previewArray">
   <div id="previewCard">
     <h3>{{item.title}}</h3>
-
-    <audio controls>
-      <!-- ************************************************* -->
-      <!-- when I go into Prod, will need to update src -->
-      <!-- DEV : http://localhost:3000/audio/{{item.name}} -->
-      <!-- PROD : https://sound-doctrineministry.org/audio/{{item.name}} -->
-      <!-- If changes to the source are needed, ensure the below span is updated with the same minus the {{item.name}} -->
-      <source id="src" type="audio/mp3" src='https://sound-doctrineministry.org/audio/{{item.name}}'>
-    </audio>
+    <vime-player >
+      <vime-audio>
+        <source data-src='https://sound-doctrineministry.org/audio/{{item.name}}'/>
+      </vime-audio>
+      <vime-default-ui></vime-default-ui>
+    </vime-player>    
   </div>
 </div>
 </div>
