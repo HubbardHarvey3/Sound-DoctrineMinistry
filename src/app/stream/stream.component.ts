@@ -32,10 +32,6 @@ export class StreamComponent implements OnInit {
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
   constructor(private player: VimeModule, private cd: ChangeDetectorRef, public _authService: AuthService, public _player: PlayerService, private svc: ApiService) { }
 
-
-
-
-
   // Grab the JSON Data
   filterSubmit(month) {
     this.svc.getConfig().subscribe(data => {
