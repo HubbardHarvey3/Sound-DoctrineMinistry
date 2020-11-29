@@ -16,6 +16,24 @@
     erroneous teaching, to the benefit of all who hear.</p>
 </div>
 
+<hr class="divider">
+
+<h1>The most recent broadcasts:</h1>
+<h2>For the full archive, click the Listen tab</h2>
+<div id="cardContainer" >
+<div *ngFor="let item of previewArray">
+  <div id="previewCard">
+    <h3>{{item.title}}</h3>
+    <vime-player >
+      <vime-audio>
+        <source data-src='https://sound-doctrineministry.org/audio/{{item.name}}'/>
+      </vime-audio>
+      <vime-default-ui></vime-default-ui>
+    </vime-player>    
+  </div>
+</div>
+</div>
+
 <footer *ngIf="closeBool">
 
   <a (click)=close()>X</a>

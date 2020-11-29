@@ -1,47 +1,39 @@
 <h1>Listen to Sound Doctrine</h1>
 
-<div>
+<div *ngIf="selector !== ''">
   <div id="searchDiv">
     <h3>Filter Broadcasts</h3>
 
     <select (change)=filterSubmit(month) class="select-css" #month id="monthSelect">
-
-
-
-      <option value="January">January</option>
-      <option value="February">February</option>
-      <option value="March">March</option>
-      <option value="April">April</option>
-      <option value="May">May</option>
-      <option value="June">June</option>
-      <option value="July">July</option>
-      <option value="August">August</option>
-      <option value="September">September</option>
-      <option value="October">October</option>
-      <option selected="selected" value="November">November</option>
-      <option value="December">December</option>
-
-
+      <option [selected]="selector == item" *ngFor="let item of monthArray">  
+        {{item}}
+     </option>
     </select>
-    <!-- <button (click)=filterSubmit(month)>Search</button> -->
   </div>
+  
   <h1> {{month.value}}</h1>
-  <!-- <h1> {{pipeMessage | filterStream: month.value}}</h1> -->
-
+  
+  
 
   <ng-container *ngIf="month.value !== undefined">
     <div *ngFor="let item of messages">
       <div *ngIf="item.month === month.value">
-        <h3>{{item.title}}</h3>
-
-        <audio controls>
-          <!-- ************************************************* -->
-          <!-- when I go into Prod, will need to update src -->
-          <!-- DEV : http://localhost:3000/audio/{{item.name}} -->
-          <!-- PROD : https://sound-doctrineministry.org/audio/{{item.name}} -->
-          <!-- If changes to the source are needed, ensure the below span is updated with the same minus the {{item.name}} -->
-          <source id="src" type="audio/mp3" src='https://sound-doctrineministry.org/audio/{{item.name}}'>
-        </audio>
+        <hr *ngIf="item.episode%5 === 0" class="divider">
+        <h4>{{item.title}} </h4>
+        <h4 *ngIf="_authService.loggedIn()">Episode: {{item.episode}}</h4>
+        
+        
+        <!-- ************************************************* -->
+        <!-- when I go into Prod, will need to update src -->
+        <!-- DEV : http://localhost:3000/audio/{{item.name}} -->
+        <!-- PROD : https://sound-doctrineministry.org/audio/{{item.name}} -->
+        <!-- If changes to the source are needed, ensure the below span is updated with the same minus the {{item.name}} -->
+        <vime-player >
+          <vime-audio>
+            <source data-src='https://sound-doctrineministry.org/audio/{{item.name}}'/>
+          </vime-audio>
+          <vime-default-ui></vime-default-ui>
+        </vime-player>
       </div>
     </div>
   </ng-container>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../api.service';
-import { AuthService } from '../auth.service';
+import { ApiService } from '../services/api.service';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-upload',
@@ -11,14 +11,29 @@ export class UploadComponent implements OnInit {
   fileJSON = {
     "name": "",
     "title": "",
-    "month": ""
+    "month": "",
+    "episode": null
   }
   audioFile;
   htmlHide = false
+  broadcastNum: number;
+  messages: any = [];
+
 
   constructor(private _api: ApiService, public _authService: AuthService) { }
 
   ngOnInit(): void {
+    this.getepisode()
+  }
+
+  getepisode() {
+    this._api.getConfig().subscribe(data => {
+      // the json file Name filled is the name of the audio file
+      //it is used as the src in the audio tag
+      //the title, is the data that will be displayed above each audio tag.
+      this.messages = data;
+    })
+
   }
 
   upload() {
@@ -26,7 +41,7 @@ export class UploadComponent implements OnInit {
     this.fileJSON.name = this.fileJSON.name.replace(".mp3", "").replace(".MP3", "");
     const formData = new FormData();
     formData.append('audioFile', this.audioFile)
-
+    console.log(this.fileJSON)
     // this service method updates the JSON
     this._api.uploadAudio(this.fileJSON).subscribe(
       res => console.log(res),
@@ -44,15 +59,11 @@ export class UploadComponent implements OnInit {
         }
       }
     )
-    //setTimeout(() => this.htmlHide = false, 10000)
-
+    this.getepisode()
   }
   // Grab the file from the input box and assign to variable on change event
   fileEvent(fileInput) {
     this.fileJSON.name = fileInput.target.files[0].name
     this.audioFile = fileInput.target.files[0]
   }
-
-
-
 }

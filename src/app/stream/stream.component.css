@@ -1,9 +1,13 @@
+@import '~@vime/core/themes/default.css';
+
 div {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%
 }
+
+
 
 h1 {
   display: flex;
@@ -13,13 +17,14 @@ h1 {
   flex-wrap: nowrap;
 }
 
-audio {
+/* Player Stuff */
+
+vime-player {
   margin-bottom: 2em;
   width: 90%;
-}
-
-audio:focus {
-  outline: none;
+  --vm-player-theme: #d9ead9;
+  --vm-color-dark: #336633;
+  --vm-control-color: #d9ead9;
 }
 
 button {
@@ -88,4 +93,16 @@ button {
   .select-css {
     width: 60%
   }
+}
+
+
+/* divider */
+.divider {
+  /* margin-top: 3em; */
+  margin-bottom: 4em;
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: rgb(217, 234, 217);
+  background: linear-gradient(180deg, rgba(217, 234, 217, 1) 0%, rgba(51, 102, 51, 1) 27%, rgba(51, 102, 51, 1) 73%, rgba(217, 234, 217, 1) 100%) !important;
 }

@@ -13,7 +13,7 @@ export class ApiService {
 
   configURL = this.prod + 'audio/json'
 
-  //"https://sound-doctrineministry.org/json"  PRODUCTION
+  //"https://sound-doctrineministry.org/json"  Production
   //'http://localhost:3000/audio/json'              DEVELOPMENT
   uploadURL = this.prod + 'api/upload'
   uploadAudioFileURL = this.prod + 'api/uploadAudio'
@@ -31,6 +31,7 @@ export class ApiService {
   }
 
   uploadAudio(audioData) {
+    console.log(audioData)
     return this.http.post<any>(this.uploadURL, audioData);
   }
 

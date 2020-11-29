@@ -14,6 +14,7 @@ const salt = bcrypt.genSaltSync(saltRounds);
  * @param {array} the array of data to be sorted chronologically with latest date on top
  * @returns the sortedArr variable to be written into messages.json
  */
+
 let sortedArr = [];
 function sortingJSON(arr) {
     sortedArr.push(arr[1])
@@ -54,6 +55,7 @@ function sortingJSON(arr) {
 
 }
 
+
 //This only sorts the messages.json file
 module.exports.upload_api = (req, res) => {
     let audioInfo = req.body
@@ -73,6 +75,7 @@ module.exports.upload_api = (req, res) => {
             if (err) throw err;
         })
     })
+    sortedArr = []
 
 }
 
@@ -103,7 +106,6 @@ module.exports.login_api = async function (req, res) {
 }
 
 module.exports.overwrite_api = async (req, res) => {
-    // console.log(req.body)
     let oldDataDelete = req.body
 
     sortingJSON(oldDataDelete)

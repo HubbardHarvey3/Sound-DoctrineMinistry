@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 //import the service
-import { ApiService } from "../api.service";
-import { SortService } from "../sort.service"
+import { ApiService } from "../services/api.service";
+import { SortService } from "../services/sort.service"
 
 
 
@@ -15,8 +15,7 @@ export class ManageStreamComponent implements OnInit {
   result: object = {};
   fileName: object = {}
   htmlHide = false;
-  //stuck on trying to sort the JSON messages after someone edits the messages file.
-  // num = [{ 'title': "9-1-2020", 'file': 'thisone.wav' }, { 'title': "9-11-2020", 'file': 'blank' }, { 'title': "9-2-2020", 'file': 'None' }]
+
 
   constructor(private _api: ApiService, private sort: SortService) { }
 
@@ -26,7 +25,6 @@ export class ManageStreamComponent implements OnInit {
       //it is used as the src in the audio tag
       //the title, is the data that will be displayed above each audio tag.
       this.messages = data;
-      // console.log(this.num.sort())
     })
 
   }
@@ -70,7 +68,6 @@ export class ManageStreamComponent implements OnInit {
         }
       }
     )
-    // setTimeout(() => this.htmlHide = false, 5000)
   }
 
 }

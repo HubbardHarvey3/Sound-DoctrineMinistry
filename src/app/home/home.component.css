@@ -17,15 +17,12 @@ h2 {
 div {
   margin: 1em;
   padding: 1em;
-  border: #336633 solid 5px;
 }
 
 .mainDiv {
   flex: 1;
-
+  border: #336633 solid 5px;
 }
-
-
 
 footer {
   width: 100%;
@@ -40,6 +37,7 @@ footer {
   margin: auto;
   display: flex;
   flex-direction: column;
+  z-index: 100;
 }
 
 a {
@@ -48,4 +46,45 @@ a {
   padding-right: 1.2em;
   padding-bottom: .2em;
   font-size: 1.5em;
+}
+
+/* Preview Area */
+#cardContainer {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  flex-direction: row;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#previewCard {
+  padding: 0px;
+  margin: 0px;
+}
+
+vime-player {
+  margin-bottom: 2em;
+  width: 100%;
+  --vm-player-theme: #d9ead9;
+  --vm-color-dark: #336633;
+  --vm-control-color: #d9ead9;
+}
+
+/* @media (max-width:1000px) {
+  #cardContainer {
+    flex-direction: column;
+  }
+} */
+
+/* Divider */
+
+.divider {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  height: 50px;
+  border: none;
+  background: rgb(217, 234, 217);
+  background: linear-gradient(180deg, rgba(217, 234, 217, 1) 0%, rgba(51, 102, 51, 1) 27%, rgba(51, 102, 51, 1) 73%, rgba(217, 234, 217, 1) 100%);
 }
