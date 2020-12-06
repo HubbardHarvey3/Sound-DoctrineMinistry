@@ -7,7 +7,7 @@ body {
 }
 
 html {
-  width: 100%;
+  /* width: 100%; */
   overflow-y: scroll;
 }
 
@@ -23,7 +23,7 @@ body {
 div {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 
 h1,
@@ -56,6 +56,9 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+.mainDiv {
+  /* box-shadow: 4px 4px 8px 0px #000000; */
+}
 
 /* Nav Menu on Mobile */
 .mat-menu-panel {
