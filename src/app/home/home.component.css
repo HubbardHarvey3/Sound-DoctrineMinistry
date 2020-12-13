@@ -84,6 +84,11 @@ vime-player {
     flex-direction: column;
   }
 
+  #about,
+  #aboutDivider {
+    display: none;
+  }
+
   img {
     float: none;
     margin: 0;
