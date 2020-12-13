@@ -56,9 +56,6 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
-.mainDiv {
-  /* box-shadow: 4px 4px 8px 0px #000000; */
-}
 
 /* Nav Menu on Mobile */
 .mat-menu-panel {
@@ -77,4 +74,14 @@ body {
     font-size: 1.1em;
     line-height: 1.5em;
   }
+}
+
+/* Button Styles */
+.btn {
+  width: auto;
+  background-color: #336633;
+  border: none;
+  color: #d9ead9;
+  padding: 1.2em;
+  margin-top: 1em;
 }
