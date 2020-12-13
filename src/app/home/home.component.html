@@ -13,13 +13,15 @@
   <div class="verticalDivider"></div>
   <p>It is the mission of Sound Doctrine to communicate systematically the doctrines found in the Bible and identify
     erroneous teaching, to the benefit of all who hear.</p>
+    
 </div>
-
-<a href="currentPage#broadcast">Lisent to Recent Broadcasts</a>
+<div >
+<button class="btn" (click)=scroll(broadcast) >Listen to Recent Broadcasts</button>
+<div>
 
 <hr class="divider">
 <!-- About Section -->
-<div class="mainDiv">
+<div class="mainDiv" id="about">
   <img src="../../assets/rick.jpg" />
   <div class="verticalDivider"></div>
    <p>
@@ -43,12 +45,12 @@
     Pastor Rick is a member of the IFCA International; he and Shelia have six grandchildren.
   </p>
 </div>
-<hr class="divider">
+<hr id=aboutDivider class="divider">
 <!-- Recent Player -->
 <h1>The most recent broadcasts:</h1>
 <h2>For the full archive, click the Listen tab</h2>
 
-<div id="broadcast"></div>
+<div #broadcast></div>
 <div class="mainDiv" *ngFor="let item of previewArray">
   <!-- <h3>{{item.name.replace("SD-","")}}</h3>   -->
   <h3>{{item.title}}</h3>

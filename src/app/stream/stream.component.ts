@@ -9,9 +9,6 @@ import { ApiService } from "../services/api.service";
 import { PlayerService } from '../services/player.service';
 import { async } from '@angular/core/testing';
 
-
-
-
 @Component({
   selector: 'app-stream',
   templateUrl: './stream.component.html',
@@ -19,6 +16,7 @@ import { async } from '@angular/core/testing';
   // inserted to avoid the error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked.
   changeDetection: ChangeDetectionStrategy.Default
 })
+
 export class StreamComponent implements OnInit {
 
   messages: any = [];
@@ -28,9 +26,14 @@ export class StreamComponent implements OnInit {
   selector: string = ""
 
 
-
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
-  constructor(private player: VimeModule, private cd: ChangeDetectorRef, public _authService: AuthService, public _player: PlayerService, private svc: ApiService) { }
+  constructor(
+    private player: VimeModule,
+    private cd: ChangeDetectorRef,
+    public _authService: AuthService,
+    public _player: PlayerService,
+    private svc: ApiService
+  ) { }
 
   // Grab the JSON Data
   filterSubmit(month) {
