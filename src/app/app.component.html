@@ -8,7 +8,7 @@
         <button class="dropDown" mat-menu-item routerLink="/stream" routerLinkActive="active">Listen</button>
         <button class="dropDown" mat-menu-item routerLink="/doctrine" routerLinkActive="active">Doctrinal
           Statement</button>
-        <button class="dropDown" mat-menu-item routerLink="/about" routerLinkActive="active">About</button>
+        <button class="dropDown aboutMenu" mat-menu-item routerLink="/about" routerLinkActive="active">About</button>
         <button class="dropDown" mat-menu-item routerLink="/contact" routerLinkActive="active">Contact</button>
         <button class="dropDown" mat-menu-item routerLink="/reference" routerLinkActive="active">Book
           References</button>
@@ -25,7 +25,7 @@
       <button mat-menu-item routerLink="/" routerLinkActive="active">Home</button>
       <button mat-menu-item routerLink="/stream" routerLinkActive="active">Listen</button>
       <button mat-menu-item routerLink="/doctrine">Doctrinal Statement</button>
-      <button mat-menu-item routerLink="/about" routerLinkActive="active">About</button>
+      <button class="aboutMenu" mat-menu-item routerLink="/about" routerLinkActive="active">About</button>
       <button mat-menu-item routerLink="/contact" routerLinkActive="active">Contact</button>
       <button mat-menu-item routerLink="/reference" routerLinkActive="active">Book References</button>
       <button mat-menu-item routerLink="/upload" *ngIf="_authService.loggedIn()"
