@@ -47,19 +47,22 @@
 </div>
 <hr id=aboutDivider class="divider">
 <!-- Recent Player -->
-<h1>The most recent broadcasts:</h1>
+<h1 #broadcast>The most recent broadcasts:</h1>
 <h2>For the full archive, click the Listen tab</h2>
 
-<div #broadcast></div>
 <div class="mainDiv" *ngFor="let item of previewArray">
   <!-- <h3>{{item.name.replace("SD-","")}}</h3>   -->
-  <h3>{{item.title}}</h3>
-  <vime-player >
-    <vime-audio>
-      <source data-src='https://sound-doctrineministry.org/audio/{{item.name}}'/>
-    </vime-audio>
-    <vime-default-ui></vime-default-ui>
-  </vime-player>    
+  <div class="title">
+    <h3>{{item.title}}</h3>
+  </div>
+  <div class="player">
+    <vime-player >
+      <vime-audio>
+        <source data-src='https://sound-doctrineministry.org/audio/{{item.name}}'/>
+      </vime-audio>
+      <vime-default-ui></vime-default-ui>
+    </vime-player>    
+  </div>
 </div>  
 
 <!-- Footer -->

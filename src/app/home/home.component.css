@@ -20,13 +20,23 @@ h3 {
   flex-basis: 30%
 }
 
+.title,
+.player {
+  width: 100%;
+}
+
 .mainDiv {
-  width: auto;
+  width: 90%;
   display: flex;
   margin: .5em;
   padding: .8em;
   flex-direction: row;
+  justify-content: space-between;
   /* border: #336633 solid 5px; */
+}
+
+.mainDiv>div {
+  align-items: flex-start;
 }
 
 .mainDiv>p {
@@ -117,7 +127,8 @@ vime-player {
 .divider {
   margin-top: 3em;
   margin-bottom: 3em;
-  height: 50px;
+  height: 2em;
+  width: 100%;
   border: none;
   background: rgb(217, 234, 217);
   background: linear-gradient(180deg, rgba(217, 234, 217, 1) 0%, rgba(51, 102, 51, 1) 27%, rgba(51, 102, 51, 1) 73%, rgba(217, 234, 217, 1) 100%);
