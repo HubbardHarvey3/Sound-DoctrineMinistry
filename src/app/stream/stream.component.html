@@ -2,31 +2,37 @@
 
 <div *ngIf="selector !== ''">
   <div id="searchDiv">
-    <h3>Filter Broadcasts</h3>
-
-    <select (change)=filterSubmit(month) class="select-css" #month id="monthSelect">
-      <option [selected]="selector == item" *ngFor="let item of monthArray">  
-        {{item}}
-     </option>
-    </select>
+    <div>
+      <h3>Filter Broadcasts</h3>
+      <select (change)=filterSubmit(month) class="select-css" #month id="monthSelect">
+        <option [selected]="selector == item" *ngFor="let item of monthArray">  
+          {{item}}
+      </option>
+      </select>
+    </div>
+    <div>
+      <h3>Filter By Broadcasts Titles</h3>
+      <input type="text" [(ngModel)]="searchString">
+      <div class="btnGroup">
+        <button class="btn" (click)='search()'>Search</button>
+        <button class="btn" (click)='clearSearch()'>Clear</button>
+      </div>
+      
+    </div>
   </div>
   
-  <h1> {{month.value}}</h1>
+  <h1 *ngIf="!searchBoolean"> {{month.value}}</h1>
   
-  
-
-  <ng-container  *ngIf="month.value !== undefined">
-    <div  *ngFor="let item of messages" >
-      <div *ngIf="item.month === month.value">
+  <!-- Search Results -->
+  <ng-container  *ngIf="searchBoolean">
+    <div  *ngFor="let item of messagesFound" >
+      <div>
         <hr *ngIf="item.episode%5 === 0" class="divider">
           <div class="mainDiv">
             <div>
               <h4>{{item.title}} </h4>
               <h4 *ngIf="_authService.loggedIn()">Episode: {{item.episode}}</h4>
             </div>
-            
-            
-            
             <!-- ************************************************* -->
             <!-- when I go into Prod, will need to update src -->
             <!-- DEV : http://localhost:3000/audio/{{item.name}} -->
@@ -44,6 +50,33 @@
       </div>
     </div>
   </ng-container>
+
+  <!-- <ng-container  *ngIf="month.value !== undefined && !searchBoolean">
+    <div  *ngFor="let item of messages" >
+      <div *ngIf="item.month === month.value">
+        <hr *ngIf="item.episode%5 === 0" class="divider">
+          <div class="mainDiv">
+            <div>
+              <h4>{{item.title}} </h4>
+              <h4 *ngIf="_authService.loggedIn()">Episode: {{item.episode}}</h4>
+            </div> -->
+            <!-- ************************************************* -->
+            <!-- when I go into Prod, will need to update src -->
+            <!-- DEV : http://localhost:3000/audio/{{item.name}} -->
+            <!-- PROD : https://sound-doctrineministry.org/audio/{{item.name}} -->
+            <!-- If changes to the source are needed, ensure the below span is updated with the same minus the {{item.name}} -->
+          <!-- <div>
+            <vime-player >
+              <vime-audio>
+                <source data-src='https://sound-doctrineministry.org/audio/{{item.name}}'/>
+              </vime-audio>
+              <vime-default-ui></vime-default-ui>
+            </vime-player>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container> -->
   <!-- Unable to test inside a ng-container at the moment.  As a short cut, will test this span to ensure its ID.  Must remember to ensure the src in Source matches the span in order 
   for tests to work correctly -->
   <span style="display: none;" id='https://sound-doctrineministry.org/audio/'></span>

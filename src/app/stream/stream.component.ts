@@ -20,10 +20,13 @@ import { async } from '@angular/core/testing';
 export class StreamComponent implements OnInit {
 
   messages: any = [];
-  monthVar = "";
+  messagesFound: any = [];
+  searchBoolean: boolean = false;
+  monthVar: string = "";
   currentMonth: Date
   monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December'];
   selector: string = ""
+  searchString: string;
 
 
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
@@ -36,7 +39,7 @@ export class StreamComponent implements OnInit {
   ) { }
 
   // Grab the JSON Data
-  filterSubmit(month) {
+  filterSubmit(month: string) {
     this.svc.getConfig().subscribe(data => {
       // the json file Name filled is the name of the audio file
       //it is used as the src in the audio tag
@@ -48,7 +51,7 @@ export class StreamComponent implements OnInit {
   // Sets current month, then requests the messages.json to fillout the month with audio files.
   ngOnInit(): void {
     this.setSelect()
-    this.filterSubmit(this.monthVar);
+
     // inserted to avoid the error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked.
     this.cd.detectChanges()
   }
@@ -63,5 +66,23 @@ export class StreamComponent implements OnInit {
         this.selector = this.monthArray[i]
       }
     }
+  }
+  search() {
+    this.messagesFound = [];
+    this.searchBoolean = true;
+    this.filterSubmit(this.monthVar);
+    // this.messages.forEach(element => {
+    //   if (element.title.includes(this.searchString)) {
+    //     this.messagesFound.push(element)
+    //   } else {
+    //     // this.searchBoolean = false;
+    //   }
+    // });
+  }
+  clearSearch() {
+    this.searchBoolean = false;
+    this.messagesFound = [];
+    // this.messages = [];
+    // this.filterSubmit(this.monthVar);
   }
 }
