@@ -11,6 +11,7 @@ import { By } from "@angular/platform-browser";
 
 import { DebugElement } from '@angular/core';
 
+import { VimeModule } from '@vime/angular'
 
 describe('StreamComponent', () => {
   let component: StreamComponent;
@@ -19,13 +20,11 @@ describe('StreamComponent', () => {
   let monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December'];
 
 
-  fixture = TestBed.createComponent(StreamComponent);
-  fixture.detectChanges();
 
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [RouterTestingModule, HttpClientTestingModule, FormsModule],
+      imports: [RouterTestingModule, HttpClientTestingModule, VimeModule, FormsModule],
       declarations: [StreamComponent],
       providers: [ApiService]
     }).compileComponents();

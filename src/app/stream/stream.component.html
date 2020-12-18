@@ -12,9 +12,10 @@
     </div>
     <div>
       <h3>Filter By Broadcasts Titles</h3>
+      <!-- Look to replace the use of ngModel -->
       <input type="text" [(ngModel)]="searchString">
       <div class="btnGroup">
-        <button class="btn" (click)='search()'>Search</button>
+        <button class="btn" (click)='search(searchString)'>Search</button>
         <button class="btn" (click)='clearSearch()'>Clear</button>
       </div>
       
@@ -24,7 +25,7 @@
   <h1 *ngIf="!searchBoolean"> {{month.value}}</h1>
   
   <!-- Search Results -->
-  <ng-container  *ngIf="searchBoolean">
+  <ng-container  *ngIf="searchBoolean && messagesFound">
     <div  *ngFor="let item of messagesFound" >
       <div>
         <hr *ngIf="item.episode%5 === 0" class="divider">
@@ -50,8 +51,8 @@
       </div>
     </div>
   </ng-container>
-
-  <!-- <ng-container  *ngIf="month.value !== undefined && !searchBoolean">
+<!-- ? makes sure you have a valid input-Optional Chaining -->
+  <!-- <ng-container  *ngIf="month?.value !== undefined && !searchBoolean">
     <div  *ngFor="let item of messages" >
       <div *ngIf="item.month === month.value">
         <hr *ngIf="item.episode%5 === 0" class="divider">

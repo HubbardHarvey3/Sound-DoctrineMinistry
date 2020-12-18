@@ -27,6 +27,7 @@ export class StreamComponent implements OnInit {
   monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December'];
   selector: string = ""
   searchString: string;
+  listRequest: string;
 
 
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
@@ -39,19 +40,26 @@ export class StreamComponent implements OnInit {
   ) { }
 
   // Grab the JSON Data
-  filterSubmit(month: string) {
-    this.svc.getConfig().subscribe(data => {
+  filterSubmit(searchParam: string) {
+    console.log("This is the search Param: ", searchParam)
+    this.svc.getConfig().subscribe((data: any = []) => {
+
+      data.forEach(element => {
+        if (element.title.includes(searchParam)) {
+          this.messagesFound.push(element)
+        }
+      });
+
       // the json file Name filled is the name of the audio file
       //it is used as the src in the audio tag
       //the title, is the data that will be displayed above each audio tag.
-      this.messages = data;
+
     })
   }
 
   // Sets current month, then requests the messages.json to fillout the month with audio files.
   ngOnInit(): void {
     this.setSelect()
-
     // inserted to avoid the error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked.
     this.cd.detectChanges()
   }
@@ -67,20 +75,13 @@ export class StreamComponent implements OnInit {
       }
     }
   }
-  search() {
+  search(eventData: string) {
     this.messagesFound = [];
     this.searchBoolean = true;
-    this.filterSubmit(this.monthVar);
-    // this.messages.forEach(element => {
-    //   if (element.title.includes(this.searchString)) {
-    //     this.messagesFound.push(element)
-    //   } else {
-    //     // this.searchBoolean = false;
-    //   }
-    // });
+    this.filterSubmit(eventData);
   }
   clearSearch() {
-    this.searchBoolean = false;
+    // this.searchBoolean = false;
     this.messagesFound = [];
     // this.messages = [];
     // this.filterSubmit(this.monthVar);
