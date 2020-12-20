@@ -2,36 +2,33 @@
 
 <div *ngIf="selector !== ''">
   <div id="searchDiv">
-    <div>
-      <h3>Filter Broadcasts</h3>
-      <select (change)=filterSubmit(month) class="select-css" #month id="monthSelect">
-        <option [selected]="selector == item" *ngFor="let item of monthArray">  
-          {{item}}
-      </option>
-      </select>
+    <h3>Filter Broadcasts</h3>  
+    <h5 for="">Leave field empty to return all Broadcasts</h5>
+    <h5>Keyword Search</h5>
+    <input type="text" value="Search for the title of the Broadcast" [(ngModel)]="searchString">
+    <div class="btnGroup">
+      <button class="btn" (click)='search(searchString)'>Search</button>
+      <button class="btn" (click)='clearSearch()'>Clear</button>
     </div>
-    <div>
-      <h3>Filter By Broadcasts Titles</h3>
-      <!-- Look to replace the use of ngModel -->
-      <input type="text" [(ngModel)]="searchString">
-      <div class="btnGroup">
-        <button class="btn" (click)='search(searchString)'>Search</button>
-        <button class="btn" (click)='clearSearch()'>Clear</button>
-      </div>
-      
-    </div>
+    <h5>Month</h5>
+    <select (change)=filterSubmit(month) class="select-css" #month id="monthSelect">
+      <option [selected]="selector == item" *ngFor="let item of monthArray">  
+        {{item}}
+    </option>
+    </select>
   </div>
   
-  <h1 *ngIf="!searchBoolean"> {{month.value}}</h1>
-  
+  <!-- <h1 *ngIf="!searchBoolean"> {{month.value}}</h1> -->
+  <h1>Results</h1>
+  <h4 *ngIf="isNoResults">No Results Found...</h4>
   <!-- Search Results -->
-  <ng-container  *ngIf="searchBoolean && messagesFound">
-    <div  *ngFor="let item of messagesFound" >
-      <div>
+  <ng-container  *ngIf="messagesFound">
+    <div  *ngFor="let item of messagesFound;  index as i" >
+      <div *ngIf="item.month === month.value || month.value == 'All'">
         <hr *ngIf="item.episode%5 === 0" class="divider">
           <div class="mainDiv">
             <div>
-              <h4>{{item.title}} </h4>
+              <h4><a (click)=load(i)>{{item.title}}</a></h4>
               <h4 *ngIf="_authService.loggedIn()">Episode: {{item.episode}}</h4>
             </div>
             <!-- ************************************************* -->
@@ -39,10 +36,10 @@
             <!-- DEV : http://localhost:3000/audio/{{item.name}} -->
             <!-- PROD : https://sound-doctrineministry.org/audio/{{item.name}} -->
             <!-- If changes to the source are needed, ensure the below span is updated with the same minus the {{item.name}} -->
-          <div>
+          <div *ngIf="clickedIndex == i">
             <vime-player >
               <vime-audio>
-                <source data-src='https://sound-doctrineministry.org/audio/{{item.name}}'/>
+                <source  data-src='https://sound-doctrineministry.org/audio/{{item.name}}'/>
               </vime-audio>
               <vime-default-ui></vime-default-ui>
             </vime-player>

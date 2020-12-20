@@ -24,10 +24,12 @@ export class StreamComponent implements OnInit {
   searchBoolean: boolean = false;
   monthVar: string = "";
   currentMonth: Date
-  monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December'];
+  monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December', "All"];
   selector: string = ""
   searchString: string;
   listRequest: string;
+  clickedIndex: number;
+  isNoResults: boolean = false;
 
 
   //In order to bring in a service, you initialize as an argument in the constructor as shown below
@@ -41,19 +43,30 @@ export class StreamComponent implements OnInit {
 
   // Grab the JSON Data
   filterSubmit(searchParam: string) {
-    console.log("This is the search Param: ", searchParam)
+    // Reset messages and messagesFound to clean up data load
+    this.messages = []
+    this.messagesFound = []
+    this.isNoResults = false
+    // This calls the JSON data from the Node Server
     this.svc.getConfig().subscribe((data: any = []) => {
-
-      data.forEach(element => {
-        if (element.title.includes(searchParam)) {
-          this.messagesFound.push(element)
-        }
-      });
-
-      // the json file Name filled is the name of the audio file
-      //it is used as the src in the audio tag
-      //the title, is the data that will be displayed above each audio tag.
-
+      // If search is blank, then return everything
+      if (searchParam == undefined) {
+        this.messagesFound = data
+      }
+      // add the element to messagesFound if searchParam is in the title
+      else {
+        data.forEach(element => {
+          if (element.title.includes(searchParam)) {
+            this.messagesFound.push(element)
+          }
+        });
+      }
+      // check for results.  Flip bool to true if there are no results ///to notify the user
+      if (this.messagesFound.length === 0) {
+        this.isNoResults = true
+      } else {
+        this.isNoResults = false
+      }
     })
   }
 
@@ -77,13 +90,23 @@ export class StreamComponent implements OnInit {
   }
   search(eventData: string) {
     this.messagesFound = [];
-    this.searchBoolean = true;
+    // this.searchBoolean = true;
     this.filterSubmit(eventData);
   }
   clearSearch() {
     // this.searchBoolean = false;
+    this.isNoResults = false
     this.messagesFound = [];
+    this.clickedIndex = null
     // this.messages = [];
     // this.filterSubmit(this.monthVar);
   }
+
+  // sets the index of the clicked element to a var that 
+  // can be used to compare the clicked index with the current index and load
+  // the player.  See line 43 in component HTML
+  load(index) {
+    this.clickedIndex = index
+  }
+
 }

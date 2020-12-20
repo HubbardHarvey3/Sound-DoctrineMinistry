@@ -42,14 +42,18 @@ button {
 .btnGroup {
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  width: 30%;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.btnGroup>button {
+  margin: 1em
 }
 
 /* Search Area */
 #searchDiv {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 90%;
   align-items: flex-start;
 }
