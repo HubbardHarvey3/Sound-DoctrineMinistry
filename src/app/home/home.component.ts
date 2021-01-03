@@ -15,6 +15,11 @@ export class HomeComponent implements OnInit {
   count: number = 5;
   constructor(private svc: ApiService) { }
 
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView({ behavior: 'smooth' });
+  }
+
   // For the footer to close
   close() {
     this.closeBool = false

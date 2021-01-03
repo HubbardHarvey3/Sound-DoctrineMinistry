@@ -2,7 +2,6 @@ const User = require('../models/user')
 const jwt = require('jsonwebtoken')
 const fs = require('fs')
 const bcrypt = require('bcrypt')
-// const { Console } = require('console')
 const config = require('../config.json')
 const audio = require('../routes/audio')
 
@@ -20,19 +19,19 @@ function sortingJSON(arr) {
     sortedArr.push(arr[1])
     arr.forEach((element) => {
 
-        let unsortedDate = element.name.substring(3)
-        //console.log(unsortedDate)
+        let unsortedEpisode = element.episode
+        //console.log(unsortedEpisode)
         let sortedIndex
         let match = false
-        //loop through the sorted array to check if the unsortedDate is greater than
+        //loop through the sorted array to check if the unsortedEpisode is greater than
         sortedArr.forEach((sortEle, ind) => {
-            //if unsortedDate is less than the sortedelement, then capture the index of the sorted
+            //if unsortedEpisode is less than the sortedelement, then capture the index of the sorted
             //element
-            if (unsortedDate < sortEle.name.substring(3)) {
+            if (unsortedEpisode < sortEle.episode) {
                 sortedIndex = ind
             }
-            //if unsortedDate is equal to sortedElement, then toogle boolean
-            else if (unsortedDate === sortEle.name.substring(3)) {
+            //if unsortedEpisode is equal to sortedElement, then toogle boolean
+            else if (unsortedEpisode === sortEle.episode) {
                 match = true
             }
         })
@@ -42,7 +41,7 @@ function sortingJSON(arr) {
         }
         //however, if the unsorted date is greater than, splice using the first arg as the captured
         //index gained in the sortedArray foreach loop.
-        //if the unsortedDate was smaller greater than all of the elements in SortedArray, no index will return
+        //if the unsortedEpisode was smaller greater than all of the elements in SortedArray, no index will return
         //if no index is captured, then the sortedIndex +1 will be outside the array lenght and the element added
         //to the end of the array.
         else {
@@ -61,7 +60,7 @@ module.exports.upload_api = (req, res) => {
     let audioInfo = req.body
     res.status(200).send("Success")
 
-    fs.readFile('./messages.json', function (err, data) {
+    fs.readFile('./server/messages.json', function (err, data) {
         // get the existing JSON Data
         let oldData = JSON.parse(data)
         // Push in the new data
@@ -70,7 +69,7 @@ module.exports.upload_api = (req, res) => {
         // Sort Data:
         sortingJSON(oldData)
 
-        fs.writeFile('./messages.json', JSON.stringify(sortedArr), function (err) {
+        fs.writeFile('./server/messages.json', JSON.stringify(sortedArr), function (err) {
 
             if (err) throw err;
         })

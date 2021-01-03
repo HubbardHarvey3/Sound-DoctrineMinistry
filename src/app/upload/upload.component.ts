@@ -41,7 +41,6 @@ export class UploadComponent implements OnInit {
     this.fileJSON.name = this.fileJSON.name.replace(".mp3", "").replace(".MP3", "");
     const formData = new FormData();
     formData.append('audioFile', this.audioFile)
-    console.log(this.fileJSON)
     // this service method updates the JSON
     this._api.uploadAudio(this.fileJSON).subscribe(
       res => console.log(res),
@@ -51,7 +50,7 @@ export class UploadComponent implements OnInit {
     this._api.uploadAudioFile(formData).subscribe(
       res => alert(res),
       err => {
-        console.log(err.error.text)
+        // console.log(err.error.text)
         if (err.error.text === "Success") {
           this.htmlHide = false
         } else {
