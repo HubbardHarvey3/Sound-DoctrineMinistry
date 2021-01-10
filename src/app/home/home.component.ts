@@ -27,11 +27,8 @@ export class HomeComponent implements OnInit {
 
   // retrieves JSON list
   getJson() {
-    this.svc.getConfig().subscribe(data => {
-      this.messages = data;
-      for (let i = 4; i >= 0; i--) {
-        this.previewArray.push(this.messages[i])
-      }
+    this.svc.getConfig().subscribe((data: Array<any>) => {
+      this.previewArray = data.slice(0, 5)
     })
   }
   ngOnInit(): void {

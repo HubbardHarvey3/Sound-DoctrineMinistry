@@ -81,12 +81,8 @@ export class StreamComponent implements OnInit {
   // of current month.
   // remember the monthArray is zero based as is getMonth()
   setSelect() {
-    this.currentMonth = new Date()
-    for (let i = 0; i <= this.monthArray.length; i++) {
-      if (this.currentMonth.getMonth() === i) {
-        this.selector = this.monthArray[i]
-      }
-    }
+    const d: Date = new Date();
+    this.selector = this.monthArray[d.getMonth()];
   }
   search(eventData: string) {
     this.messagesFound = [];

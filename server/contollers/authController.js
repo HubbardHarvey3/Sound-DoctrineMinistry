@@ -16,61 +16,28 @@ const salt = bcrypt.genSaltSync(saltRounds);
  */
 
 let sortedArr = [];
-function sortingJSON(arr) {
-    sortedArr.push(arr[1])
-    arr.forEach((element) => {
-
-        let unsortedDate = element.name.substring(3)
-        //console.log(unsortedDate)
-        let sortedIndex
-        let match = false
-        //loop through the sorted array to check if the unsortedDate is greater than
-        sortedArr.forEach((sortEle, ind) => {
-            //if unsortedDate is less than the sortedelement, then capture the index of the sorted
-            //element
-            if (unsortedDate < sortEle.name.substring(3)) {
-                sortedIndex = ind
-            }
-            //if unsortedDate is equal to sortedElement, then toogle boolean
-            else if (unsortedDate === sortEle.name.substring(3)) {
-                match = true
-            }
-        })
-        //if the two dates are a match, then do nothing
-        if (match) {
-
-        }
-        //however, if the unsorted date is greater than, splice using the first arg as the captured
-        //index gained in the sortedArray foreach loop.
-        //if the unsortedDate was smaller greater than all of the elements in SortedArray, no index will return
-        //if no index is captured, then the sortedIndex +1 will be outside the array lenght and the element added
-        //to the end of the array.
-        else {
-            // console.log(sortedIndex)
-            sortedArr.splice(sortedIndex + 1, 0, element)
-        }
-        //console.log(sortedArr)
-        return sortedArr
+function sortingByEpisode(messageList) {
+    messageList.sort(function (a, b) {
+        return b.episode - a.episode
     })
-
+    sortedArr = messageList
+    return sortedArr
 }
-
 
 //This only sorts the messages.json file
 module.exports.upload_api = (req, res) => {
     let audioInfo = req.body
     res.status(200).send("Success")
 
-    fs.readFile('./messages.json', function (err, data) {
+    fs.readFile('./server/messages.json', function (err, data) {
         // get the existing JSON Data
         let oldData = JSON.parse(data)
         // Push in the new data
         oldData.unshift(audioInfo)
-        // console.log(oldData)
         // Sort Data:
-        sortingJSON(oldData)
+        sortingByEpisode(oldData)
 
-        fs.writeFile('./messages.json', JSON.stringify(sortedArr), function (err) {
+        fs.writeFile('./server/messages.json', JSON.stringify(sortedArr), function (err) {
 
             if (err) throw err;
         })
