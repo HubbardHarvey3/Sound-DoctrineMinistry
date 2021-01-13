@@ -86,16 +86,13 @@ export class StreamComponent implements OnInit {
   }
   search(eventData: string) {
     this.messagesFound = [];
-    // this.searchBoolean = true;
     this.filterSubmit(eventData);
   }
   clearSearch() {
-    // this.searchBoolean = false;
     this.isNoResults = false
     this.messagesFound = [];
     this.clickedIndex = null
-    // this.messages = [];
-    // this.filterSubmit(this.monthVar);
+    this.searchString = null
   }
 
   // sets the index of the clicked element to a var that 

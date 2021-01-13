@@ -3,19 +3,19 @@
 <div *ngIf="selector !== ''">
   <div id="searchDiv">
     <h3>Filter Broadcasts</h3>  
-    <h5 for="">Leave field empty to return all Broadcasts</h5>
+    <h5 for=""><i>Leave search field empty to return all Broadcasts</i></h5>
     <h5>Keyword Search</h5>
     <input type="text" value="Search for the title of the Broadcast" [(ngModel)]="searchString">
-    <div class="btnGroup">
-      <button class="btn" (click)='search(searchString)'>Search</button>
-      <button class="btn" (click)='clearSearch()'>Clear</button>
-    </div>
     <h5>Month</h5>
-    <select (change)=filterSubmit(month) class="select-css" #month id="monthSelect">
+    <select (change)=filterSubmit(searchString) class="select-css" #month id="monthSelect">
       <option [selected]="selector == item" *ngFor="let item of monthArray">  
         {{item}}
     </option>
     </select>
+    <div class="btnGroup">
+      <button class="btn" (click)='search(searchString)'>Search</button>
+      <button class="btn" (click)='clearSearch()'>Clear</button>
+    </div>
   </div>
   
   <!-- <h1 *ngIf="!searchBoolean"> {{month.value}}</h1> -->

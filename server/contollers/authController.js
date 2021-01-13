@@ -2,7 +2,6 @@ const User = require('../models/user')
 const jwt = require('jsonwebtoken')
 const fs = require('fs')
 const bcrypt = require('bcrypt')
-// const { Console } = require('console')
 const config = require('../config.json')
 const audio = require('../routes/audio')
 

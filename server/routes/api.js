@@ -19,7 +19,7 @@ const { body } = require('express-validator')
 // File UPload middleware
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, './serverAssets/')
+        cb(null, './server/serverAssets/')
     },
     filename: function (req, file, cb) {
 

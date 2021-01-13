@@ -8,7 +8,8 @@ div {
 
 }
 
-h4 {
+h4,
+h5 {
   margin: .8em;
 }
 
@@ -43,11 +44,11 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 50%;
+  width: 100%;
 }
 
 .btnGroup>button {
-  margin: 1em
+  margin-right: 1em;
 }
 
 /* Search Area */
@@ -58,7 +59,16 @@ button {
   align-items: flex-start;
 }
 
+
 /* BroadCast Area */
+
+h4>a,
+h4>a:hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px black solid;
+  cursor: pointer;
+}
+
 .mainDiv {
   width: 90%;
   display: flex;
@@ -131,6 +141,11 @@ button {
 
   #searchDiv {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .btnGroup {
+    justify-content: center;
   }
 
 }
