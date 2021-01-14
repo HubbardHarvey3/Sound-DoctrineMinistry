@@ -74,8 +74,8 @@ module.exports.login_api = async function (req, res) {
 module.exports.overwrite_api = async (req, res) => {
     let oldDataDelete = req.body
 
-    sortingJSON(oldDataDelete)
-    fs.writeFile('messages.json', JSON.stringify(sortedArr), function (err) {
+    sortingByEpisode(oldDataDelete)
+    fs.writeFile('./server/messages.json', JSON.stringify(sortedArr), function (err) {
         if (err) throw err;
         // console.log("The data was appended")
         res.status(200).send("Broadcast Deleted")
@@ -83,7 +83,7 @@ module.exports.overwrite_api = async (req, res) => {
 }
 
 module.exports.deleteFile_api = async (req, res) => {
-    fileToDelete = `./serverAssets/${req.body.itemName}.mp3`
+    fileToDelete = `./server/serverAssets/${req.body.itemName}.mp3`
     // delete the filename that was sent from the backend.
     fs.unlink(fileToDelete, (err) => {
         if (err) {
