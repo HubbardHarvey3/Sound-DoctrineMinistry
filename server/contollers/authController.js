@@ -27,16 +27,16 @@ function sortingByEpisode(messageList) {
 module.exports.upload_api = (req, res) => {
     let audioInfo = req.body
     res.status(200).send("Success")
-
-    fs.readFile('./server/messages.json', function (err, data) {
+    // PROD PATH is without server folder in dev, need server in PATH eg. ./server/serverAssets/...
+    fs.readFile('./messages.json', function (err, data) {
         // get the existing JSON Data
         let oldData = JSON.parse(data)
         // Push in the new data
         oldData.unshift(audioInfo)
         // Sort Data:
         sortingByEpisode(oldData)
-
-        fs.writeFile('./server/messages.json', JSON.stringify(sortedArr), function (err) {
+        // PROD PATH is without server folder in dev, need server in PATH eg. ./server/serverAssets/...
+        fs.writeFile('./messages.json', JSON.stringify(sortedArr), function (err) {
 
             if (err) throw err;
         })
@@ -75,7 +75,8 @@ module.exports.overwrite_api = async (req, res) => {
     let oldDataDelete = req.body
 
     sortingByEpisode(oldDataDelete)
-    fs.writeFile('./server/messages.json', JSON.stringify(sortedArr), function (err) {
+    // PROD PATH is without server folder in dev, need server in PATH eg. ./server/serverAssets/...
+    fs.writeFile('./messages.json', JSON.stringify(sortedArr), function (err) {
         if (err) throw err;
         // console.log("The data was appended")
         res.status(200).send("Broadcast Deleted")
@@ -83,7 +84,8 @@ module.exports.overwrite_api = async (req, res) => {
 }
 
 module.exports.deleteFile_api = async (req, res) => {
-    fileToDelete = `./server/serverAssets/${req.body.itemName}.mp3`
+    // PROD PATH is without server folder in dev, need server in PATH eg. ./server/serverAssets/...
+    fileToDelete = `./serverAssets/${req.body.itemName}.mp3`
     // delete the filename that was sent from the backend.
     fs.unlink(fileToDelete, (err) => {
         if (err) {
