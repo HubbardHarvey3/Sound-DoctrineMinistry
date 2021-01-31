@@ -18,49 +18,25 @@
   <div>
     <h2>Recommended Materials</h2>
     <h5>Bible Translations</h5>
-    <p>King James Version <br>
-      New King James Version <br>
-      New American Standard Version
+    <p *ngFor="let Bible of bibles">
+      {{Bible}}
     </p>
   </div>
   <div>
     <h5>Study Bibles</h5>
-    <p>Scofield Study System (Original edition, "Old Scofield", KJV only) <br>
-      Ryrie Study Bible, NAS <br>
-      Wiersbe Study Bible, NKJV <br>
+    <p *ngFor="let studyBible of studyBibles">
+      {{studyBible}}
     </p>
   </div>
   <div>
     <h5>Study Helps</h5>
-    <p>Cruden's Concordance <br>
-      Strong's Exhaustive Concordance <br>
+    <p *ngFor="let studyHelp of studyHelp">
+      {{studyHelp}}
     </p>
   </div>
   <div>
     <h5>Miscellaneous</h5>
-    <p>Sin, The Savior, and Salvation: The Theology of Everlasting Life - <i>Robert P. Lightner</i> <br>
-
-    </p>
-    <p>Rightly Dividing the Word of Truth - <i>C. I. Scofield</i> <br>
-
-    </p>
-    <p>Dispensationalism - <i>Lewis Sperry Chafer</i> <br>
-
-    </p>
-    <p>Dispensationalism - <i>Charles C. Ryrie</i> <br>
-
-    </p>
-    <p>Basic Theology - <i>Charles C. Ryrie</i> <br>
-
-    </p>
-    <p>The Moody Handbook of Theology - <i>Paul Enns</i> <br>
-
-    </p>
-    <p>Revelation - <i>Charles C. Ryrie</i> <br>
-
-    </p>
-    <p>So Great Salvation - <i>Charles C. Ryrie</i> <br>
-
-    </p>
-  </div>
+    <p *ngFor="let item of miscellaneous">
+      {{item.title}} - <i>{{item.author}}</i>
+  </p>
 </div>
