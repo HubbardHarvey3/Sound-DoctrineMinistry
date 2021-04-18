@@ -31,7 +31,7 @@ export class ApiService {
   }
 
   uploadAudio(audioData) {
-    console.log(audioData)
+    // console.log(`Here is what is going in the list: ${audioData}`)
     return this.http.post<any>(this.uploadURL, audioData);
   }
 
