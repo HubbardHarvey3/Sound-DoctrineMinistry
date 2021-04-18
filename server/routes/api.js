@@ -19,6 +19,7 @@ const { body } = require('express-validator')
 // File UPload middleware
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
+        // PROD PATH is without server folder in dev, need server in PATH eg. ./server/serverAssets/...
         cb(null, './serverAssets/')
     },
     filename: function (req, file, cb) {

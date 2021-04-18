@@ -3,11 +3,15 @@
 div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%
+  /* align-items: center; */
+  width: 100%;
+
 }
 
-
+h4,
+h5 {
+  margin: .8em;
+}
 
 h1 {
   display: flex;
@@ -36,13 +40,49 @@ button {
   margin-top: 1em;
 }
 
+.btnGroup {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.btnGroup>button {
+  margin-right: 1em;
+}
+
+/* Search Area */
 #searchDiv {
   display: flex;
   flex-direction: column;
   width: 90%;
   align-items: flex-start;
-
 }
+
+
+/* BroadCast Area */
+
+h4>a,
+h4>a:hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px black solid;
+  cursor: pointer;
+}
+
+.mainDiv {
+  width: 90%;
+  display: flex;
+  margin: .5em;
+  padding: .8em;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: #336633 solid 5px; */
+}
+
+.mainDiv>div {
+  align-items: flex-start;
+}
+
 
 /* Select Tag Styling from https://www.filamentgroup.com/lab/select-css.html */
 .select-css {
@@ -79,7 +119,12 @@ button {
   font-weight: normal;
 }
 
-
+/* Screen Size Area */
+@media (max-width:1000px) {
+  .mainDiv {
+    flex-direction: column;
+  }
+}
 
 @media (max-width:650px) {
   h1 {
@@ -93,6 +138,16 @@ button {
   .select-css {
     width: 60%
   }
+
+  #searchDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btnGroup {
+    justify-content: center;
+  }
+
 }
 
 
@@ -101,7 +156,7 @@ button {
   /* margin-top: 3em; */
   margin-bottom: 4em;
   width: 100%;
-  height: 50px;
+  height: 2em;
   border: none;
   background: rgb(217, 234, 217);
   background: linear-gradient(180deg, rgba(217, 234, 217, 1) 0%, rgba(51, 102, 51, 1) 27%, rgba(51, 102, 51, 1) 73%, rgba(217, 234, 217, 1) 100%) !important;

@@ -46,7 +46,13 @@ img:focus {
 
 /* Mobile */
 
-@media (max-width:1250px) {
+@media (min-width:1000px) {
+  .aboutMenu {
+    display: none
+  }
+}
+
+@media (max-width:1500px) {
   #navMenuStandard {
     display: none;
   }
