@@ -19,7 +19,8 @@ export class ReferenceComponent implements OnInit {
     { title: "The Moody Handbook of Theology", author: "Paul Enns" },
     { title: "Revelation", author: "Charles C. Ryrie" },
     { title: "So Great Salvation", author: "Charles C. Ryrie" },
-    { title: "Biblical Demonology", author: "Merrill F. Unger" }
+    { title: "Biblical Demonology", author: "Merrill F. Unger" },
+    { title: "The Abundant Life", author: "Ray Baughman" }
   ]
 
   constructor() { }
