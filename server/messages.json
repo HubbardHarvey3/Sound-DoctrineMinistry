@@ -1,1225 +1,2095 @@
 [
     {
+        "name": "SD-08-06-21",
+        "title": "8-06-2021 The Church: The Local Church: Godly Service -- 1 Timothy 4:6-16",
+        "month": "August",
+        "episode": 350
+    },
+    {
+        "name": "SD-08-05-21",
+        "title": "8-05-2021 The Church: The Local Church: The Falling Away -- 1 Timothy 3:14-4:5",
+        "month": "August",
+        "episode": 349
+    },
+    {
+        "name": "SD-08-04-21",
+        "title": "8-04-2021 The Church: The Local Church: Deacons Ordained -- Acts 6",
+        "month": "August",
+        "episode": 348
+    },
+    {
+        "name": "SD-08-03-21",
+        "title": "8-03-2021 The Church: The Local Church: Deacon Qualifications -- 1 Timothy 3:8-13",
+        "month": "August",
+        "episode": 347
+    },
+    {
+        "name": "SD-08-02-21",
+        "title": "8-02-2021 The Church: The Local Church: Elder Qualifications -- 1 Timothy 3:2-7",
+        "month": "August",
+        "episode": 346
+    },
+    {
+        "name": "SD-07-30-21",
+        "title": "7-30-2021 The Church: The Local Church: Leaders: Elders -- 1 Tim. 3; 1 Peter 5; Acts 20",
+        "month": "July",
+        "episode": 345
+    },
+    {
+        "name": "SD-07-29-21",
+        "title": "7-29-2021 The Church: The Local Church: Individual Responsibility -- 1 Timothy 1:18-2:15",
+        "month": "July",
+        "episode": 344
+    },
+    {
+        "name": "SD-07-28-21",
+        "title": "7-28-2021 The Church: The Local Church: Doctrine Foundation -- 1 Timothy 1:3-17",
+        "month": "July",
+        "episode": 343
+    },
+    {
+        "name": "SD-07-27-21",
+        "title": "7-27-2021 The Church: The Local Church: The Household of God -- 1 Timothy 3:15",
+        "month": "July",
+        "episode": 342
+    },
+    {
+        "name": "SD-07-26-21",
+        "title": "7-26-2021 The Church: The True Church: The Body of Christ -- Ephesians 1:22-23",
+        "month": "July",
+        "episode": 341
+    },
+    {
+        "name": "SD-07-23-21",
+        "title": "7-23-2021 The Church: New Heaven and Earth -- Revelation 21-22",
+        "month": "July",
+        "episode": 340
+    },
+    {
+        "name": "SD-07-22-21",
+        "title": "7-22-2021 The Church: Dispensationalism: The Kingdom: Sermon on the Mount -- Matthew 5-7",
+        "month": "July",
+        "episode": 339
+    },
+    {
+        "name": "SD-07-21-21",
+        "title": "7-21-2021 The Church: Dispensationalism: The Kingdom: New Covenant -- Jeremiah 31; Hebrews 8",
+        "month": "July",
+        "episode": 338
+    },
+    {
+        "name": "SD-07-20-21",
+        "title": "7-20-2021 The Church: Dispensationalism: The Kingdom: The End -- Rev. 20:7-15",
+        "month": "July",
+        "episode": 337
+    },
+    {
+        "name": "SD-07-19-21",
+        "title": "7-19-2021 The Church: Dispensationalism: The Kingdom: Overview -- Rev. 19-20",
+        "month": "July",
+        "episode": 336
+    },
+    {
+        "name": "SD-07-16-21",
+        "title": "7-16-2021 The Church: Dispensationalism: Grace: Ultradispensationalism -- 1 Cor. 12:13",
+        "month": "July",
+        "episode": 335
+    },
+    {
+        "name": "SD-07-15-21",
+        "title": "7-15-2021 The Church: Dispensationalism: Grace: Opponents -- Galatians 4",
+        "month": "July",
+        "episode": 334
+    },
+    {
+        "name": "SD-07-14-21",
+        "title": "7-14-2021 The Church: Dispensationalism: Grace: Spirit's Law -- Galatians 5",
+        "month": "July",
+        "episode": 333
+    },
+    {
+        "name": "SD-07-13-21",
+        "title": "7-13-2021 The Church: Dispensationalism: Grace: Mystery -- Ephesians 2, Colossians 1",
+        "month": "July",
+        "episode": 332
+    },
+    {
+        "name": "SD-07-12-21",
+        "title": "7-12-2021 The Church: Dispensationalism: Grace: Essentials --Acts 2-Revelation 3",
+        "month": "July",
+        "episode": 331
+    },
+    {
+        "name": "SD-07-09-21",
+        "title": "7-9-2021 The Church: Dispensationalism: The Law: Intentionally Temporary -- Galatians 3:10",
+        "month": "July",
+        "episode": 330
+    },
+    {
+        "name": "SD-07-08-21",
+        "title": "7-8-2021 The Church: Dispensationalism: The Law: Sabbath -- Galatians 3; Colossians 2",
+        "month": "July",
+        "episode": 329
+    },
+    {
+        "name": "SD-07-07-21",
+        "title": "7-7-2021 The Church: Dispensationalism: The Law: Tabernacle Types -- Exodus 37",
+        "month": "July",
+        "episode": 328
+    },
+    {
+        "name": "SD-07-06-21",
+        "title": "7-6-2021 The Church: Dispensationalism: The Law: The Golden Calf -- Exodus 19-32",
+        "month": "July",
+        "episode": 327
+    },
+    {
+        "name": "SD-07-05-21",
+        "title": "7-5-2021 The Church: Dispensationalism: The Law: Overview -- Exodus 19-Acts 1",
+        "month": "July",
+        "episode": 326
+    },
+    {
+        "name": "SD-07-02-21",
+        "title": "7-02-2021 The Church: Dispensationalism: Promise, II -- Genesis 12:1-Exodus 18:27",
+        "month": "July",
+        "episode": 325
+    },
+    {
+        "name": "SD-07-01-21",
+        "title": "7-01-2021 The Church: Dispensationalism: Promise. I -- Genesis 1-3",
+        "month": "July",
+        "episode": 324
+    },
+    {
+        "name": "SD-06-30-21",
+        "title": "6-30-2021 The Church: Dispensationalism: Civil Government -- Genesis 8:11",
+        "month": "June",
+        "episode": 323
+    },
+    {
+        "name": "SD-06-29-21",
+        "title": "6-29-2021 The Church: Dispensationalism: Conscience -- Genesis 3-8",
+        "month": "June",
+        "episode": 322
+    },
+    {
+        "name": "SD-06-28-21",
+        "title": "6-28-2021 The Church: Dispensationalism: Innocence -- Genesis 1-3",
+        "month": "June",
+        "episode": 321
+    },
+    {
+        "name": "SD-06-25-21",
+        "title": "6-25-2021 The Church: Dispensations: Characteristics: Galatians 3",
+        "month": "June",
+        "episode": 320
+    },
+    {
+        "name": "SD-06-24-21",
+        "title": "6-24-2021 The Church: Dispensations: Essentials -- Ephesians 3:1-12",
+        "month": "June",
+        "episode": 319
+    },
+    {
+        "name": "SD-06-23-21",
+        "title": "6-23-2021 The Church: Dispensations: Scriptural Basis -- Ephesians 1, 3",
+        "month": "June",
+        "episode": 318
+    },
+    {
+        "name": "SD-06-22-21",
+        "title": "6-22-2021 The Church: Church Age Parables: Dragnet and Dispensaters -- Matthew 13:47-52",
+        "month": "June",
+        "episode": 317
+    },
+    {
+        "name": "SD-06-21-21",
+        "title": "6-21-2021 The Church: Church Age Parables: Treasure and Pearls -- Matthew 13:44-46",
+        "month": "June",
+        "episode": 316
+    },
+    {
+        "name": "SD-06-18-21",
+        "title": "6-18-2021 The Church: Church Age Parables: Mustard and Leaven -- Matthew 13:31-35",
+        "month": "June",
+        "episode": 315
+    },
+    {
+        "name": "SD-06-17-21",
+        "title": "6-17-2021 The Church: Church Age Parables: The Tares -- Matthew 13:26-30",
+        "month": "June",
+        "episode": 314
+    },
+    {
+        "name": "SD-06-16-21",
+        "title": "6-16-2021 The Church: Church Age Parables: The Sower -- Matthew 13:16-23",
+        "month": "June",
+        "episode": 313
+    },
+    {
+        "name": "SD-06-15-21",
+        "title": "6-15-2021 The Church: The 7 Parables of the Church Age -- Matthew 13:1-15",
+        "month": "June",
+        "episode": 312
+    },
+    {
+        "name": "SD-06-14-21",
+        "title": "6-14-2021 The Church: Definitions -- Ephesians 1:22-23; 1 Timothy 3:15",
+        "month": "June",
+        "episode": 311
+    },
+    {
+        "name": "SD-06-11-21",
+        "title": "6-11-2021 Discipleship: The Distinction -- John 6",
+        "month": "June",
+        "episode": 310
+    },
+    {
+        "name": "SD-06-10-21",
+        "title": "6-10-2021 Discipleship: Disciple Maker's Conflict: The Victory -- 2 Timothy 4:17-22",
+        "month": "June",
+        "episode": 309
+    },
+    {
+        "name": "SD-06-09-21",
+        "title": "6-09-2021 Discipleship: Disciple Maker's Conflict: The Hardship -- 2 Timothy 4:6-16",
+        "month": "June",
+        "episode": 308
+    },
+    {
+        "name": "SD-06-08-21",
+        "title": "6-08-2021 Discipleship: Disciple Maker's Conflict: The Challenge -- 2 Timothy 4:3-5",
+        "month": "June",
+        "episode": 307
+    },
+    {
+        "name": "SD-06-07-21",
+        "title": "6-07-2021 Discipleship: Disciple Maker's Conflict: The Charge -- 2 Timothy 4:1-2",
+        "month": "June",
+        "episode": 306
+    },
+    {
+        "name": "SD-06-04-21",
+        "title": "6-04-2021 Discipleship: Disciple Maker's Conflict: Weaponry -- 2 Timothy 3:14-17",
+        "month": "June",
+        "episode": 305
+    },
+    {
+        "name": "SD-06-03-21",
+        "title": "6-03-2021 Discipleship: Disciple Maker's Conflict: Apostasy -- 2 Timothy 3:1-13",
+        "month": "June",
+        "episode": 304
+    },
+    {
+        "name": "SD-06-02-21",
+        "title": "6-02-2021 Discipleship: Disciple Maker's Credentials: The Servant -- 2 Timothy 2:19-26",
+        "month": "June",
+        "episode": 303
+    },
+    {
+        "name": "SD-06-01-21",
+        "title": "6-01-2021 Discipleship: Disciple Maker's Credentials: The Student -- 2 Timothy 2:14-18",
+        "month": "June",
+        "episode": 302
+    },
+    {
+        "name": "SD-05-28-21",
+        "title": "5-28-2021 Discipleship: Disciple Maker's Character: Consistency -- 2 Timothy 1:13-18",
+        "month": "May",
+        "episode": 300
+    },
+    {
+        "name": "SD-05-27-21",
+        "title": "5-27-2021 Discipleship: Disciple Maker's Character: Confidence -- 2 Timothy 1:8-12",
+        "month": "May",
+        "episode": 299
+    },
+    {
+        "name": "SD-05-26-21",
+        "title": "5-26-2021 Discipleship: Disciple Maker's Character: Courage -- 2 Timothy 1:1-7",
+        "month": "May",
+        "episode": 298
+    },
+    {
+        "name": "SD-05-25-21",
+        "title": "5-25-2021 Discipleship: Devotional Life -- 1 Thessalonians 5:16-22",
+        "month": "May",
+        "episode": 297
+    },
+    {
+        "name": "SD-05-24-21",
+        "title": "5-24-2021 Discipleship: Transformed Life -- Romans 12:1-2",
+        "month": "May",
+        "episode": 296
+    },
+    {
+        "name": "SD-05-21-21",
+        "title": "5-21-2021 Salvation and Evangelism: Evangelism: The Answer -- Col. 4:6; Rev. 22",
+        "month": "May",
+        "episode": 295
+    },
+    {
+        "name": "SD-05-20-21",
+        "title": "5-20-2021 Salvation and Evangelism: Evangelism: Salty Speech -- Colossians 4:2-6",
+        "month": "May",
+        "episode": 294
+    },
+    {
+        "name": "SD-05-19-21",
+        "title": "5-19-2021 Salvation and Evangelism: Evangelism: Good News -- 2 Kings 7:9-20",
+        "month": "May",
+        "episode": 293
+    },
+    {
+        "name": "SD-05-18-21",
+        "title": "5-18-2021 Salvation and Evangelism: Evangelism: The Lepers -- 2 Kings 7:3-8",
+        "month": "May",
+        "episode": 292
+    },
+    {
+        "name": "SD-05-17-21",
+        "title": "5-17-2021 Salvation and Evangelism: Evangelism: The Crisis -- 2 Kings 7:1-2",
+        "month": "May",
+        "episode": 291
+    },
+    {
+        "name": "SD-05-14-21",
+        "title": "5-14-2021 Salvation and Evangelism: Evangelism: Restored Evangelist -- Jonah 3-4",
+        "month": "May",
+        "episode": 290
+    },
+    {
+        "name": "SD-05-13-21",
+        "title": "5-13-2021 Salvation and Evangelism: Evangelism: Preserved Evangelist -- Jonah 2",
+        "month": "May",
+        "episode": 289
+    },
+    {
+        "name": "SD-05-12-21",
+        "title": "5-12-2021 Salvation and Evangelism: Evangelism: Fleeing Evangelist -- Jonah 1",
+        "month": "May",
+        "episode": 288
+    },
+    {
+        "name": "SD-05-11-21",
+        "title": "5-11-2021 Salvation and Evangelism: Evangelism: Grace and Judgment -- 2 Kings 5:11-44",
+        "month": "May",
+        "episode": 287
+    },
+    {
+        "name": "SD-05-10-21",
+        "title": "5-10-2021 Salvation and Evangelism: Evangelism: Slave Girl Evangelist -- 2 Kings 5:1-10",
+        "month": "May",
+        "episode": 286
+    },
+    {
+        "name": "SD-05-07-21",
+        "title": "5-07-2021 Salvation and Evangelism: Evangelism: Divine Design -- Acts 10",
+        "month": "May",
+        "episode": 285
+    },
+    {
+        "name": "SD-05-06-21",
+        "title": "5-06-2021 Salvation and Evangelism: Evangelism: Personal Evangelism -- Acts 8:25-35",
+        "month": "May",
+        "episode": 284
+    },
+    {
+        "name": "SD-05-05-21",
+        "title": "5-05-2021 Salvation and Evangelism: Evangelism: Mass Evangelism -- Acts 8:1-24",
+        "month": "May",
+        "episode": 283
+    },
+    {
+        "name": "SD-05-04-21",
+        "title": "5-04-2021 Salvation and Evangelism: Evangelism: Believing is Seeing -- John 4:46-54",
+        "month": "May",
+        "episode": 282
+    },
+    {
+        "name": "SD-05-03-21",
+        "title": "5-03-2021 Salvation and Evangelism: Evangelism: Savior of the World -- John 4:27-45",
+        "month": "May",
+        "episode": 281
+    },
+    {
+        "name": "SD-04-30-21",
+        "title": "4-30-2021 Salvation and Evangelism: Evangelism: True Worship -- John 4:21-26",
+        "month": "April",
+        "episode": 280
+    },
+    {
+        "name": "SD-04-29-21",
+        "title": "4-29-2021 Salvation and Evangelism: Evangelism: The Water of Life -- John 4:8-20",
+        "month": "April",
+        "episode": 279
+    },
+    {
+        "name": "SD-04-28-21",
+        "title": "4-28-2021 Salvation and Evangelism: Evangelism: The Meeting Engagement -- John 4:1-7",
+        "month": "April",
+        "episode": 278
+    },
+    {
+        "name": "SD-04-27-21",
+        "title": "4-27-2021 Salvation and Evangelism: Evangelism: The Wrath of God -- John 3:22-36",
+        "month": "April",
+        "episode": 277
+    },
+    {
+        "name": "SD-04-26-21",
+        "title": "4-26-2021 Salvation and Evangelism: Evangelism: Condemnation -- John 3:17-21",
+        "month": "April",
+        "episode": 276
+    },
+    {
+        "name": "SD-04-23-21",
+        "title": "4-23-2021 Salvation and Evangelism: Evangelism, The Method: The One Verse Gospel -- John 3:16",
+        "month": "April",
+        "episode": 275
+    },
+    {
+        "name": "SD-04-22-21",
+        "title": "4-22-2021 Salvation and Evangelism: Evangelism, The Method: Born Again -- John 2-3",
+        "month": "April",
+        "episode": 274
+    },
+    {
+        "name": "SD-04-21-21",
+        "title": "4-21-2021 Salvation and Evangelism: Evangelism, the Method: Come and See -- John 1",
+        "month": "April",
+        "episode": 273
+    },
+    {
+        "name": "SD-04-20-21",
+        "title": "4-20-2021 Salvation and Evangelism: Evangelism, The Objective: Personal Encounter -- John 20:1-18",
+        "month": "April",
+        "episode": 272
+    },
+    {
+        "name": "SD-04-19-21",
+        "title": "4-19-2021 Salvation and Evangelism: Evangelism, The Message -- 1 Corinthians 15:1-5",
+        "month": "April",
+        "episode": 271
+    },
+    {
+        "name": "SD-04-16-21",
+        "title": "4-16-2021 Salvation and Evangelism: Atonement, False Views: Modern Errors -- Romans 3:24",
+        "month": "April",
+        "episode": 270
+    },
+    {
+        "name": "SD-04-15-21",
+        "title": "4-15-2021 Salvation and Evangelism: Atonement, False View: Ransom to Satan, Sabbatarians -- Colossians 2:16-23",
+        "month": "April",
+        "episode": 269
+    },
+    {
+        "name": "SD-04-14-21",
+        "title": "4-14-2021 Salvation and Evangelism: Atonement, True View: The Cross and the Blood -- Mark 10:45",
+        "month": "April",
+        "episode": 268
+    },
+    {
+        "name": "SD-04-13-21",
+        "title": "4-13-2021 Salvation and Evangelism: Kingdom Parables: The Misinterpreted Parables -- Matthew 13:31-50",
+        "month": "April",
+        "episode": 267
+    },
+    {
+        "name": "SD-04-12-21",
+        "title": "4-12-2021 Salvation and Evangelism: Kingdom Parables: Defining Parables -- Matthew 13:1-30",
+        "month": "April",
+        "episode": 266
+    },
+    {
+        "name": "SD-04-09-21",
+        "title": "4-09-2021 Salvation and Evangelism: Salvation Words: Predestination -- Ephesians 1:5",
+        "month": "April",
+        "episode": 265
+    },
+    {
+        "name": "SD-04-08-21",
+        "title": "4-08-2021 Salvation and Evangelism: Salvation Words: Election -- 2 Thessalonians 2:13",
+        "month": "April",
+        "episode": 264
+    },
+    {
+        "name": "SD-04-07-21",
+        "title": "4-7-2021 Salvation and Evangelism: Salvation Words: Unlimited Atonement -- 1 Timothy 1:15; Romans 5:6-8",
+        "month": "April",
+        "episode": 263
+    },
+    {
+        "name": "SD-04-06-21",
+        "title": "4-6-2021 Salvation and Evangelism: Salvation Words: Righteousness -- Romans 3-4",
+        "month": "April",
+        "episode": 262
+    },
+    {
+        "name": "SD-04-05-21",
+        "title": "4-05-2021 Salvation and Evangelism: Salvation Words: Regeneration -- Titus 3:5",
+        "month": "April",
+        "episode": 261
+    },
+    {
+        "name": "SD-04-02-21",
+        "title": "4-2-2021 Salvation and Evangelism: Salvation Words: Propitiation -- 1 John 2:2",
+        "month": "April",
+        "episode": 260
+    },
+    {
+        "name": "SD-04-01-21",
+        "title": "4-01-2021 Salvation and Evangelism: Salvation Words: The Importance of Semantics",
+        "month": "April",
+        "episode": 259
+    },
+    {
+        "name": "SD-03-31-21",
+        "title": "3-31-2021 Salvation and Evangelism: Salvation Words: Remission -- Hebrews 9-10",
+        "month": "March",
+        "episode": 258
+    },
+    {
+        "name": "SD-03-30-21",
+        "title": "3-30-2021 Salvation and Evangelism: Salvation Words: Redemption -- Rom. 3:25",
+        "month": "March",
+        "episode": 257
+    },
+    {
+        "name": "SD-03-29-21",
+        "title": "3-29-2021 Salvation and Evangelism: Salvation Words: Reconciliation -- 2 Cor. 5:18-21",
+        "month": "March",
+        "episode": 256
+    },
+    {
+        "name": "SD-03-26-21",
+        "title": "3-26-2021 Salvation and Evangelism: John 3:16",
+        "month": "March",
+        "episode": 255
+    },
+    {
+        "name": "SD-03-25-21",
+        "title": "3-25-2021 Salvation and Evangelism: Grace and Christ -- Romans 5:15-21",
+        "month": "March",
+        "episode": 254
+    },
+    {
+        "name": "SD-03-24-21",
+        "title": "3-24-2021 Salvation and Evangelism: Salvation by Grace -- Ephesians 2:6-10",
+        "month": "March",
+        "episode": 253
+    },
+    {
+        "name": "SD-03-23-21",
+        "title": "3-23-2021 Salvation and Evangelism: But God -- Ephesians 2-4-5",
+        "month": "March",
+        "episode": 252
+    },
+    {
+        "name": "SD-03-22-21",
+        "title": "3-22-2021 Salvation and Evangelism: So Great Salvation -- Hebrews 2:1-3",
+        "month": "March",
+        "episode": 251
+    },
+    {
+        "name": "SD-03-19-21",
+        "title": "3-19-2021 Man and Sin: Sin and Consequences: Sin and the Christian -- 1 Peter 1:15-16",
+        "month": "March",
+        "episode": 250
+    },
+    {
+        "name": "SD-03-18-21",
+        "title": "3-18-2021 Man and Sin: Sin and Consequences: Personal Sins -- Romans 3:9-18, 23",
+        "month": "March",
+        "episode": 249
+    },
+    {
+        "name": "SD-03-17-21",
+        "title": "3-17-2021 Man and Sin: Sin and Consequences: Imputed Sin -- Romans 5:12; 4:5",
+        "month": "March",
+        "episode": 248
+    },
+    {
+        "name": "SD-03-16-21",
+        "title": "3-16-2021 Man and Sin: Sin and Consequences: Inherited Sin -- Ephesians 2:3",
+        "month": "March",
+        "episode": 248
+    },
+    {
+        "name": "SD-03-15-21",
+        "title": "3-15-2021 Man and Sin: Sin and Consequences: Understanding the Concept -- Romans 3:23",
+        "month": "March",
+        "episode": 246
+    },
+    {
+        "name": "SD-03-12-21",
+        "title": "3-12-2021 Man and Sin: Effects of Sin: Given Over to Sin -- Romans 1:24-32",
+        "month": "March",
+        "episode": 245
+    },
+    {
+        "name": "SD-03-11-21",
+        "title": "3-11-2021 Man and Sin: Effects of Sin: Foolish Professors -- Romans 1:21-23",
+        "month": "March",
+        "episode": 244
+    },
+    {
+        "name": "SD-03-10-21",
+        "title": "3-10-2021 Man and Sin: Effects of Sin: Suppression of Truth -- Romans 1:18-20",
+        "month": "March",
+        "episode": 243
+    },
+    {
+        "name": "SD-03-09-21",
+        "title": "3-9-2021 Man and Sin: Effects of Sin: Cain's Curse -- Genesis 4:8-15",
+        "month": "March",
+        "episode": 242
+    },
+    {
+        "name": "SD-03-08-21",
+        "title": "3-8-2021 Man and Sin: Affects of Sin: Cain and the 1st Murder -- Genesis 4:1-8",
+        "month": "March",
+        "episode": 241
+    },
+    {
+        "name": "SD-03-08-21",
+        "title": "3-8-2021 Man and Sin: Affects of Sin: Cain and the 1st Murder -- Genesis 4:1-8",
+        "month": "March",
+        "episode": 241
+    },
+    {
+        "name": "SD-03-05-21",
+        "title": "3-5-2021 Man and Sin: The Fall of Man: God Convicts and Saves Sinners -- Luke 19:10; Genesis 3:14-24",
+        "month": "March",
+        "episode": 240
+    },
+    {
+        "name": "SD-03-04-21",
+        "title": "3-4-2021 Man and Sin: The Fall of Man: God Seeks Sinners -- Luke 19:10; Genesis 3:8-14",
+        "month": "March",
+        "episode": 239
+    },
+    {
+        "name": "SD-03-03-21",
+        "title": "3-3-2021 Man and Sin: The Fall of Man: The Sinners' Solution -- Genesis 3:7-8",
+        "month": "March",
+        "episode": 238
+    },
+    {
+        "name": "SD-03-02-21",
+        "title": "3-2-2021 Man and Sin: The Fall of Man: The Sin of Eve --Genesis 3:4-6",
+        "month": "March",
+        "episode": 237
+    },
+    {
+        "name": "SD-03-01-21",
+        "title": "3-1-2021 Man and Sin: The Fall of Man: The Temptation of Eve -- Genesis 3:1-5",
+        "month": "March",
+        "episode": 236
+    },
+    {
+        "name": "SD-02-26-21",
+        "title": "2-26-2021 Man and Sin: Nature of the Redeemed Body -- 1 Cor. 15",
+        "month": "February",
+        "episode": 235
+    },
+    {
+        "name": "SD-02-25-21",
+        "title": "2-25-2021 Man and Sin: Necessity of the Body's Redemption -- Romans 6, 8",
+        "month": "February",
+        "episode": 234
+    },
+    {
+        "name": "SD-02-24-21",
+        "title": "2-24-2021 Man and Sin: Soul of Man: Origin -- Psalm 51; Romans 5",
+        "month": "February",
+        "episode": 233
+    },
+    {
+        "name": "SD-02-23-21",
+        "title": "2-23-2021 Man and Sin: Soul of Man: Composition -- Psalm 23, 42, 103; Rev. 6",
+        "month": "February",
+        "episode": 232
+    },
+    {
+        "name": "SD-02-22-21",
+        "title": "2-22-2021 Man and Sin: Spirit of Man: Life, Lamp, Motivation -- Luke 23, Prov. 20, Heb. 4",
+        "month": "February",
+        "episode": 231
+    },
+    {
+        "name": "SD-02-19-21",
+        "title": "2-19-2021 Man and Sin: Triune Nature of Man -- 1 Thess. 5:23; Heb. 4:12; 1 Cor. 2:14-3:4",
+        "month": "February",
+        "episode": 230
+    },
+    {
+        "name": "SD-02-18-21",
+        "title": "2-18-2021 Man and Sin: Creation of Woman -- Genesis 2:18-25",
+        "month": "February",
+        "episode": 229
+    },
+    {
+        "name": "SD-02-17-21",
+        "title": "2-17-2021 Man and Sin: Creation of Man -- Genesis 2:1-17",
+        "month": "February",
+        "episode": 228
+    },
+    {
+        "name": "SD-02-16-21",
+        "title": "2-16-2021 Man and Sin: Image and Likeness -- Genesis 1:26-27",
+        "month": "February",
+        "episode": 227
+    },
+    {
+        "name": "SD-02-15-21",
+        "title": "2-15-2021 Man and Sin: Perfect Humanity -- Genesis 1:26-31",
+        "month": "February",
+        "episode": 226
+    },
+    {
+        "name": "SD-02-12-21",
+        "title": "2-12-2021 Angels and Demons: Demons and the Christian -- 1 John 4, 5; Ephesians 6",
+        "month": "February",
+        "episode": 225
+    },
+    {
+        "name": "SD-02-11-21",
+        "title": "2-11-2021 Angels and Demons: Demon Possession: Reactions -- Mark 5",
+        "month": "February",
+        "episode": 224
+    },
+    {
+        "name": "SD-02-10-21",
+        "title": "2-10-2021 Angels and Demons: Demon Possession: Responsibility -- Luke 9",
+        "month": "February",
+        "episode": 223
+    },
+    {
+        "name": "SD-02-09-21",
+        "title": "2-9-2021 Angels and Demons: Nature and Activity of Demons: Ryrie, Basic Theology",
+        "month": "February",
+        "episode": 222
+    },
+    {
+        "name": "SD-02-08-21",
+        "title": "2-8-2021 Angels and Demons: Origin of Demons: Ryrie, Basic Theology",
+        "month": "February",
+        "episode": 221
+    },
+    {
+        "name": "SD-02-05-21",
+        "title": "2-5-2021 Angels and Demons: The Devil, Murderer and Liar -- John 8:44",
+        "month": "February",
+        "episode": 220
+    },
+    {
+        "name": "SD-02-04-21",
+        "title": "2-4-2021 Angels and Demons: Satan's Wilderness Temptations -- Matthew 4:1-11",
+        "month": "February",
+        "episode": 219
+    },
+    {
+        "name": "SD-02-03-21",
+        "title": "2-3-2021 Angels and Demons: Satan's Names and Titles, Part 2",
+        "month": "February",
+        "episode": 218
+    },
+    {
+        "name": "SD-02-02-21",
+        "title": "2-2-2021 Angels and Demons: Satan's Names and Titles, Part 1",
+        "month": "February",
+        "episode": 217
+    },
+    {
+        "name": "SD-02-01-21",
+        "title": "2-1-2021 Angels and Demons: Lucifer's Pride -- Isaiah 14",
+        "month": "February",
+        "episode": 216
+    },
+    {
+        "name": "SD-01-29-21",
+        "title": "1-29-2021 Angels and Demons: The Fallen Cherub -- Ezekiel 28:11-19",
+        "month": "January",
+        "episode": 215
+    },
+    {
+        "name": "SD-01-28-21",
+        "title": "1-28-2021 Angels and Demons: Seraphim -- Isaiah 6; Revelation 4",
+        "month": "January",
+        "episode": 214
+    },
+    {
+        "name": "SD-01-27-21",
+        "title": "1-27-2021 Angels and Demons: Cherubim -- Ezekiel 1, 10",
+        "month": "January",
+        "episode": 213
+    },
+    {
+        "name": "SD-01-26-21",
+        "title": "1-26-2021 Angels and Demons: Angelic Revelations -- Daniel 11-12",
+        "month": "January",
+        "episode": 212
+    },
+    {
+        "name": "SD-01-25-21",
+        "title": "01-25-2021 Angels and Demons: Angels and History -- Daniel 10",
+        "month": "January",
+        "episode": 211
+    },
+    {
+        "name": "SD-01-22-21",
+        "title": "01-22-2021 Angels and Demons: Gabriel and God's Plan -- Daniel 9",
+        "month": "January",
+        "episode": 210
+    },
+    {
+        "name": "SD-01-21-21",
+        "title": "01-21-2021 Angels and Demons: Angels and Antiquity -- Daniel 8",
+        "month": "January",
+        "episode": 209
+    },
+    {
+        "name": "SD-01-20-21",
+        "title": "01-20-2021 Angels and Demons: Angels and Visions -- Daniel 7",
+        "month": "January",
+        "episode": 208
+    },
+    {
+        "name": "SD-01-19-21",
+        "title": "01-19-2021 Angels and Demons: Satanic Persecution -- Revelation 12:9-17",
+        "month": "January",
+        "episode": 207
+    },
+    {
+        "name": "SD-01-18-21",
+        "title": "01-18-2021 Angels and Demons: Angelic Warfare -- Revelation 12:1-9",
+        "month": "January",
+        "episode": 206
+    },
+    {
         "name": "SD-01-15-21",
-        "title": "01-15-21 Angels and Demons: Angelic Ministry to Christ: 2nd Advent -- Acts 1; Matt. 13",
+        "title": "01-15-2021 Angels and Demons: Angelic Ministry to Christ: 2nd Advent -- Acts 1; Matt. 13",
         "month": "January",
         "episode": 205
     },
     {
         "name": "SD-01-14-21",
-        "title": "01-14-21 Angels and Demons: Angelic Ministry to Christ: Testings -- Matt. 4; Luke 4",
+        "title": "01-14-2021 Angels and Demons: Angelic Ministry to Christ: Testings -- Matt. 4; Luke 4",
         "month": "January",
         "episode": 204
     },
     {
         "name": "SD-01-13-21",
-        "title": "01-13-21 Angels and Demons: Angelic Ministry to Christ: Herod -- Matthew 2",
+        "title": "01-13-2021 Angels and Demons: Angelic Ministry to Christ: Herod -- Matthew 2",
         "month": "January",
         "episode": 203
     },
     {
         "name": "SD-01-12-21",
-        "title": "01-12-21 Angels and Demons: Angelic Ministry to Christ: His Birth -- Matt. 1:20; Luke 1-2",
+        "title": "01-12-2021 Angels and Demons: Angelic Ministry to Christ: His Birth -- Matt. 1:20; Luke 1-2",
         "month": "January",
         "episode": 202
     },
     {
         "name": "SD-01-11-21",
-        "title": "01-11-21 Angels and Demons: Angelic Ministry to Christ: New Epochs",
+        "title": "01-11-2021 Angels and Demons: Angelic Ministry to Christ: New Epochs",
         "month": "January",
         "episode": 201
     },
     {
         "name": "SD-01-08-21",
-        "title": "01-08-21 Angels and Demons: Christ and the Angels: The Future -- Hebrews 2:5-16",
+        "title": "01-08-2021 Angels and Demons: Christ and the Angels: The Future -- Hebrews 2:5-16",
         "month": "January",
         "episode": 200
     },
     {
         "name": "SD-01-07-21",
-        "title": "01-07-21 Angels and Demons: Christ and the Angels: Messengers -- Hebrews 2:1-4",
+        "title": "01-07-2021 Angels and Demons: Christ and the Angels: Messengers -- Hebrews 2:1-4",
         "month": "January",
         "episode": 199
     },
     {
         "name": "SD-01-06-21",
-        "title": "01-06-21 Angels and Demons: Christ and the Angels: Servants -- Hebrews 1:7-14",
+        "title": "01-06-2021 Angels and Demons: Christ and the Angels: Servants -- Hebrews 1:7-14",
         "month": "January",
         "episode": 198
     },
     {
         "name": "SD-01-05-21",
-        "title": "01-05-21  Angels and Demons: Christ and the Angels: Wind and Fire -- Hebrews 1:5-7",
+        "title": "01-05-2021  Angels and Demons: Christ and the Angels: Wind and Fire -- Hebrews 1:5-7",
         "month": "January",
         "episode": 197
     },
     {
         "name": "SD-01-04-21",
-        "title": "01-04-21 Angels and Demons: Christ and the Angels: The Need and Hebrews -- Hebrews 1:1-4",
+        "title": "01-04-2021 Angels and Demons: Christ and the Angels: The Need and Hebrews -- Hebrews 1:1-4",
         "month": "January",
         "episode": 196
     },
     {
         "name": "SD-01-01-21",
-        "title": "01-01-21 Angels and Demons: Satanic Suffering -- Job 2",
+        "title": "01-01-2021 Angels and Demons: Satanic Suffering -- Job 2",
         "month": "January",
         "episode": 195
     },
     {
         "name": "SD-12-31-20",
-        "title": "12-31-20 Angels and Demons: The Sons of God -- Job 1",
+        "title": "12-31-2020  Angels and Demons: The Sons of God -- Job 1",
         "month": "December",
         "episode": 194
     },
     {
         "name": "SD-12-30-20",
-        "title": "12-30-20 Angels and Demons: Nature: Spirits -- Jude 9; Hebrews 1:7, 14",
+        "title": "12-30-2020  Angels and Demons: Nature: Spirits -- Jude 9; Hebrews 1:7, 14",
         "month": "December",
         "episode": 193
     },
     {
         "name": "SD-12-29-20",
-        "title": "12-29-20 Angels and Demons: Nature: Created -- Exodus 20:11; Colossians 1:16",
+        "title": "12-29-2020  Angels and Demons: Nature: Created -- Exodus 20:11; Colossians 1:16",
         "month": "December",
         "episode": 192
     },
     {
         "name": "SD-12-28-20",
-        "title": "12-28-20 Angels and Demons: Existence: Genesis 19:1",
+        "title": "12-28-2020  Angels and Demons: Existence: Genesis 19:1",
         "month": "December",
         "episode": 191
     },
     {
         "name": "SD-12-25-20",
-        "title": "12-25-20 The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: Serving Gifts -- 1 Cor. 12:9-10, 29-30",
+        "title": "12-25-2020  The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: Serving Gifts -- 1 Cor. 12:9-10, 29-30",
         "month": "December",
         "episode": 190
     },
     {
         "name": "SD-12-24-20",
-        "title": "12-24-20 The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: Speaking Gifts -- 1 Cor. 13:8-11",
+        "title": "12-24-2020  The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: Speaking Gifts -- 1 Cor. 13:8-11",
         "month": "December",
         "episode": 189
     },
     {
         "name": "SD-12-23-20",
-        "title": "12-23-20 The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: The Gifts -- Rom. 12; 1 Cor. 12",
+        "title": "12-23-2020  The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: The Gifts -- Rom. 12; 1 Cor. 12",
         "month": "December",
         "episode": 188
     },
     {
         "name": "SD-12-22-20",
-        "title": "12-22-20 The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: Clarification -- 1 Peter 4:10-11",
+        "title": "12-22-2020  The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: Clarification -- 1 Peter 4:10-11",
         "month": "December",
         "episode": 187
     },
     {
         "name": "SD-12-21-20",
-        "title": "12-21-20 The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: Confusions -- Eph 4:7",
+        "title": "12-21-2020  The Triune God: The Holy Spirit: Ministries: Spiritual Gifts: Confusions -- Eph 4:7",
         "month": "December",
         "episode": 186
     },
     {
         "name": "SD-12-18-20",
-        "title": "12-18-20 The Triune God: The Holy Spirit: Ministries: Guiding -- Gal. 5:16; Eph. 4:30",
+        "title": "12-18-2020  The Triune God: The Holy Spirit: Ministries: Guiding -- Gal. 5:16; Eph. 4:30",
         "month": "December",
         "episode": 185
     },
     {
         "name": "SD-12-17-20",
-        "title": "12-17-20 The Triune God: The Holy Spirit: Ministries: Filling -- Eph. 5:18; 1 Thess. 5:19",
+        "title": "12-17-2020  The Triune God: The Holy Spirit: Ministries: Filling -- Eph. 5:18; 1 Thess. 5:19",
         "month": "December",
         "episode": 184
     },
     {
         "name": "SD-12-16-20",
-        "title": "12-16-20 The Triune God: The Holy Spirit: Ministries: Anointing III -- 1 John 2:27",
+        "title": "12-16-2020  The Triune God: The Holy Spirit: Ministries: Anointing III -- 1 John 2:27",
         "month": "December",
         "episode": 183
     },
     {
         "name": "SD-12-15-20",
-        "title": "12-15-20 The Triune God: The Holy Spirit: Ministries: Anointing II -- 1 John 2:20-26",
+        "title": "12-15-2020  The Triune God: The Holy Spirit: Ministries: Anointing II -- 1 John 2:20-26",
         "month": "December",
         "episode": 182
     },
     {
         "name": "SD-12-14-20",
-        "title": "12-14-20 The Triune God: The Holy Spirit: Ministries: Anointing I -- 1 John 2; 1 Cor. 2",
+        "title": "12-14-2020  The Triune God: The Holy Spirit: Ministries: Anointing I -- 1 John 2; 1 Cor. 2",
         "month": "December",
         "episode": 181
     },
     {
         "name": "SD-12-11-20",
-        "title": "12-11-20 The Triune God: The Holy Spirit: Ministries: Praying -- Rom. 8:26-27; Eph. 6:18",
+        "title": "12-11-2020  The Triune God: The Holy Spirit: Ministries: Praying -- Rom. 8:26-27; Eph. 6:18",
         "month": "December",
         "episode": 180
     },
     {
         "name": "SD-12-10-20",
-        "title": "12-10-20 The Triune God: The Holy Spirit: Ministries: Assuring -- Rom. 8:16; 1 John 5:11-13",
+        "title": "12-10-2020  The Triune God: The Holy Spirit: Ministries: Assuring -- Rom. 8:16; 1 John 5:11-13",
         "month": "December",
         "episode": 179
     },
     {
         "name": "SD-12-09-20",
-        "title": "12-09-20 The Triune God: The Holy Spirit: Ministries: Sealing -- Eph. 4:30",
+        "title": "12-09-2020  The Triune God: The Holy Spirit: Ministries: Sealing -- Eph. 4:30",
         "month": "December",
         "episode": 178
     },
     {
         "name": "SD-12-08-20",
-        "title": "12-08-20 The Triune God: The Holy Spirit: Ministries: Indwelling -- Rom. 8:9; 1 Cor. 6:19",
+        "title": "12-08-2020  The Triune God: The Holy Spirit: Ministries: Indwelling -- Rom. 8:9; 1 Cor. 6:19",
         "month": "December",
         "episode": 177
     },
     {
         "name": "SD-12-07-20",
-        "title": "12-07-20 The Triune God: The Holy Spirit: Ministries: Baptizing -- 1 Cor. 12:13, Rom. 6:3-4",
+        "title": "12-07-2020  The Triune God: The Holy Spirit: Ministries: Baptizing -- 1 Cor. 12:13, Rom. 6:3-4",
         "month": "December",
         "episode": 176
     },
     {
         "name": "SD-12-04-20",
-        "title": "12-04-20 The Triune God: The Holy Spirit: Ministries: Regenerating -- Titus 3, John 3",
+        "title": "12-04-2020  The Triune God: The Holy Spirit: Ministries: Regenerating -- Titus 3, John 3",
         "month": "December",
         "episode": 175
     },
     {
         "name": "SD-12-03-20",
-        "title": "12-03-20 The Triune God: The Holy Spirit: Convicting the World -- John 16:7-11",
+        "title": "12-03-2020  The Triune God: The Holy Spirit: Convicting the World -- John 16:7-11",
         "month": "December",
         "episode": 174
     },
     {
         "name": "SD-12-02-20",
-        "title": "12-02-20 The Triune God: The Holy Spirit: Ministries -- John 16",
+        "title": "12-02-2020  The Triune God: The Holy Spirit: Ministries -- John 16",
         "month": "December",
         "episode": 173
     },
     {
         "name": "SD-12-01-20",
-        "title": "12-01-20 The Triune God: The Holy Spirit: Representations -- Luke 24",
+        "title": "12-01-2020  The Triune God: The Holy Spirit: Representations -- Luke 24",
         "month": "December",
         "episode": 172
     },
     {
         "name": "SD-11-30-20",
-        "title": "11-30-20 The Triune God: The Holy Spirit in the Old Testament -- Genesis 6",
+        "title": "11-30-2020  The Triune God: The Holy Spirit in the Old Testament -- Genesis 6",
         "month": "November",
         "episode": 171
     },
     {
         "name": "SD-11-27-20",
-        "title": "11-27-20 The Triune God: The Holy Spirit: Selective Indwelling in the Old Testament? -- Numbers 27:18",
+        "title": "11-27-2020  The Triune God: The Holy Spirit: Selective Indwelling in the Old Testament? -- Numbers 27:18",
         "month": "November",
         "episode": 170
     },
     {
         "name": "SD-11-26-20",
-        "title": "11-26-20 The Triune God: The Holy Spirit: Titles -- Ephesians 4:4",
+        "title": "11-26-2020  The Triune God: The Holy Spirit: Titles -- Ephesians 4:4",
         "month": "November",
         "episode": 169
     },
     {
         "name": "SD-11-25-20",
-        "title": "11-25-20 The Healing of Naaman -- 2 Kings 5",
+        "title": "11-25-2020  The Healing of Naaman -- 2 Kings 5",
         "month": "November",
         "episode": 168
     },
     {
         "name": "SD-11-24-20",
-        "title": "11-24-20 The Triune God: The Holy Spirit: The Key Text -- John 14:16-17",
+        "title": "11-24-2020  The Triune God: The Holy Spirit: The Key Text -- John 14:16-17",
         "month": "November",
         "episode": 167
     },
     {
         "name": "SD-11-23-20",
-        "title": "11-23-20 The Triune God: The Holy Spirit: The Person -- Genesis 1:2",
+        "title": "11-23-2020  The Triune God: The Holy Spirit: The Person -- Genesis 1:2",
         "month": "November",
         "episode": 166
     },
     {
         "name": "SD-11-20-20",
-        "title": "11-20-20 The Triune God: The Son: Kenosis (Self Emptying) -- Philippians 2:7-9",
+        "title": "11-20-2020  The Triune God: The Son: Kenosis (Self Emptying) -- Philippians 2:7-9",
         "month": "November",
         "episode": 165
     },
     {
         "name": "SD-11-19-20",
-        "title": "11-19-20 The Triune God: The Son: Hypostatic Union -- Philippians 2:5-11",
+        "title": "11-19-2020  The Triune God: The Son: Hypostatic Union -- Philippians 2:5-11",
         "month": "November",
         "episode": 164
     },
     {
         "name": "SD-11-18-20",
-        "title": "11-18-2020 The Triune God: The Son: Impeccability -- Hebrews 2:28; 4:15",
+        "title": "11-18-2020 20 The Triune God: The Son: Impeccability -- Hebrews 2:28; 4:15",
         "month": "November",
         "episode": 163
     },
     {
         "name": "SD-11-17-20",
-        "title": "11-17-2020 The Triune God: The Son: Post-Ascension Ministry/Offices -- John 14:1-3",
+        "title": "11-17-2020 20 The Triune God: The Son: Post-Ascension Ministry/Offices -- John 14:1-3",
         "month": "November",
         "episode": 162
     },
     {
         "name": "SD-11-16-20",
-        "title": "11-16-2020 The Triune God: The Son: The Ascension -- Luke 24, Acts 1",
+        "title": "11-16-2020 20 The Triune God: The Son: The Ascension -- Luke 24, Acts 1",
         "month": "November",
         "episode": 161
     },
     {
         "name": "SD-11-13-20",
-        "title": "11-13-2020 The Triune God: The Son: The Appearances -- John 20:14-29",
+        "title": "11-13-2020 20 The Triune God: The Son: The Appearances -- John 20:14-29",
         "month": "November",
         "episode": 160
     },
     {
         "name": "SD-11-12-20",
-        "title": "11-12-2020 The Triune God: The Son: The Resurrection -- John 19:31-20:13",
+        "title": "11-12-2020 20 The Triune God: The Son: The Resurrection -- John 19:31-20:13",
         "month": "November",
         "episode": 159
     },
     {
         "name": "SD-11-11-20",
-        "title": "11-11-2020 The Triune God: The Son: The Crucifixion -- John 19:6-30",
+        "title": "11-11-2020 20 The Triune God: The Son: The Crucifixion -- John 19:6-30",
         "month": "November",
         "episode": 158
     },
     {
         "name": "SD-11-10-20",
-        "title": "11-10-2020 The Triune God: The Son: The Betrayal -- John 18:1-19:5",
+        "title": "11-10-2020 20 The Triune God: The Son: The Betrayal -- John 18:1-19:5",
         "month": "November",
         "episode": 157
     },
     {
         "name": "SD-11-09-20",
-        "title": "11-09-2020 The Triune God: The Son: The Last Supper -- John 13:1-30",
+        "title": "11-09-2020 20 The Triune God: The Son: The Last Supper -- John 13:1-30",
         "month": "November",
         "episode": 156
     },
     {
         "name": "SD-11-06-20",
-        "title": "11-06-20 The Triune God: The Son: Triumphal Arguments -- Matthew 22",
+        "title": "11-06-2020  The Triune God: The Son: Triumphal Arguments -- Matthew 22",
         "month": "November",
         "episode": 155
     },
     {
         "name": "SD-11-05-20",
-        "title": "11-05-20 The Triune God: The Son: Triumphal Entry -- Matthew 21",
+        "title": "11-05-2020  The Triune God: The Son: Triumphal Entry -- Matthew 21",
         "month": "November",
         "episode": 154
     },
     {
         "name": "SD-11-04-20",
-        "title": "11-04-20 The Triune God: The Son: Salvation to the Rejected -- Luke 17-19",
+        "title": "11-04-2020  The Triune God: The Son: Salvation to the Rejected -- Luke 17-19",
         "month": "November",
         "episode": 153
     },
     {
         "name": "SD-11-03-20",
-        "title": "11-03-20 The Triune God: The Son: Jesus on Wealth -- Luke 16",
+        "title": "11-03-2020  The Triune God: The Son: Jesus on Wealth -- Luke 16",
         "month": "November",
         "episode": 152
     },
     {
         "name": "SD-11-02-20",
-        "title": "11-02-20 The Triune God: The Son: Lost Sinners -- Luke 15",
+        "title": "11-02-2020  The Triune God: The Son: Lost Sinners -- Luke 15",
         "month": "November",
         "episode": 151
     },
     {
         "name": "SD-10-30-20",
-        "title": "10-30-20 The Triune God: The Son: Seven Signs: Resurrection of Lazarus -- John 11:28-48",
+        "title": "10-30-2020  The Triune God: The Son: Seven Signs: Resurrection of Lazarus -- John 11:28-48",
         "month": "October",
         "episode": 150
     },
     {
         "name": "SD-10-28-20",
-        "title": "10-28-20 The Triune God: The Son: Seven Signs: Light to the Blind -- John 9:22-41",
+        "title": "10-28-2020  The Triune God: The Son: Seven Signs: Light to the Blind -- John 9:22-41",
         "month": "October",
         "episode": 148
     },
     {
         "name": "SD-10-27-20",
-        "title": "10-27-20 The Triune God: The Son: Seven Signs: Man Born Blind -- John 9:1-21",
+        "title": "10-27-2020  The Triune God: The Son: Seven Signs: Man Born Blind -- John 9:1-21",
         "month": "October",
         "episode": 147
     },
     {
         "name": "SD-10-26-20",
-        "title": "10-26-20 The Triune God: The Son: Seven Signs: Walking on the Water -- John 6, Matthew 14",
+        "title": "10-26-2020  The Triune God: The Son: Seven Signs: Walking on the Water -- John 6, Matthew 14",
         "month": "October",
         "episode": 146
     },
     {
         "name": "SD-10-23-20",
-        "title": "10-23-20 The Triune God: The Son: Healings, Signs Two and Three -- John 4-5",
+        "title": "10-23-2020  The Triune God: The Son: Healings, Signs Two and Three -- John 4-5",
         "month": "October",
         "episode": 145
     },
     {
         "name": "SD-10-22-20",
-        "title": "10-22-20 The Triune God: The Son: The First Sign, Water to Wine -- John 2:1-12",
+        "title": "10-22-2020  The Triune God: The Son: The First Sign, Water to Wine -- John 2:1-12",
         "month": "October",
         "episode": 144
     },
     {
         "name": "SD-10-21-20",
-        "title": "10-21-20 The Triune God: The Son: Transfiguration -- Mark 9:1-13",
+        "title": "10-21-2020  The Triune God: The Son: Transfiguration -- Mark 9:1-13",
         "month": "October",
         "episode": 143
     },
     {
         "name": "SD-10-20-20",
-        "title": "10-20-20 The Triune God: The Son: Feeding the Five Thousand -- Mark 6:33",
+        "title": "10-20-2020  The Triune God: The Son: Feeding the Five Thousand -- Mark 6:33",
         "month": "October",
         "episode": 142
     },
     {
         "name": "SD-10-19-20",
-        "title": "10-19-20 The Triune God: The Son: The Gadarene Demoniac -- Mark 4-5",
+        "title": "10-19-2020  The Triune God: The Son: The Gadarene Demoniac -- Mark 4-5",
         "month": "October",
         "episode": 141
     },
     {
         "name": "SD-10-16-20",
-        "title": "10-16-20 The Triune God: The Son: Jesus' Ministry -- Luke 4:24-44",
+        "title": "10-16-2020  The Triune God: The Son: Jesus' Ministry -- Luke 4:24-44",
         "month": "October",
         "episode": 140
     },
     {
         "name": "SD-10-15-20",
-        "title": "10-15-20 The Triune God: Jesus' Testing -- Matthew 4:1-11",
+        "title": "10-15-2020  The Triune God: Jesus' Testing -- Matthew 4:1-11",
         "month": "October",
         "episode": 139
     },
     {
         "name": "SD-10-14-20",
-        "title": "10-14-20 The Triune God: Jesus' Baptism -- Mark 1, Matthew 3",
+        "title": "10-14-2020  The Triune God: Jesus' Baptism -- Mark 1, Matthew 3",
         "month": "October",
         "episode": 138
     },
     {
         "name": "SD-10-13-20",
-        "title": "10-13-2020 The Triune God: Jesus the Baptizer -- Luke 3",
+        "title": "10-13-2020 20 The Triune God: Jesus the Baptizer -- Luke 3",
         "month": "October",
         "episode": 137
     },
     {
         "name": "SD-10-12-20",
-        "title": "10-12-2020 The Triune God: The Son: Early Life -- Luke 2:39-52",
+        "title": "10-12-2020 20 The Triune God: The Son: Early Life -- Luke 2:39-52",
         "month": "October",
         "episode": 136
     },
     {
         "name": "SD-10-09-20",
-        "title": "10-09-20 The Triune God: The Son: Incarnation: Temple Evangelists -- Luke 2:21-35",
+        "title": "10-09-2020  The Triune God: The Son: Incarnation: Temple Evangelists -- Luke 2:21-35",
         "month": "October",
         "episode": 135
     },
     {
         "name": "SD-10-08-20",
-        "title": "10-08-20 The Triune God: The Son: Incarnation: Shepherds' Evangelism -- Luke 2:4-20",
+        "title": "10-08-2020  The Triune God: The Son: Incarnation: Shepherds' Evangelism -- Luke 2:4-20",
         "month": "October",
         "episode": 134
     },
     {
         "name": "SD-10-07-20",
-        "title": "10-07-20 The Triune God: The Son: Incarnation: Zacharias' Prophecy -- Luke 1:57-2:3",
+        "title": "10-07-2020  The Triune God: The Son: Incarnation: Zacharias' Prophecy -- Luke 1:57-2:3",
         "month": "October",
         "episode": 133
     },
     {
         "name": "SD-10-06-20",
-        "title": "10-06-20 The Triune God: The Son: Incarnation: Mary's Conception -- Luke 1:26-56",
+        "title": "10-06-2020  The Triune God: The Son: Incarnation: Mary's Conception -- Luke 1:26-56",
         "month": "October",
         "episode": 132
     },
     {
         "name": "SD-10-05-20",
-        "title": "10-05-20 The Triune God: Incarnation: John the Baptizer -- Luke 1:1-25",
+        "title": "10-05-2020  The Triune God: Incarnation: John the Baptizer -- Luke 1:1-25",
         "month": "October",
         "episode": 131
     },
     {
         "name": "SD-10-02-20",
-        "title": "10-02-20 The Triune God: The Son: Incarnation: Protection -- Matthew 2:1-23",
+        "title": "10-02-2020  The Triune God: The Son: Incarnation: Protection -- Matthew 2:1-23",
         "month": "October",
         "episode": 130
     },
     {
         "name": "SD-10-01-20",
-        "title": "10-01-20 The Triune God: The Son: Incarnation: Joseph and Jesus -- Matthew 1:18-25",
+        "title": "10-01-2020  The Triune God: The Son: Incarnation: Joseph and Jesus -- Matthew 1:18-25",
         "month": "October",
         "episode": 129
     },
     {
         "name": "SD-09-30-20",
-        "title": "9-30-20 The Triune God: The Son: Incarnation: Only Begotten -- John 1:14-18",
+        "title": "9-30-2020  The Triune God: The Son: Incarnation: Only Begotten -- John 1:14-18",
         "month": "September",
         "episode": 128
     },
     {
         "name": "SD-09-29-20",
-        "title": "9-29-20 The Triune God: The Son: Eternality -- Isaiah 9; Micah 5",
+        "title": "9-29-2020  The Triune God: The Son: Eternality -- Isaiah 9; Micah 5",
         "month": "September",
         "episode": 127
     },
     {
         "name": "SD-09-28-20",
-        "title": "9-28-20 The Triune God: The Son: Pre-existence -- John 1:1-3",
+        "title": "9-28-2020  The Triune God: The Son: Pre-existence -- John 1:1-3",
         "month": "September",
         "episode": 126
     },
     {
         "name": "SD-09-25-20",
-        "title": "9-25-20 The Shepherd Psalm: Assurance of Provision -- Psalm 23:5-6",
+        "title": "9-25-2020  The Shepherd Psalm: Assurance of Provision -- Psalm 23:5-6",
         "month": "September",
         "episode": 125
     },
     {
         "name": "SD-09-24-20",
-        "title": "9-24-20 The Shepherd Psalm: Assurance of Protection -- Psalm 23:4",
+        "title": "9-24-2020  The Shepherd Psalm: Assurance of Protection -- Psalm 23:4",
         "month": "September",
         "episode": 124
     },
     {
         "name": "SD-09-23-20",
-        "title": "9-23-20 The Shepherd Psalm: Assurance of Care: Psalm 23:2-3",
+        "title": "9-23-2020  The Shepherd Psalm: Assurance of Care: Psalm 23:2-3",
         "month": "September",
         "episode": 123
     },
     {
         "name": "SD-09-22-20",
-        "title": "9-22-20 The Shepherd Psalm: Psalm 23:1",
+        "title": "9-22-2020  The Shepherd Psalm: Psalm 23:1",
         "month": "September",
         "episode": 122
     },
     {
         "name": "SD-09-21-20",
-        "title": "9-21-20 Assurance of Salvation: 1 John 5:13",
+        "title": "9-21-2020  Assurance of Salvation: 1 John 5:13",
         "month": "September",
         "episode": 121
     },
     {
         "name": "SD-09-18-20",
-        "title": "9-18-20 The Course of This Age: Mystery Message: Laodicea: Revelation 3:14-22",
+        "title": "9-18-2020  The Course of This Age: Mystery Message: Laodicea: Revelation 3:14-22",
         "month": "September",
         "episode": 120
     },
     {
         "name": "SD-09-17-20",
-        "title": "9-17-20 The Course of This Age: Mystery Messages: Philadelphia -- Revelation 3:7-13",
+        "title": "9-17-2020  The Course of This Age: Mystery Messages: Philadelphia -- Revelation 3:7-13",
         "month": "September",
         "episode": 119
     },
     {
         "name": "SD-09-16-20",
-        "title": "9-16-20 The Course of This Age: Mystery Messages: Sardis -- Revelation 3:1-6",
+        "title": "9-16-2020  The Course of This Age: Mystery Messages: Sardis -- Revelation 3:1-6",
         "month": "September",
         "episode": 118
     },
     {
         "name": "SD-09-15-20",
-        "title": "9-15-20 The Course of This Age: Mystery Messages: Thyatira -- Revelation 2:18-29",
+        "title": "9-15-2020  The Course of This Age: Mystery Messages: Thyatira -- Revelation 2:18-29",
         "month": "September",
         "episode": 117
     },
     {
         "name": "SD-09-14-20",
-        "title": "9-14-20 The Course of This Age: Mystery Messages: Smyrna/Pergamum -- Revelation 2:8-17",
+        "title": "9-14-2020  The Course of This Age: Mystery Messages: Smyrna/Pergamum -- Revelation 2:8-17",
         "month": "September",
         "episode": 116
     },
     {
         "name": "SD-09-11-20",
-        "title": "9-11-20 The Course of This Age: Mystery Messages: Ephesus -- Revelation 2:1-7",
+        "title": "9-11-2020  The Course of This Age: Mystery Messages: Ephesus -- Revelation 2:1-7",
         "month": "September",
         "episode": 115
     },
     {
         "name": "SD-09-10-20",
-        "title": "9-10-20 The Course of This Age: Mystery Messages: The Symbols -- Revelation 1:20",
+        "title": "9-10-2020  The Course of This Age: Mystery Messages: The Symbols -- Revelation 1:20",
         "month": "September",
         "episode": 114
     },
     {
         "name": "SD-09-09-20",
-        "title": "9-09-20 The Course of This Age: Mystery Messages: Keys -- Revelation 1:12-20",
+        "title": "9-09-2020  The Course of This Age: Mystery Messages: Keys -- Revelation 1:12-20",
         "month": "September",
         "episode": 113
     },
     {
         "name": "SD-09-08-20",
-        "title": "9-08-20 The Course of This Age: Mystery Messages: Explanation -- Revelation 1:4-16",
+        "title": "9-08-2020  The Course of This Age: Mystery Messages: Explanation -- Revelation 1:4-16",
         "month": "September",
         "episode": 112
     },
     {
         "name": "SD-09-07-20",
-        "title": "9-07-20 The Course of This Age: Mystery Messages: The Reason -- Revelation 1:1-3",
+        "title": "9-07-2020  The Course of This Age: Mystery Messages: The Reason -- Revelation 1:1-3",
         "month": "September",
         "episode": 111
     },
     {
         "name": "SD-09-04-20",
-        "title": "9-04-20 The Course of This Age: The Mystery Kingdom Parables: The Dragnet -- Matthew 13: 47-59",
+        "title": "9-04-2020  The Course of This Age: The Mystery Kingdom Parables: The Dragnet -- Matthew 13: 47-59",
         "month": "September",
         "episode": 110
     },
     {
         "name": "SD-09-03-20",
-        "title": "9-03-20 The Course of This Age: The Mystery Kingdom Parables: The Pearl -- Matthew 13:45-46",
+        "title": "9-03-2020  The Course of This Age: The Mystery Kingdom Parables: The Pearl -- Matthew 13:45-46",
         "month": "September",
         "episode": 109
     },
     {
         "name": "SD-09-02-20",
-        "title": "9-02-20 The Course of This Age: The Mystery Kingdom Parables: The Treasure -- Matthew 13:34",
+        "title": "9-02-2020  The Course of This Age: The Mystery Kingdom Parables: The Treasure -- Matthew 13:34",
         "month": "September",
         "episode": 108
     },
     {
         "name": "SD-09-01-20",
-        "title": "9-01-20 The Course of This Age: The Mysteries of the Kingdom: Leaven -- Matthew 13:33",
+        "title": "9-01-2020  The Course of This Age: The Mysteries of the Kingdom: Leaven -- Matthew 13:33",
         "month": "September",
         "episode": 107
     },
     {
         "name": "SD-08-31-20",
-        "title": "8-31-20 The Course of This Age: Mustard and Leaven Parables -- Matthew 13:31-35",
+        "title": "8-31-2020  The Course of This Age: Mustard and Leaven Parables -- Matthew 13:31-35",
         "month": "August",
         "episode": 106
     },
     {
         "name": "SD-08-28-20",
-        "title": "8-28-20 The Course of this Age: The Kingdom Mystery Parables: Divine Details -- Matthew 13:18-23; 40-43",
+        "title": "8-28-2020  The Course of this Age: The Kingdom Mystery Parables: Divine Details -- Matthew 13:18-23; 40-43",
         "month": "August",
         "episode": 105
     },
     {
         "name": "SD-08-27-20",
-        "title": "8-27-20 The Course of this Age: 7 Keys Unlock the Mystery -- Matthew 13:18-23; 36-39",
+        "title": "8-27-2020  The Course of this Age: 7 Keys Unlock the Mystery -- Matthew 13:18-23; 36-39",
         "month": "August",
         "episode": 104
     },
     {
         "name": "SD-08-26-20",
-        "title": "8-26-20 The Course of this Age: The Mystery Kingdom Parables: The Key Parables -- Matthew 13: 1-9; 24-30",
+        "title": "8-26-2020  The Course of this Age: The Mystery Kingdom Parables: The Key Parables -- Matthew 13: 1-9; 24-30",
         "month": "August",
         "episode": 103
     },
     {
         "name": "SD-08-25-20",
-        "title": "8-25-20 The Course of this Age: The Mystery Kingdom Parables: The Points -- Matthew 13:18-52",
+        "title": "8-25-2020  The Course of this Age: The Mystery Kingdom Parables: The Points -- Matthew 13:18-52",
         "month": "August",
         "episode": 102
     },
     {
         "name": "SD-08-24-20",
-        "title": "8-24-20 The Course of this Age: The Mystery Kingdom Parables: The Reason --- Matthew 13:10-18",
+        "title": "8-24-2020  The Course of this Age: The Mystery Kingdom Parables: The Reason --- Matthew 13:10-18",
         "month": "August",
         "episode": 101
     },
     {
         "name": "SD-08-21-20",
-        "title": "8-21-20 The Triune God: God the Father: The Father's Worship: Heavenly Pattern -- Revelation 4-5",
+        "title": "8-21-2020  The Triune God: God the Father: The Father's Worship: Heavenly Pattern -- Revelation 4-5",
         "month": "August",
         "episode": 100
     },
     {
         "name": "SD-08-20-20",
-        "title": "8-20-20 The Triune God: God the Father: The Father's Worship: Spirit and Truth -- John 4:24",
+        "title": "8-20-2020  The Triune God: God the Father: The Father's Worship: Spirit and Truth -- John 4:24",
         "month": "August",
         "episode": 99
     },
     {
         "name": "SD-08-19-20",
-        "title": "8-19-20 The Triune God: God the Father: The Father's Worship: Seeking -- John 4:1-23",
+        "title": "8-19-2020  The Triune God: God the Father: The Father's Worship: Seeking -- John 4:1-23",
         "month": "August",
         "episode": 98
     },
     {
         "name": "SD-08-18-20",
-        "title": "8-18-20 The Triune God: God the Father: The Father's Plan -- Psalm 2",
+        "title": "8-18-2020  The Triune God: God the Father: The Father's Plan -- Psalm 2",
         "month": "August",
         "episode": 97
     },
     {
         "name": "SD-08-17-20",
-        "title": "8-17-20 The Triune God: God the Father: The Father's Choice -- Ephesians 1, 2 Thessalonians 2",
+        "title": "8-17-2020  The Triune God: God the Father: The Father's Choice -- Ephesians 1, 2 Thessalonians 2",
         "month": "August",
         "episode": 96
     },
     {
         "name": "SD-08-14-20",
-        "title": "8-14-20 The Triune God: The Father's Love -- John 3:16",
+        "title": "8-14-2020  The Triune God: The Father's Love -- John 3:16",
         "month": "August",
         "episode": 95
     },
     {
         "name": "SD-08-13-20",
-        "title": "8-13-20 The Triune God: God the Father: The Father's Will -- James 1:18",
+        "title": "8-13-2020  The Triune God: God the Father: The Father's Will -- James 1:18",
         "month": "August",
         "episode": 94
     },
     {
         "name": "SD-08-12-20",
-        "title": "8-12-20 The Triune God: God The Father: Father of Lights -- James 1:17",
+        "title": "8-12-2020  The Triune God: God The Father: Father of Lights -- James 1:17",
         "month": "August",
         "episode": 93
     },
     {
         "name": "SD-08-11-20",
-        "title": "8-11-20 The Triune God: God the Father: God and Temptation -- James 1:12-15",
+        "title": "8-11-2020  The Triune God: God the Father: God and Temptation -- James 1:12-15",
         "month": "August",
         "episode": 92
     },
     {
         "name": "SD-08-10-20",
-        "title": "8-10-20 The Triune God: God the Father: The Danger of Error -- James 1:16",
+        "title": "8-10-2020  The Triune God: God the Father: The Danger of Error -- James 1:16",
         "month": "August",
         "episode": 91
     },
     {
         "name": "SD-08-07-20",
-        "title": "8-07-20 The Triune God: The Six Names: Kurios (Lord)/Despotes (Master) -- John 4:11, 2 Peter 2:1",
+        "title": "8-07-2020  The Triune God: The Six Names: Kurios (Lord)/Despotes (Master) -- John 4:11, 2 Peter 2:1",
         "month": "August",
         "episode": 90
     },
     {
         "name": "SD-08-06-20",
-        "title": "8-06-20 The Triune God: The Six Names: Theos (God) -- John 1:1, 18",
+        "title": "8-06-2020  The Triune God: The Six Names: Theos (God) -- John 1:1, 18",
         "month": "August",
         "episode": 89
     },
     {
         "name": "SD-08-05-20",
-        "title": "8-05-20 The Triune God: The Six Names: Yahweh/Adonai (Lord) -- Joshua 5:14",
+        "title": "8-05-2020  The Triune God: The Six Names: Yahweh/Adonai (Lord) -- Joshua 5:14",
         "month": "August",
         "episode": 88
     },
     {
         "name": "SD-08-04-20",
-        "title": "8-04-20 The Triune God: The Six Names: Yahweh (LORD) -- Exodus 3",
+        "title": "8-04-2020  The Triune God: The Six Names: Yahweh (LORD) -- Exodus 3",
         "month": "August",
         "episode": 87
     },
     {
         "name": "SD-08-03-20",
-        "title": "8-03-20 The Triune God: The Six Names: Elohim -- Genesis 1:1",
+        "title": "8-03-2020  The Triune God: The Six Names: Elohim -- Genesis 1:1",
         "month": "August",
         "episode": 86
     },
     {
         "name": "SD-07-31-20",
-        "title": "7-31-20 The Triune God: Perfections: Sovereignty, Truth -- Acts 15:13-18",
+        "title": "7-31-2020  The Triune God: Perfections: Sovereignty, Truth -- Acts 15:13-18",
         "month": "July",
         "episode": 85
     },
     {
         "name": "SD-07-30-20",
-        "title": "7-30-20 The Triune God: Perfections: Righteousness, Simplicity, Unity -- Psalm 11:7",
+        "title": "7-30-2020  The Triune God: Perfections: Righteousness, Simplicity, Unity -- Psalm 11:7",
         "month": "July",
         "episode": 84
     },
     {
         "name": "SD-07-29-20",
-        "title": "7-29-20 The Triune God: Perfections: Omnipresence, Omniscience -- Psalm 139:7-11",
+        "title": "7-29-2020  The Triune God: Perfections: Omnipresence, Omniscience -- Psalm 139:7-11",
         "month": "July",
         "episode": 83
     },
     {
         "name": "SD-07-28-20",
-        "title": "7-28-20 The Triune God: Perfections: Infinity, Love, Omnipotence -- 1 Kings 8:27",
+        "title": "7-28-2020  The Triune God: Perfections: Infinity, Love, Omnipotence -- 1 Kings 8:27",
         "month": "July",
         "episode": 82
     },
     {
         "name": "SD-07-27-20",
-        "title": "7-27-20 The Triune God: Perfections: Eternity, Freedom, Immutability -- Psalm 90:2",
+        "title": "7-27-2020  The Triune God: Perfections: Eternity, Freedom, Immutability -- Psalm 90:2",
         "month": "July",
         "episode": 81
     },
     {
         "name": "SD-07-24-20",
-        "title": "7-24-20 The Triune God: Perfections: Holiness: NT Affirmations -- John 17; 1 Peter1; Rev. 4; 1 John 1",
+        "title": "7-24-2020  The Triune God: Perfections: Holiness: NT Affirmations -- John 17; 1 Peter1; Rev. 4; 1 John 1",
         "month": "July",
         "episode": 80
     },
     {
         "name": "SD-07-23-20",
-        "title": "7-23-20 The Triune God: Perfections: Holiness: NT Affirmations -- John 17; 1 Peter1; Rev. 4; 1 John 1",
+        "title": "7-23-2020  The Triune God: Perfections: Holiness: NT Affirmations -- John 17; 1 Peter1; Rev. 4; 1 John 1",
         "month": "July",
         "episode": 79
     },
     {
         "name": "SD-07-22-20",
-        "title": "7-22-20 The Triune God: Perfections: Holiness: Creator -- Isa. 40; Hab. 1",
+        "title": "7-22-2020  The Triune God: Perfections: Holiness: Creator -- Isa. 40; Hab. 1",
         "month": "July",
         "episode": 78
     },
     {
         "name": "SD-07-21-20",
-        "title": "7-21-20 The Triune God: Perfections: Holiness: Worship -- Lev. 11:44",
+        "title": "7-21-2020  The Triune God: Perfections: Holiness: Worship -- Lev. 11:44",
         "month": "July",
         "episode": 77
     },
     {
         "name": "SD-07-20-20",
-        "title": "7-20-20 The Triune God: Perfections: Definitions -- John 4:24",
+        "title": "7-20-2020  The Triune God: Perfections: Definitions -- John 4:24",
         "month": "July",
         "episode": 76
     },
     {
         "name": "SD-07-17-20",
-        "title": "7-17-20 The Triune God: Perfections: The Glory of God -- Exodus 33:18-34:17",
+        "title": "7-17-2020  The Triune God: Perfections: The Glory of God -- Exodus 33:18-34:17",
         "month": "July",
         "episode": 75
     },
     {
         "name": "SD-07-16-20",
-        "title": "7-16-20 The Triune God: Perfections: The 2nd Intercession -- Exodus 33: 1-17",
+        "title": "7-16-2020  The Triune God: Perfections: The 2nd Intercession -- Exodus 33: 1-17",
         "month": "July",
         "episode": 74
     },
     {
         "name": "SD-07-15-20",
-        "title": "7-15-20 The Triune God: Perfections: The 1st Intercession -- Exodus 32:11-35",
+        "title": "7-15-2020  The Triune God: Perfections: The 1st Intercession -- Exodus 32:11-35",
         "month": "July",
         "episode": 73
     },
     {
         "name": "SD-07-14-20",
-        "title": "7-14-20 The Triune God: Perfections: The Golden Calf -- Exodus 32:1-10",
+        "title": "7-14-2020  The Triune God: Perfections: The Golden Calf -- Exodus 32:1-10",
         "month": "July",
         "episode": 72
     },
     {
         "name": "SD-07-13-20",
-        "title": "7-13-20 The Triune God: Perfections: The Law at Sinai -- Exodus 20",
+        "title": "7-13-2020  The Triune God: Perfections: The Law at Sinai -- Exodus 20",
         "month": "July",
         "episode": 71
     },
     {
         "name": "SD-07-10-20",
-        "title": "7-10-20 Dispensations: The Kingdom -- Revelation 20",
+        "title": "7-10-2020  Dispensations: The Kingdom -- Revelation 20",
         "month": "July",
         "episode": 70
     },
     {
         "name": "SD-07-09-20",
-        "title": "7-09-20 Dispensations: Grace -- Ephesians 3",
+        "title": "7-09-2020  Dispensations: Grace -- Ephesians 3",
         "month": "July",
         "episode": 69
     },
     {
         "name": "SD-07-08-20",
-        "title": "7-08-20 Dispensations: Law (Progression) -- Ex. 31; 2 Kings 17; 2 Chr. 36",
+        "title": "7-08-2020  Dispensations: Law (Progression) -- Ex. 31; 2 Kings 17; 2 Chr. 36",
         "month": "July",
         "episode": 68
     },
     {
         "name": "SD-07-07-20",
-        "title": "7-07-20 Dispensations: Law (Foundation) -- Exodus 19-John 19",
+        "title": "7-07-2020  Dispensations: Law (Foundation) -- Exodus 19-John 19",
         "month": "July",
         "episode": 67
     },
     {
         "name": "SD-07-06-20",
-        "title": "7-06-20 Dispensations: Dispensation of Promise -- Genesis 12:1-Exodus 19:7",
+        "title": "7-06-2020  Dispensations: Dispensation of Promise -- Genesis 12:1-Exodus 19:7",
         "month": "July",
         "episode": 66
     },
     {
         "name": "SD-07-03-20",
-        "title": "7-03-20 Dispensations: Dispensation of Civil Government -- Genesis 9-11",
+        "title": "7-03-2020  Dispensations: Dispensation of Civil Government -- Genesis 9-11",
         "month": "July",
         "episode": 65
     },
     {
         "name": "SD-07-02-20",
-        "title": "7-02-20 Dispensations: Dispensation of Conscience -- Genesis 3-8",
+        "title": "7-02-2020  Dispensations: Dispensation of Conscience -- Genesis 3-8",
         "month": "July",
         "episode": 64
     },
     {
         "name": "SD-07-01-20",
-        "title": "7-01-20 Dispensations: Dispensation of Innocence -- Genesis 1-2",
+        "title": "7-01-2020  Dispensations: Dispensation of Innocence -- Genesis 1-2",
         "month": "July",
         "episode": 63
     },
     {
         "name": "SD-06-30-20",
-        "title": "6-30-20 Dispensations: History -- Justin Martyr to Augustine",
+        "title": "6-30-2020  Dispensations: History -- Justin Martyr to Augustine",
         "month": "June",
         "episode": 62
     },
     {
         "name": "SD-06-29-20",
-        "title": "6-29-20 Dispensations: Definition -- Ephesians 1:10; 3:2,9",
+        "title": "6-29-2020  Dispensations: Definition -- Ephesians 1:10; 3:2,9",
         "month": "June",
         "episode": 61
     },
     {
         "name": "SD-06-26-20",
-        "title": "6-26-20 Covenants: New [Eternal] Covenant -- Jer. 31:31-34; Heb. 8:7-13, 13:20",
+        "title": "6-26-2020  Covenants: New [Eternal] Covenant -- Jer. 31:31-34; Heb. 8:7-13, 13:20",
         "month": "June",
         "episode": 60
     },
     {
         "name": "SD-06-25-20",
-        "title": "6-25-20 Covenants: Davidic Covenant -- 2 Samuel 7:8-17",
+        "title": "6-25-2020  Covenants: Davidic Covenant -- 2 Samuel 7:8-17",
         "month": "June",
         "episode": 59
     },
     {
         "name": "SD-06-24-20",
-        "title": "6-24-20 Covenants: Promised Land Covenant -- Deuteronomy 29-30",
+        "title": "6-24-2020  Covenants: Promised Land Covenant -- Deuteronomy 29-30",
         "month": "June",
         "episode": 58
     },
     {
         "name": "SD-06-23-20",
-        "title": "6-23-20 Covenants: Priestly Covenant -- Numbers 25:10-13",
+        "title": "6-23-2020  Covenants: Priestly Covenant -- Numbers 25:10-13",
         "month": "June",
         "episode": 57
     },
     {
         "name": "SD-06-22-20",
-        "title": "6-22-20 Covenants: Law: Sign of the Sabbath -- Exodus 31:12-18",
+        "title": "6-22-2020  Covenants: Law: Sign of the Sabbath -- Exodus 31:12-18",
         "month": "June",
         "episode": 56
     },
     {
         "name": "SD-06-19-20",
-        "title": "6-19-20 Covenants: Mosaic Covenant: Conditions -- Exodus 19",
+        "title": "6-19-2020  Covenants: Mosaic Covenant: Conditions -- Exodus 19",
         "month": "June",
         "episode": 55
     },
     {
         "name": "SD-06-18-20",
-        "title": "6-18-20 Covenants: Abrahamic Covenant: Sign and Seed -- Genesis 17, 22; Hebrews 11",
+        "title": "6-18-2020  Covenants: Abrahamic Covenant: Sign and Seed -- Genesis 17, 22; Hebrews 11",
         "month": "June",
         "episode": 54
     },
     {
         "name": "SD-06-17-20",
-        "title": "6-17-20 Covenants: Abrahamic Covenant: Stated and Ratified -- Genesis 12, 15",
+        "title": "6-17-2020  Covenants: Abrahamic Covenant: Stated and Ratified -- Genesis 12, 15",
         "month": "June",
         "episode": 53
     },
     {
         "name": "SD-06-16-20",
-        "title": "6-16-20 Covenants: Noahic Covenant -- Genesis 6:18; 9:1-17",
+        "title": "6-16-2020  Covenants: Noahic Covenant -- Genesis 6:18; 9:1-17",
         "month": "June",
         "episode": 52
     },
     {
         "name": "SD-06-15-20",
-        "title": "6-15-20 Covenants: The 7 True Covenants -- Genesis 2, 3",
+        "title": "6-15-2020  Covenants: The 7 True Covenants -- Genesis 2, 3",
         "month": "June",
         "episode": 51
     },
     {
         "name": "SD-06-12-20",
-        "title": "6-12-20 Revelation: Incarnation: The Love -- John 3; Romans 5; 1 John 4",
+        "title": "6-12-2020  Revelation: Incarnation: The Love -- John 3; Romans 5; 1 John 4",
         "month": "June",
         "episode": 50
     },
     {
         "name": "SD-06-11-20",
-        "title": "6-11-20 Revelation: Incarnation: The Icon -- Colossians 1:15-17",
+        "title": "6-11-2020  Revelation: Incarnation: The Icon -- Colossians 1:15-17",
         "month": "June",
         "episode": 49
     },
     {
         "name": "SD-06-10-20",
-        "title": "6-10-20 Revelation: Incarnation: The Resolution -- John 1:12-14",
+        "title": "6-10-2020  Revelation: Incarnation: The Resolution -- John 1:12-14",
         "month": "June",
         "episode": 48
     },
     {
         "name": "SD-06-09-20",
-        "title": "6-09-20 Revelation: Incarnation: The Problem -- John 1:5-12",
+        "title": "6-09-2020  Revelation: Incarnation: The Problem -- John 1:5-12",
         "month": "June",
         "episode": 47
     },
     {
         "name": "SD-06-08-20",
-        "title": "6-08-20 Revelation: Incarnation: The Word -- John 1:1-4",
+        "title": "6-08-2020  Revelation: Incarnation: The Word -- John 1:1-4",
         "month": "June",
         "episode": 46
     },
     {
         "name": "SD-06-05-20",
-        "title": "6-05-20 Revelation: Inspiration: Application -- Luke 15",
+        "title": "6-05-2020  Revelation: Inspiration: Application -- Luke 15",
         "month": "June",
         "episode": 45
     },
     {
         "name": "SD-06-04-20",
-        "title": "6-04-20 Revelation: Inspiration: Context II -- Proverbs, 1 Peter",
+        "title": "6-04-2020  Revelation: Inspiration: Context II -- Proverbs, 1 Peter",
         "month": "June",
         "episode": 44
     },
     {
         "name": "SD-06-03-20",
-        "title": "6-03-20 Revelation: Inspiration: Context I -- Hebrews Warnings",
+        "title": "6-03-2020  Revelation: Inspiration: Context I -- Hebrews Warnings",
         "month": "June",
         "episode": 43
     },
     {
         "name": "SD-06-02-20",
-        "title": "6-02-20 Revelation: Inspiration: Comparison -- Hebrew, John, 2 Peter",
+        "title": "6-02-2020  Revelation: Inspiration: Comparison -- Hebrew, John, 2 Peter",
         "month": "June",
         "episode": 42
     },
     {
         "name": "SD-06-01-20",
-        "title": "6-01-20 Revelation: Inspiration: Grammar -- Matthew, Colossians, John",
+        "title": "6-01-2020  Revelation: Inspiration: Grammar -- Matthew, Colossians, John",
         "month": "June",
         "episode": 41
     },
     {
         "name": "SD-05-29-20",
-        "title": "5-29-20 Revelation: Inspiration: The Obedience -- Nehemiah 8: 15-18",
+        "title": "5-29-2020  Revelation: Inspiration: The Obedience -- Nehemiah 8: 15-18",
         "month": "May",
         "episode": 40
     },
     {
         "name": "SD-05-28-20",
-        "title": "5-28-20 Revelation: Inspiration: The Discovery -- Nehemiah 8: 13-14",
+        "title": "5-28-2020  Revelation: Inspiration: The Discovery -- Nehemiah 8: 13-14",
         "month": "May",
         "episode": 39
     },
     {
         "name": "SD-05-27-20",
-        "title": "5-27-20 Revelation: Inspiration: The Joy -- Nehemiah 8: 9-12",
+        "title": "5-27-2020  Revelation: Inspiration: The Joy -- Nehemiah 8: 9-12",
         "month": "May",
         "episode": 38
     },
     {
         "name": "SD-05-26-20",
-        "title": "5-26-20 Revelation: Inspiration: The Method -- Nehemiah 8:6-8",
+        "title": "5-26-2020  Revelation: Inspiration: The Method -- Nehemiah 8:6-8",
         "month": "May",
         "episode": 37
     },
     {
         "name": "SD-05-25-20",
-        "title": "5-25-20 Revelation: Inspiration: The Workman -- Nehemiah 8:1-5",
+        "title": "5-25-2020  Revelation: Inspiration: The Workman -- Nehemiah 8:1-5",
         "month": "May",
         "episode": 36
     },
     {
         "name": "SD-05-22-20",
-        "title": "5-22-20 Revelation: Inspiration: Light from the Word -- Psalm 119:105",
+        "title": "5-22-2020  Revelation: Inspiration: Light from the Word -- Psalm 119:105",
         "month": "May",
         "episode": 35
     },
     {
         "name": "SD-05-21-20",
-        "title": "5-21-20 Revelation: Inspiration: Wisdom from the Word -- Psalm 119: 97-100",
+        "title": "5-21-2020  Revelation: Inspiration: Wisdom from the Word -- Psalm 119: 97-100",
         "month": "May",
         "episode": 34
     },
     {
         "name": "SD-05-20-20",
-        "title": "5-20-20 Revelation: Inspiration: Foundation in the Word -- Psalm 119: 89-96",
+        "title": "5-20-2020  Revelation: Inspiration: Foundation in the Word -- Psalm 119: 89-96",
         "month": "May",
         "episode": 33
     },
     {
         "name": "SD-05-19-20",
-        "title": "5-19-20 Revelation: Inspiration: Afflictions and the Word -- Psalm 119: 67, 71, 79",
+        "title": "5-19-2020  Revelation: Inspiration: Afflictions and the Word -- Psalm 119: 67, 71, 79",
         "month": "May",
         "episode": 32
     },
     {
         "name": "SD-05-18-20",
-        "title": "5-18-20 Revelation: Inspiration: Walk in the Word -- Psalm 119:1, 9, 11",
+        "title": "5-18-2020  Revelation: Inspiration: Walk in the Word -- Psalm 119:1, 9, 11",
         "month": "May",
         "episode": 31
     },
     {
         "name": "SD-05-15-20",
-        "title": "5-15-20 Revelation: Inspiration: Writers of Scripture -- 2 Sam. 23; Acts 2; Gal. 3",
+        "title": "5-15-2020  Revelation: Inspiration: Writers of Scripture -- 2 Sam. 23; Acts 2; Gal. 3",
         "month": "May",
         "episode": 30
     },
     {
         "name": "SD-05-14-20",
-        "title": "5-14-20 Revelation: Inspiration: Extent of Inspiration -- Matt. 5, 22; John 10",
+        "title": "5-14-2020  Revelation: Inspiration: Extent of Inspiration -- Matt. 5, 22; John 10",
         "month": "May",
         "episode": 29
     },
     {
         "name": "SD-05-13-20",
-        "title": "5-13-20 Revelation: Inspiration: Rightly Divided -- Heb. 4:12, 2 Tim. 2:15",
+        "title": "5-13-2020  Revelation: Inspiration: Rightly Divided -- Heb. 4:12, 2 Tim. 2:15",
         "month": "May",
         "episode": 28
     },
     {
         "name": "SD-05-12-20",
-        "title": "5-12-20 Revelation: Inspiration: Divinely Profitable -- 2 Timothy 3:15-17",
+        "title": "5-12-2020  Revelation: Inspiration: Divinely Profitable -- 2 Timothy 3:15-17",
         "month": "May",
         "episode": 27
     },
     {
         "name": "SD-05-11-20",
-        "title": "5-11-20 Creation: Inspiration: Divine Authorship -- 2 Timothy 3:16",
+        "title": "5-11-2020  Creation: Inspiration: Divine Authorship -- 2 Timothy 3:16",
         "month": "May",
         "episode": 26
     },
     {
         "name": "SD-05-08-20",
-        "title": "5-08-20 Revelation: Creation: The Tower -- Genesis 11:1-9",
+        "title": "5-08-2020  Revelation: Creation: The Tower -- Genesis 11:1-9",
         "month": "May",
         "episode": 25
     },
     {
         "name": "SD-05-07-20",
-        "title": "5-07-20 Revelation: Creation: The First Covenant -- Genesis 9",
+        "title": "5-07-2020  Revelation: Creation: The First Covenant -- Genesis 9",
         "month": "May",
         "episode": 24
     },
     {
         "name": "SD-05-06-20",
-        "title": "5-06-20 Revelation: Creation: The Flood Prevails -- Genesis 7:21-8",
+        "title": "5-06-2020  Revelation: Creation: The Flood Prevails -- Genesis 7:21-8",
         "month": "May",
         "episode": 23
     },
     {
         "name": "SD-05-05-20",
-        "title": "5-05-20 Revelation: Creation: The Nature of the Flood -- Genesis 7:4-20",
+        "title": "5-05-2020  Revelation: Creation: The Nature of the Flood -- Genesis 7:4-20",
         "month": "May",
         "episode": 22
     },
     {
         "name": "SD-05-04-20",
-        "title": "5-04-20 Revelation: Creation: The Universal Flood -- Genesis 6:8-7:3",
+        "title": "5-04-2020  Revelation: Creation: The Universal Flood -- Genesis 6:8-7:3",
         "month": "May",
         "episode": 21
     },
     {
         "name": "SD-05-01-20",
-        "title": "5-01-20 Revelation: Creation: The Antediluvian World -- Genesis 4-6",
+        "title": "5-01-2020  Revelation: Creation: The Antediluvian World -- Genesis 4-6",
         "month": "May",
         "episode": 20
     },
     {
         "name": "SD-04-30-20",
-        "title": "4-30-20 Revelation: Creation: Result of Sin -- Genesis 3:8-24",
+        "title": "4-30-2020  Revelation: Creation: Result of Sin -- Genesis 3:8-24",
         "month": "April",
         "episode": 19
     },
     {
         "name": "SD-04-29-20",
-        "title": "4-29-20 Revelation: Creation: Sin and the Fall -- Genesis 3:1-7",
+        "title": "4-29-2020  Revelation: Creation: Sin and the Fall -- Genesis 3:1-7",
         "month": "April",
         "episode": 18
     },
     {
         "name": "SD-04-28-20",
-        "title": "4-28-20 Revelation: Creation: Marriage; Creation v Evolution Summary -- Genesis 2:24",
+        "title": "4-28-2020  Revelation: Creation: Marriage; Creation v Evolution Summary -- Genesis 2:24",
         "month": "April",
         "episode": 17
     },
     {
         "name": "SD-04-27-20",
-        "title": "4-27-20 Revelation: Creation of Woman -- Genesis 2:18-25",
+        "title": "4-27-2020  Revelation: Creation of Woman -- Genesis 2:18-25",
         "month": "April",
         "episode": 16
     },
     {
         "name": "SD-04-24-20",
-        "title": "4-24-20 Revelation: Creation: Eden -- Genesis 2:9-17",
+        "title": "4-24-2020  Revelation: Creation: Eden -- Genesis 2:9-17",
         "month": "April",
         "episode": 15
     },
     {
         "name": "SD-04-23-20",
-        "title": "4-23-20 Revelation: Creation: Details of Adam' Creation -- Genesis 2:7-8",
+        "title": "4-23-2020  Revelation: Creation: Details of Adam' Creation -- Genesis 2:7-8",
         "month": "April",
         "episode": 14
     },
     {
         "name": "SD-04-22-20",
-        "title": "4-22-20 Revelation: Creation: The End and the Ecosystem -- Genesis 2:1-6",
+        "title": "4-22-2020  Revelation: Creation: The End and the Ecosystem -- Genesis 2:1-6",
         "month": "April",
         "episode": 13
     },
     {
         "name": "SD-04-21-20",
-        "title": "4-21-20 Revelation: Creation: Man and God's Command -- Genesis 1:27-31",
+        "title": "4-21-2020  Revelation: Creation: Man and God's Command -- Genesis 1:27-31",
         "month": "April",
         "episode": 12
     },
     {
         "name": "SD-04-20-20",
-        "title": "4-20-20 Revelation: Creation Day 6 -- Genesis 1:24-26",
+        "title": "4-20-2020  Revelation: Creation Day 6 -- Genesis 1:24-26",
         "month": "April",
         "episode": 11
     },
     {
         "name": "SD-04-17-20",
-        "title": "4-17-20 Revelation: Creation Days 3 through 5 -- Genesis 1:9-23",
+        "title": "4-17-2020  Revelation: Creation Days 3 through 5 -- Genesis 1:9-23",
         "month": "April",
         "episode": 10
     },
     {
         "name": "SD-04-16-20",
-        "title": "4-16-20 Revelation: Creation Days 1 and 2 -- Genesis 1:2-8",
+        "title": "4-16-2020  Revelation: Creation Days 1 and 2 -- Genesis 1:2-8",
         "month": "April",
         "episode": 9
     },
     {
         "name": "SD-04-15-20",
-        "title": "4-15-20 Revelation: Creation Countdown -- Genesis 1",
+        "title": "4-15-2020  Revelation: Creation Countdown -- Genesis 1",
         "month": "April",
         "episode": 8
     },
     {
         "name": "SD-04-14-20",
-        "title": "4-14-20 Revelation: Creation Affirmations -- Genesis 1:1, Mark 10:6,13:19, John 1:3, Colossians 1:16",
+        "title": "4-14-2020  Revelation: Creation Affirmations -- Genesis 1:1, Mark 10:6,13:19, John 1:3, Colossians 1:16",
         "month": "April",
         "episode": 7
     },
     {
         "name": "SD-04-13-20",
-        "title": "4-13-20 The 3 Revelations: Creation, Inspiration, Incarnation",
+        "title": "4-13-2020  The 3 Revelations: Creation, Inspiration, Incarnation",
         "month": "April",
         "episode": 6
     },
     {
         "name": "SD-04-10-20",
-        "title": "04-10-20 Reasons for Sound Doctrine Part 5",
+        "title": "04-10-2020  Reasons for Sound Doctrine Part 5",
         "month": "April",
         "episode": 5
     },
     {
         "name": "SD-04-09-20",
-        "title": "04-09-20 Reasons for Sound Doctrine Part 4",
+        "title": "04-09-2020  Reasons for Sound Doctrine Part 4",
         "month": "April",
         "episode": 4
     },
     {
         "name": "SD-04-08-20",
-        "title": "04-08-20 Reasons for Sound Doctrine Part 3",
+        "title": "04-08-2020  Reasons for Sound Doctrine Part 3",
         "month": "April",
         "episode": 3
     },
     {
         "name": "SD-04-07-20",
-        "title": "04-07-20 Reasons for Sound Doctrine Part 2",
+        "title": "04-07-2020  Reasons for Sound Doctrine Part 2",
         "month": "April",
         "episode": 2
     },
     {
         "name": "SD-04-06-20",
-        "title": "04-06-20 Reasons for Sound Doctrine Part 1",
+        "title": "04-06-2020  Reasons for Sound Doctrine Part 1",
         "month": "April",
         "episode": 1
     }
