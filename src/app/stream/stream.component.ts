@@ -25,7 +25,9 @@ export class StreamComponent implements OnInit {
   monthVar: string = "";
   currentMonth: Date
   monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December', "All"];
+  yearArray: Array<string> = ["2022", "2021", "2020", "All" ];
   selector: string = ""
+  selectorYear: string = ""
   searchString: string;
   listRequest: string;
   clickedIndex: number;
@@ -57,7 +59,7 @@ export class StreamComponent implements OnInit {
       else {
         data.forEach(element => {
           if (element.title.includes(searchParam)) {
-            this.messagesFound.push(element)
+			this.messagesFound.push(element)
           }
         });
       }
@@ -73,6 +75,9 @@ export class StreamComponent implements OnInit {
   // Sets current month, then requests the messages.json to fillout the month with audio files.
   ngOnInit(): void {
     this.setSelect()
+	// On page load, trigger func to present data to user right away, as they make
+	// changes to the filters, the data will update.
+	this.filterSubmit("")
     // inserted to avoid the error: ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked.
     this.cd.detectChanges()
   }
@@ -83,9 +88,11 @@ export class StreamComponent implements OnInit {
   setSelect() {
     const d: Date = new Date();
     this.selector = this.monthArray[d.getMonth()];
+	this.selectorYear = d.getFullYear().toString()
+	console.log(this.selectorYear)
   }
   search(eventData: string) {
-    this.messagesFound = [];
+	this.messagesFound = [];
     this.filterSubmit(eventData);
   }
   clearSearch() {
