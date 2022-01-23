@@ -4,10 +4,12 @@ const fs = require('fs')
 const bcrypt = require('bcrypt')
 const config = require('../config.json')
 const audio = require('../routes/audio')
+const { by } = require('protractor')
 
 //Hashing Stuff
 const saltRounds = config.saltNum;
 const salt = bcrypt.genSaltSync(saltRounds);
+
 
 /**
  * @param {array} the array of data to be sorted chronologically with latest date on top
@@ -47,7 +49,6 @@ module.exports.upload_api = (req, res) => {
 
 module.exports.login_api = async function (req, res) {
     try {
-
         // this is data from the form
         let userData = req.body
         let userPassword = req.body.password
