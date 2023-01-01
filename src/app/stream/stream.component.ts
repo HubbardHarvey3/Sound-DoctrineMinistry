@@ -25,7 +25,7 @@ export class StreamComponent implements OnInit {
   monthVar: string = "";
   currentMonth: Date
   monthArray: Array<string> = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", 'December', "All"];
-  yearArray: Array<string> = ["2022", "2021", "2020", "All" ];
+  yearArray: Array<string> = ["2023","2022", "2021", "2020", "All" ];
   selector: string = ""
   selectorYear: string = ""
   searchString: string;
@@ -72,7 +72,7 @@ export class StreamComponent implements OnInit {
     })
   }
 
-  // Sets current month, then requests the messages.json to fillout the month with audio files.
+  // Sets current month, then 'requests the messages.json to fillout the month with audio files.
   ngOnInit(): void {
     this.setSelect()
 	// On page load, trigger func to present data to user right away, as they make
@@ -102,7 +102,7 @@ export class StreamComponent implements OnInit {
     this.searchString = null
   }
 
-  // sets the index of the clicked element to a var that 
+  // sets the index of the clicked element to a var that
   // can be used to compare the clicked index with the current index and load
   // the player.  See line 43 in component HTML
   load(index) {
